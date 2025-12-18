@@ -67,8 +67,7 @@ class BoardGamesStats {
             // 🔥 ШАГ 3: Сессии
             console.log('🎪 Инициализация сессий...');
             await this.sessionsManager.init();
-            const sessionCount = this.sessionsManager.sessions.length;
-            console.log(`✅ Сессии инициализированы: ${sessionCount} сессий`);
+            console.log(`✅ Сессии инициализированы: ${this.sessionsManager.sessions.length} сессий`);
 
             // 🔥 ШАГ 4: GameStatsManager
             console.log('📊 Создание GameStatsManager...');
@@ -78,39 +77,29 @@ class BoardGamesStats {
                 this.playersManager
             );
             
-            // 🔥 ШАГ 5: Статистика (с проверкой метода)
-            console.log('🔄 Вычисление статистики...');
+            // 🔥 ШАГ 5: Статистика - проверяем что есть и вычисляем
+            console.log('🔄 Проверка и вычисление статистики...');
             
-            // Проверяем что метод существует и вызываем
-            if (this.gameStatsManager.calculateAllGameStats) {
+            // Проверяем есть ли статистика
+            const hasStats = this.gameStatsManager.gameStats && 
+                            Object.keys(this.gameStatsManager.gameStats).length > 0;
+            
+            if (!hasStats && this.gameStatsManager.calculateAllGameStats) {
+                console.log('📈 Вычисляю статистику...');
                 this.gameStatsManager.calculateAllGameStats();
-            } else {
-                console.error('❌ calculateAllGameStats не найден!');
             }
             
-            // 🔥 ШАГ 6: Проверяем статистику (используем новый метод или запасной)
-            console.log('📈 Проверка вычисленной статистики...');
-            
-            // Проверяем есть ли getAllGameStats, если нет - используем gameStats напрямую
-            let gameStats = {};
-            if (this.gameStatsManager.getAllGameStats) {
-                gameStats = this.gameStatsManager.getAllGameStats();
-            } else if (this.gameStatsManager.gameStats) {
-                gameStats = this.gameStatsManager.gameStats;
-                console.log('⚠️ Используем gameStats напрямую (getAllGameStats не найден)');
-            }
-            
+            // 🔥 ИСПРАВЛЕНИЕ: используем gameStats напрямую, а не getAllGameStats()
+            const gameStats = this.gameStatsManager.gameStats || {};
             console.log(`📊 Статистика доступна для: ${Object.keys(gameStats).length} игр`);
             
+            // Показываем пример
             if (Object.keys(gameStats).length > 0) {
-                const sampleGame = Object.keys(gameStats)[0];
-                console.log(`📋 Пример статистики для "${sampleGame}":`, {
-                    totalPlays: gameStats[sampleGame].totalPlays,
-                    players: Object.keys(gameStats[sampleGame].players || {}).length
-                });
+                const firstGame = Object.keys(gameStats)[0];
+                console.log(`📋 Пример: "${firstGame}" - ${gameStats[firstGame].totalPlays} сессий`);
             }
 
-            // 🔥 ШАГ 7: GamesCatalog
+            // 🔥 ШАГ 6: GamesCatalog
             console.log('🔄 Создание GamesCatalog...');
             this.gamesCatalog = new GamesCatalog(
                 this.sessionsManager, 
@@ -121,7 +110,7 @@ class BoardGamesStats {
             await this.gamesCatalog.init();
             console.log('✅ GamesCatalog создан');
 
-            // 🔥 ШАГ 8: Роутер
+            // 🔥 ШАГ 7: Роутер
             console.log('🔄 Настройка роутера...');
             this.setupRouter();
             this.setupGlobalHandlers();
@@ -130,18 +119,17 @@ class BoardGamesStats {
             console.log('🎉 Приложение готово, запускаем роутер...');
             await this.router.loadRoute();
 
-            // 🔥 ШАГ 9: Фоновые задачи
-            setTimeout(() => {
-                console.log('🎲 Фоновая загрузка BGG рейтингов...');
-                if (this.bggRatingsService && this.bggRatingsService.loadRatings) {
-                    this.bggRatingsService.loadRatings().then(() => {
-                        console.log('✅ BGG рейтинги загружены');
-                        if (this.gamesCatalog && this.gamesCatalog.enhanceGamesWithBggRatings) {
-                            this.gamesCatalog.enhanceGamesWithBggRatings();
-                        }
-                    });
-                }
-            }, 1000);
+            // 🔥 ШАГ 8: Фоновые задачи
+            console.log('🎲 Фоновая загрузка BGG рейтингов...');
+            if (this.bggRatingsService && this.bggRatingsService.loadRatings) {
+                this.bggRatingsService.loadRatings().then(() => {
+                    console.log('✅ BGG рейтинги загружены');
+                    if (this.gamesCatalog && this.gamesCatalog.enhanceGamesWithBggRatings) {
+                        this.gamesCatalog.enhanceGamesWithBggRatings();
+                        console.log('🎯 Игры улучшены BGG рейтингами');
+                    }
+                });
+            }
             
             console.log('🏁 Инициализация завершена успешно!');
 
