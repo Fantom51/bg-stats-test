@@ -15,6 +15,13 @@ import { SessionsService } from './modules/sessions/sessions.service.js';
 class BoardGamesStats {
     constructor() {
         console.log('🚀 app.js - создание BoardGamesStats');
+        // В начале app.js, после объявления класса
+        console.log('=== GITHUB PAGES ДИАГНОСТИКА ===');
+        console.log('Hostname:', window.location.hostname);
+        console.log('Pathname:', window.location.pathname);
+        console.log('Полный URL:', window.location.href);
+        console.log('Части пути:', window.location.pathname.split('/'));
+        console.log('Имя репозитория (предполагаемое):', window.location.pathname.split('/')[1] || 'bg-stats-test');
         
         // 🔥 ШАГ 1: БАЗОВЫЕ КОМПОНЕНТЫ
         this.firebase = new FirebaseClient();

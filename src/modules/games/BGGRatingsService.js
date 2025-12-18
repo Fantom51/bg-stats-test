@@ -1,72 +1,93 @@
-export class BGGRatingsService {
+// frontend/modules/games/BGGRatingsService.js
+class BGGRatingsService {
     constructor() {
-        this.ratings = new Map(); // Оставляем Map
+        this.ratings = new Map();
         this.isLoaded = false;
+        
+        // Автоматически загружаем данные
+        this.loadBggRatings();
     }
-
-    async loadRatings() {
+    
+    async loadBggRatings() {
         try {
-            console.log('🔄 Загружаю BGG рейтинги...');
-            const repoName = 'bg-stats-test';
-            const response = await fetch(`/${repoName}/assets/data/bgg-ratings.json`);          
+            console.log('🌐 Загрузка BGG рейтингов...');
+            
+            // 🔥 ИСПРАВЛЕНИЕ: используем PathResolver
+            const path = PathResolver.resolve('./assets/data/bgg-ratings.json');
+            console.log('📁 Загружаю по пути:', path);
+            
+            const response = await fetch(path);
             
             if (!response.ok) {
-                console.log('⚠️ BGG файл не загрузился, работаем без рейтингов');
-                this.isLoaded = true; // Все равно помечаем как загружено
-                return;
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
             }
             
-            const text = await response.text();
+            const data = await response.json();
+            console.log(`✅ Загружено ${Object.keys(data).length} BGG рейтингов`);
             
-            if (!text.trim().startsWith('{')) {
-                console.log('⚠️ Файл не JSON, работаем без рейтингов');
-                this.isLoaded = true;
-                return;
+            // Конвертируем в Map
+            for (const [game, rating] of Object.entries(data)) {
+                this.ratings.set(game, rating);
             }
             
-            const ratings = JSON.parse(text);
-            
-            // 🔥 ИСПРАВЛЕНИЕ 1: Конвертируем объект в Map
-            this.ratings = new Map(Object.entries(ratings));
-            
-            // 🔥 ИСПРАВЛЕНИЕ 2: Помечаем как загружено
             this.isLoaded = true;
             
-            console.log(`✅ Загружено ${this.ratings.size} рейтингов BGG`);
+            // Для отладки: показываем несколько примеров
+            const sample = Array.from(this.ratings.entries()).slice(0, 3);
+            console.log('📊 Примеры:', sample);
             
         } catch (error) {
-            console.log('⚠️ Ошибка загрузки BGG, работаем без рейтингов:', error.message);
-            this.isLoaded = true; // Все равно помечаем
+            console.error('❌ Ошибка загрузки BGG рейтингов:', error);
+            
+            // Fallback: создаем минимальный набор рейтингов
+            console.log('🛠️ Создаю fallback рейтинги...');
+            this.ratings = new Map([
+                ["7 Wonders", 7.8],
+                ["Carcassonne", 7.4],
+                ["Codenames", 7.8],
+                ["Dixit", 7.3],
+                ["Loonacy", 5.8],
+                ["Ticket to Ride", 7.5],
+                ["Pandemic", 7.6],
+                ["Catan", 7.2]
+            ]);
+            
+            this.isLoaded = true;
         }
     }
-
+    
     getRating(gameName) {
-        // 🔥 УБРАТЬ проверку isLoaded если хотим всегда искать
-        if (!gameName || !this.isLoaded) return null;
-        
-        // 1. Точное совпадение
-        const exactMatch = this.ratings.get(gameName);
-        if (exactMatch) return exactMatch;
-        
-        // 2. Совпадение с триммингом пробелов
-        const trimmedName = gameName.trim();
-        if (trimmedName !== gameName) {
-            const trimmedMatch = this.ratings.get(trimmedName);
-            if (trimmedMatch) return trimmedMatch;
+        if (!this.isLoaded) {
+            console.warn('⚠️ BGGRatingsService еще не загружен');
+            return null;
         }
         
-        // 3. Нижний регистр
-        const lowerCaseName = gameName.toLowerCase();
-        for (let [key, value] of this.ratings) {
-            if (key.toLowerCase() === lowerCaseName) {
-                return value;
+        // Прямой поиск
+        if (this.ratings.has(gameName)) {
+            return this.ratings.get(gameName);
+        }
+        
+        // Попробуем нормализовать имя для поиска
+        const normalizedSearch = this.normalizeName(gameName);
+        
+        for (const [bggName, rating] of this.ratings.entries()) {
+            if (this.normalizeName(bggName) === normalizedSearch) {
+                console.log(`🔍 Найден рейтинг для "${gameName}" → "${bggName}": ${rating}`);
+                return rating;
             }
         }
         
+        console.log(`❌ Рейтинг для "${gameName}" не найден`);
         return null;
     }
     
-    // 🔥 ДОБАВИТЬ метод для отладки
+    normalizeName(name) {
+        return name.toLowerCase()
+            .replace(/[.:«»"',-]/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+    
     getAllRatings() {
         return Object.fromEntries(this.ratings);
     }
