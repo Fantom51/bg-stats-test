@@ -30,31 +30,35 @@ export class SessionsManager {
     async loadSessions() {
         console.log('🔄 SessionsManager.loadSessions()');
         
-        // 🔥 ВСЕГДА СНАЧАЛА LOCALSTORAGE (Firebase не работает на GitHub Pages)
-        const localSessions = this.storage.get('gameSessions', []);
+        // 1. Пробуем загрузить через storage (с префиксом bgstats_)
+        const storedSessions = this.storage.get('gameSessions', []);
+        console.log(`📂 Загружено из storage: ${storedSessions.length} сессий`);
         
-        if (localSessions.length > 0) {
-            console.log(`💾 Используем ${localSessions.length} сессий из localStorage`);
-            this.sessions = localSessions;
+        if (storedSessions.length > 0) {
+            console.log('✅ Использую сессии из storage');
+            this.sessions = storedSessions;
             return this.sessions;
         }
         
-        // 🔥 ТОЛЬКО ЕСЛИ Firebase работает (на GitHub Pages обычно не работает)
+        // 2. Если в storage пусто, проверяем Firebase
         if (this.firebase && this.firebase.isInitialized) {
             try {
+                console.log('🔥 Пробую загрузить из Firebase...');
                 const firebaseSessions = await this.firebase.getSessions();
+                
                 if (firebaseSessions && firebaseSessions.length > 0) {
-                    console.log(`🔥 Загружено ${firebaseSessions.length} сессий из Firebase`);
+                    console.log(`✅ Загружено ${firebaseSessions.length} сессий из Firebase`);
                     this.sessions = firebaseSessions;
                     this.saveSessions(); // Сохраняем в localStorage
                     return this.sessions;
                 }
             } catch (error) {
-                console.warn('⚠️ Firebase ошибка, используем localStorage:', error.message);
+                console.warn('⚠️ Ошибка Firebase:', error.message);
             }
         }
         
-        console.log('📭 Нет сессий ни в Firebase, ни в localStorage');
+        // 3. Если всё пусто
+        console.log('📭 Сессии не найдены');
         this.sessions = [];
         return this.sessions;
     }

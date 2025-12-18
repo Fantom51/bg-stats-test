@@ -55,9 +55,13 @@ class BoardGamesStats {
             this.storage = new StorageManager();
             
             // 🔥 2. Firebase БЕЗ ОЖИДАНИЯ (может не работать)
-            this.firebase.initialize().catch(err => {
+            try {
+                // УБРАЛ .catch() - вызываем напрямую
+                this.firebase.initialize();
+                console.log('✅ Firebase инициализирован');
+            } catch (err) {
                 console.warn('⚠️ Firebase не подключен, работаем локально');
-            });
+            }
             
             // 🔥 3. ИГРОКИ И СЕССИИ ИЗ LOCALSTORAGE
             this.playersManager = new PlayersManager(this.firebase);
