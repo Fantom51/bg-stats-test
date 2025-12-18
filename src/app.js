@@ -2,7 +2,7 @@ console.log('🚀 app.js начал загружаться');
 import { FirebaseClient } from '/bg-stats-test/src/core/firebase-client.js';
 import { GameStatsManager } from '/bg-stats-test/src/modules/stats/GameStatsManager.js';
 import { GamesCatalog } from '/bg-stats-test/src/modules/games/GamesCatalog.js';
-import { BGGRatingsService } from '/bg-stats-test/src/modules/games/BGGRatingsService.js';
+import { BGGRatingsService } from './modules/games/BGGRatingsService.js';
 import { StorageManager } from '/bg-stats-test/src/core/storage.js';
 import { SPARouter } from '/bg-stats-test/src/core/router.js';
 import { PlayersManager } from '/bg-stats-test/src/modules/players/PlayersManager.js';
