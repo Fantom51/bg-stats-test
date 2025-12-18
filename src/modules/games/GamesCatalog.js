@@ -536,7 +536,23 @@ export class GamesCatalog {
     createGameCard(game) {
         const imageUrl = game.imageUrl || '';
         
-        // Рейтинг BGG
+        // 🔥 ДОБАВЛЯЕМ ЭТО: Получаем статистику игры
+        let statsHTML = '';
+        if (this.gameStatsManager) {
+            const gameStats = this.gameStatsManager.getGameStats(game.name);
+            if (gameStats && gameStats.totalPlays > 0) {
+                statsHTML = `
+                    <div class="game-stats">
+                        <span class="stat-label">🎪 ${gameStats.totalPlays}</span>
+                        ${gameStats.topPlayers && gameStats.topPlayers.length > 0 ? 
+                        `<span class="stat-label">🏆 ${gameStats.topPlayers[0].name}</span>` : ''}
+                    </div>
+                `;
+            }
+        }
+        // 🔥 КОНЕЦ ДОБАВЛЕНИЯ
+        
+        // Рейтинг BGG (остальное без изменений)
         let ratingHTML = '—';
         if (game.bggRating) {
             ratingHTML = `<span class="game-rating bgg-rating">🎲 ${game.bggRating}</span>`;
@@ -560,6 +576,10 @@ export class GamesCatalog {
                 </div>
                 <div class="game-info">
                     <div class="game-title">${this.escapeHtml(game.name)}</div>
+                    
+                    <!-- 🔥 ДОБАВЛЯЕМ СТАТИСТИКУ СЮДА -->
+                    ${statsHTML}
+                    
                     <div class="game-meta">
                         ${ratingHTML}
                         <span class="game-year">${year}</span>
@@ -568,7 +588,6 @@ export class GamesCatalog {
                         <span>👥 ${players}</span>
                         <span>⏱ ${duration}</span>
                     </div>
-                    <!-- ❌ ТЕГИ УБРАНЫ - они теперь только в модальном окне -->
                 </div>
             </div>
         `;

@@ -54,63 +54,112 @@ class BoardGamesStats {
         console.log('🚀 Начало инициализации приложения...');
         
         try {
-            // 🔥 Инициализация Firebase
+            // 🔥 ШАГ 1: Инициализация Firebase
             console.log('🔥 Инициализация Firebase...');
             await this.firebase.initialize();
             console.log('✅ Firebase успешно подключен');
 
-            // 🔥 Загрузка игроков
+            // 🔥 ШАГ 2: Загрузка игроков
             console.log('👥 Загрузка игроков...');
             await this.playersManager.loadPlayers();
             console.log('✅ Игроки загружены');
 
-            // 🔥 Инициализация сессий
+            // 🔥 ШАГ 3: Инициализация сессий (ВАЖНО: ДО GameStatsManager!)
             console.log('🎪 Инициализация сессий...');
             await this.sessionsManager.init();
-            console.log('✅ Сессии инициализированы');
+            const sessionCount = this.sessionsManager.sessions.length;
+            console.log(`✅ Сессии инициализированы: ${sessionCount} сессий`);
 
-            console.log('📊 GameStatsManager создан:', !!this.gameStatsManager);
+            // 🔥 ШАГ 4: ПЕРЕСОЗДАНИЕ GameStatsManager С ЗАГРУЖЕННЫМИ ДАННЫМИ
+            console.log('📊 Пересоздание GameStatsManager с загруженными данными...');
+            
+            // Удаляем старый gameStatsManager если есть
+            if (this.gameStatsManager) {
+                this.gameStatsManager = null;
+            }
+            
+            // Создаем новый с загруженными данными
+            this.gameStatsManager = new GameStatsManager(
+                this.storage,
+                this.sessionsManager,
+                this.playersManager
+            );
+            
+            // 🔥 ШАГ 5: ВЫЧИСЛЕНИЕ СТАТИСТИКИ (СРАЗУ!)
+            console.log('🔄 Вычисление статистики...');
+            this.gameStatsManager.calculateAllGameStats();
+            
+            // Проверяем результат
+            const gameStats = this.gameStatsManager.getAllGameStats();
+            console.log(`📈 Статистика вычислена: ${Object.keys(gameStats).length} игр`);
+            
+            if (Object.keys(gameStats).length > 0) {
+                const sampleGame = Object.keys(gameStats)[0];
+                console.log(`📊 Пример статистики для "${sampleGame}":`, gameStats[sampleGame]);
+            }
 
-            // 🔥 Проверяем что GameStatsManager получил данные
-            console.log('📊 Проверка GameStatsManager:');
-            console.log('   sessionsManager:', !!this.gameStatsManager.sessionsManager);
-            console.log('   playersManager:', !!this.gameStatsManager.playersManager);
-            console.log('   storage:', !!this.gameStatsManager.storage);
-
-            // 🔥 Запускаем роутер
+            // 🔥 ШАГ 6: Запуск роутера
             this.setupRouter();
             this.setupGlobalHandlers();
             window.app = this;
             
             console.log('🎉 Приложение готово, запускаем роутер...');
             await this.router.loadRoute();
-            
-            // 🔥 Фоновая загрузка остального
-            console.log('🔄 Предзагрузка GamesCatalog...');
-            this.gamesCatalog = new GamesCatalog(this.sessionsManager, this.bggRatingsService, this.gameStatsManager);
-            this.gamesCatalog.init().then(() => {
-                console.log('✅ GamesCatalog предзагружен');
-            });
 
-            setTimeout(() => {
-                console.log('🎲 Фоновая загрузка рейтингов BGG...');
-                this.bggRatingsService.loadRatings().then(() => {
-                    console.log('✅ Рейтинги BGG готовы');
-                    if (this.gamesCatalog) {
-                        this.gamesCatalog.enhanceGamesWithBggRatings();
-                    }
-                });
-            }, 1000);
+            // 🔥 ШАГ 7: ПРЕДЗАГРУЗКА GamesCatalog СО СТАТИСТИКОЙ
+            console.log('🔄 Предзагрузка GamesCatalog...');
+            this.gamesCatalog = new GamesCatalog(
+                this.sessionsManager, 
+                this.bggRatingsService, 
+                this.gameStatsManager  // 🔥 ПЕРЕДАЕМ GameStatsManager
+            );
             
+            await this.gamesCatalog.init();
+            console.log('✅ GamesCatalog предзагружен со статистикой');
+            
+            // 🔥 ШАГ 8: Фоновая загрузка BGG рейтингов
+            console.log('🎲 Фоновая загрузка рейтингов BGG...');
+            await this.bggRatingsService.loadRatings();
+            console.log('✅ Рейтинги BGG готовы');
+            
+            // Улучшаем игры рейтингами
+            if (this.gamesCatalog) {
+                this.gamesCatalog.enhanceGamesWithBggRatings();
+                console.log('🎯 Игры улучшены BGG рейтингами');
+            }
+            
+            // 🔥 ШАГ 9: ОБНОВЛЯЕМ UI ЕСЛИ МЫ НА СТРАНИЦЕ ИГР
+            if (window.location.hash.includes('#/games')) {
+                console.log('🔄 Обновляем страницу игр со статистикой...');
+                if (this.gamesCatalog) {
+                    this.gamesCatalog.renderGames();
+                }
+            }
+            
+            console.log('🏁 Инициализация завершена успешно!');
+
         } catch (error) {
-            console.error('❌ Ошибка:', error);
-            document.getElementById('app').innerHTML = `
-                <div style="padding: 20px; color: red;">
-                    <h3>❌ Ошибка загрузки приложения</h3>
-                    <p>${error.message}</p>
-                    <button onclick="location.reload()">Перезагрузить</button>
-                </div>
-            `;
+            console.error('❌ Ошибка инициализации приложения:', error);
+            
+            // Показываем ошибку пользователю
+            const appContainer = document.getElementById('app');
+            if (appContainer) {
+                appContainer.innerHTML = `
+                    <div style="padding: 20px; color: red; text-align: center;">
+                        <h3>❌ Ошибка загрузки приложения</h3>
+                        <p>${error.message}</p>
+                        <button onclick="location.reload()" style="
+                            background: #ff6b6b;
+                            color: white;
+                            border: none;
+                            padding: 10px 20px;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            margin-top: 10px;
+                        ">🔄 Перезагрузить страницу</button>
+                    </div>
+                `;
+            }
         }
     }
         
