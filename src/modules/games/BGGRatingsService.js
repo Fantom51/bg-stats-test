@@ -5,16 +5,30 @@ export class BGGRatingsService {
     }
 
     async loadRatings() {
-        if (this.isLoaded) return;
-        
         try {
-            const response = await fetch('/assets/data/bgg-ratings.json');
-            const data = await response.json();
-            this.ratings = new Map(Object.entries(data));
-            this.isLoaded = true;
-            console.log(`✅ Загружено ${this.ratings.size} рейтингов BGG`);
+            console.log('🔄 Загружаю BGG рейтинги...');
+            const response = await fetch('./assets/data/bgg-ratings.json');
+            
+            if (!response.ok) {
+                console.log('⚠️ BGG файл не загрузился, работаем без рейтингов');
+                return {};
+            }
+            
+            const text = await response.text();
+            
+            // Проверяем что это JSON
+            if (!text.trim().startsWith('{')) {
+                console.log('⚠️ Файл не JSON, работаем без рейтингов');
+                return {};
+            }
+            
+            const ratings = JSON.parse(text);
+            console.log(`✅ Загружено ${Object.keys(ratings).length} рейтингов BGG`);
+            return ratings;
+            
         } catch (error) {
-            console.error('❌ Не удалось загрузить рейтинги BGG:', error);
+            console.log('⚠️ Ошибка загрузки BGG, работаем без рейтингов:', error.message);
+            return {};
         }
     }
 

@@ -85,13 +85,15 @@ class BoardGamesStats {
                 console.log('✅ GamesCatalog предзагружен');
             });
 
-            console.log('🎲 Фоновая загрузка рейтингов BGG...');
-            this.bggRatingsService.loadRatings().then(() => {
-                console.log('✅ Рейтинги BGG готовы');
-                if (this.gamesCatalog) {
-                    this.gamesCatalog.enhanceGamesWithBggRatings();
-                }
-            });
+            setTimeout(() => {
+                console.log('🎲 Фоновая загрузка рейтингов BGG...');
+                this.bggRatingsService.loadRatings().then(() => {
+                    console.log('✅ Рейтинги BGG готовы');
+                    if (this.gamesCatalog) {
+                        this.gamesCatalog.enhanceGamesWithBggRatings();
+                    }
+                });
+            }, 1000);
             
         } catch (error) {
             console.error('❌ Ошибка:', error);
