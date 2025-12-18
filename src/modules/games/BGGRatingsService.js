@@ -7,7 +7,7 @@ export class BGGRatingsService {
     async loadRatings() {
         try {
             console.log('🔄 Загружаю BGG рейтинги...');
-            const response = await fetch('./assets/data/bgg-ratings.json');
+            const response = await fetch('/bg-stats-test/assets/data/bgg-ratings.json');
             
             if (!response.ok) {
                 console.log('⚠️ BGG файл не загрузился, работаем без рейтингов');
