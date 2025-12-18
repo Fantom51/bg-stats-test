@@ -70,24 +70,27 @@ class BoardGamesStats {
             const sessionCount = this.sessionsManager.sessions.length;
             console.log(`✅ Сессии инициализированы: ${sessionCount} сессий`);
 
-            // 🔥 ШАГ 4: ПЕРЕСОЗДАНИЕ GameStatsManager С ЗАГРУЖЕННЫМИ ДАННЫМИ
-            console.log('📊 Пересоздание GameStatsManager с загруженными данными...');
+            // 🔥 ШАГ 4: GameStatsManager - ПЕРЕСОЗДАЁМ С ЗАГРУЖЕННЫМИ ДАННЫМИ
+            console.log('📊 Создание GameStatsManager...');
             
-            // Удаляем старый gameStatsManager если есть
+            // Если уже есть - очищаем
             if (this.gameStatsManager) {
                 this.gameStatsManager = null;
             }
             
-            // Создаем новый с загруженными данными
+            // Создаем новый
             this.gameStatsManager = new GameStatsManager(
                 this.storage,
                 this.sessionsManager,
                 this.playersManager
             );
             
-            // 🔥 ШАГ 5: ВЫЧИСЛЕНИЕ СТАТИСТИКИ (СРАЗУ!)
+            // 🔥 ШАГ 5: ВЫЧИСЛЯЕМ СТАТИСТИКУ СРАЗУ И ЖДЁМ!
             console.log('🔄 Вычисление статистики...');
             this.gameStatsManager.calculateAllGameStats();
+            
+            // 🔥 ЖДЁМ пока статистика вычислится
+            await new Promise(resolve => setTimeout(resolve, 100));
             
             // Проверяем результат
             const gameStats = this.gameStatsManager.getAllGameStats();
@@ -95,10 +98,14 @@ class BoardGamesStats {
             
             if (Object.keys(gameStats).length > 0) {
                 const sampleGame = Object.keys(gameStats)[0];
-                console.log(`📊 Пример статистики для "${sampleGame}":`, gameStats[sampleGame]);
+                console.log(`📊 Пример статистики для "${sampleGame}":`, {
+                    totalPlays: gameStats[sampleGame].totalPlays,
+                    topPlayers: gameStats[sampleGame].topPlayers?.slice(0, 2)
+                });
             }
 
             // 🔥 ШАГ 6: Запуск роутера
+            console.log('🔄 Настройка роутера...');
             this.setupRouter();
             this.setupGlobalHandlers();
             window.app = this;
@@ -107,15 +114,15 @@ class BoardGamesStats {
             await this.router.loadRoute();
 
             // 🔥 ШАГ 7: ПРЕДЗАГРУЗКА GamesCatalog СО СТАТИСТИКОЙ
-            console.log('🔄 Предзагрузка GamesCatalog...');
+            console.log('🔄 Создание GamesCatalog со статистикой...');
             this.gamesCatalog = new GamesCatalog(
                 this.sessionsManager, 
                 this.bggRatingsService, 
-                this.gameStatsManager  // 🔥 ПЕРЕДАЕМ GameStatsManager
+                this.gameStatsManager  // 🔥 СТАТИСТИКА УЖЕ ГОТОВА!
             );
             
             await this.gamesCatalog.init();
-            console.log('✅ GamesCatalog предзагружен со статистикой');
+            console.log('✅ GamesCatalog создан со статистикой');
             
             // 🔥 ШАГ 8: Фоновая загрузка BGG рейтингов
             console.log('🎲 Фоновая загрузка рейтингов BGG...');
@@ -132,7 +139,26 @@ class BoardGamesStats {
             if (window.location.hash.includes('#/games')) {
                 console.log('🔄 Обновляем страницу игр со статистикой...');
                 if (this.gamesCatalog) {
+                    // 🔥 ПЕРЕРИСОВЫВАЕМ ВСЕ КАРТОЧКИ
                     this.gamesCatalog.renderGames();
+                    
+                    // 🔥 ПРОВЕРКА: показываем статистику в консоли для отладки
+                    setTimeout(() => {
+                        const gameCards = document.querySelectorAll('.game-card');
+                        console.log(`🎮 Отображено карточек: ${gameCards.length}`);
+                        
+                        if (gameCards.length > 0) {
+                            console.log('📊 Проверка первой карточки:');
+                            const firstCard = gameCards[0];
+                            const gameName = firstCard.querySelector('.game-title')?.textContent;
+                            console.log('   Игра:', gameName);
+                            
+                            if (gameName && this.gamesCatalog.gameStatsManager) {
+                                const stats = this.gamesCatalog.gameStatsManager.getGameStats(gameName);
+                                console.log('   Статистика:', stats ? `${stats.totalPlays} сессий` : 'НЕТ');
+                            }
+                        }
+                    }, 500);
                 }
             }
             

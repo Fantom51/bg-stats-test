@@ -75,3 +75,28 @@ main {
         padding: 1rem;
     }
 }
+
+.game-stats {
+    display: flex;
+    gap: 8px;
+    margin: 6px 0;
+    padding: 4px 8px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.stat-icon {
+    font-size: 10px;
+}
+
+.stat-value {
+    font-weight: bold;
+}

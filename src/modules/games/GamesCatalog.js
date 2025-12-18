@@ -536,23 +536,30 @@ export class GamesCatalog {
     createGameCard(game) {
         const imageUrl = game.imageUrl || '';
         
-        // 🔥 ДОБАВЛЯЕМ ЭТО: Получаем статистику игры
+        // 🔥 ПОЛУЧАЕМ СТАТИСТИКУ ИГРЫ
         let statsHTML = '';
         if (this.gameStatsManager) {
             const gameStats = this.gameStatsManager.getGameStats(game.name);
+            
             if (gameStats && gameStats.totalPlays > 0) {
                 statsHTML = `
                     <div class="game-stats">
-                        <span class="stat-label">🎪 ${gameStats.totalPlays}</span>
-                        ${gameStats.topPlayers && gameStats.topPlayers.length > 0 ? 
-                        `<span class="stat-label">🏆 ${gameStats.topPlayers[0].name}</span>` : ''}
+                        <div class="stat-item">
+                            <span class="stat-icon">🎪</span>
+                            <span class="stat-value">${gameStats.totalPlays}</span>
+                        </div>
+                        ${gameStats.topPlayers && gameStats.topPlayers.length > 0 ? `
+                        <div class="stat-item">
+                            <span class="stat-icon">🏆</span>
+                            <span class="stat-value">${gameStats.topPlayers[0].name}</span>
+                        </div>
+                        ` : ''}
                     </div>
                 `;
             }
         }
-        // 🔥 КОНЕЦ ДОБАВЛЕНИЯ
         
-        // Рейтинг BGG (остальное без изменений)
+        // Рейтинг BGG
         let ratingHTML = '—';
         if (game.bggRating) {
             ratingHTML = `<span class="game-rating bgg-rating">🎲 ${game.bggRating}</span>`;
@@ -577,7 +584,7 @@ export class GamesCatalog {
                 <div class="game-info">
                     <div class="game-title">${this.escapeHtml(game.name)}</div>
                     
-                    <!-- 🔥 ДОБАВЛЯЕМ СТАТИСТИКУ СЮДА -->
+                    <!-- 🔥 ВСТАВЛЯЕМ СТАТИСТИКУ ЗДЕСЬ -->
                     ${statsHTML}
                     
                     <div class="game-meta">
