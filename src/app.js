@@ -32,11 +32,7 @@ class BoardGamesStats {
         this.sessionsManager = new SessionsManager(this.firebase, this.storage); // СНАЧАЛА!
         
         // 🔥 ШАГ 3: GameStatsManager (ТЕПЕРЬ sessionsManager СУЩЕСТВУЕТ!)
-        this.gameStatsManager = new GameStatsManager(
-            this.storage,
-            this.sessionsManager,  // 🔥 ДОБАВЛЯЕМ
-            this.playersManager    // 🔥 ДОБАВЛЯЕМ
-        );
+        this.gameStatsManager = null;
         
         // 🔥 ШАГ 4: ОСТАЛЬНЫЕ КОМПОНЕНТЫ
         this.playersService = new PlayersService(this.playersManager);
