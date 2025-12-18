@@ -1,0 +1,5685 @@
+[
+  {
+    "name": "Сабика",
+    "url": "https://tesera.ru/game/sabika",
+    "imageUrl": "assets/images/games/game_1.jpg",
+    "addedDate": "2025-10-30T19:48:38",
+    "personalRating": null,
+    "id": 1,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Херман П. Мильян"
+    ],
+    "publishers": [
+      "Keep Exploring Games",
+      "Лавка игр",
+      "Ludonova"
+    ],
+    "teseraUrl": "https://tesera.ru/game/sabika",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:49:17"
+  },
+  {
+    "name": "Дюна: Империя. Восстание",
+    "url": "https://tesera.ru/game/dune-imperium-uprising",
+    "imageUrl": "assets/images/games/game_2.jpg",
+    "addedDate": "2025-10-22T18:01:39",
+    "personalRating": null,
+    "id": 2,
+    "players": "1-6",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Пол Деннен"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Dire Wolf"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dune-imperium-uprising",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:49:25"
+  },
+  {
+    "name": "Дюна: Империя - Кровные узы",
+    "url": "https://tesera.ru/game/dune-imperium-bloodlines",
+    "imageUrl": "assets/images/games/game_3.jpg",
+    "addedDate": "2025-10-22T18:01:21",
+    "personalRating": null,
+    "id": 3,
+    "players": "1-4",
+    "duration": "",
+    "year": "2025",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Пол Деннен"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Dire Wolf"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dune-imperium-bloodlines",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:49:33"
+  },
+  {
+    "name": "Flip 7",
+    "url": "https://tesera.ru/game/Flip-7",
+    "imageUrl": "assets/images/games/game_4.jpg",
+    "addedDate": "2025-10-12T06:37:31",
+    "personalRating": null,
+    "id": 4,
+    "players": "3-99",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "The OP"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Flip-7",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:49:41"
+  },
+  {
+    "name": "Замок де Комбо",
+    "url": "https://tesera.ru/game/castle-combo",
+    "imageUrl": "assets/images/games/game_5.jpg",
+    "addedDate": "2025-10-04T06:43:48",
+    "personalRating": null,
+    "id": 5,
+    "players": "2-5",
+    "duration": "",
+    "year": "2024",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Mathieu Roussel",
+      "Грегори Грар"
+    ],
+    "publishers": [
+      "Эврикус",
+      "Pandasaurus Games",
+      "Catch Up Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/castle-combo",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:49:48"
+  },
+  {
+    "name": "Предел",
+    "url": "https://tesera.ru/game/arcs",
+    "imageUrl": "assets/images/games/game_6.jpg",
+    "addedDate": "2025-08-28T17:27:05",
+    "personalRating": null,
+    "id": 6,
+    "players": "3-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Crowd Games",
+      "Leder Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/arcs",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:49:55"
+  },
+  {
+    "name": "Поехали! В Японию",
+    "url": "https://tesera.ru/game/lets-go-to-japan",
+    "imageUrl": "assets/images/games/game_7.jpg",
+    "addedDate": "2025-08-28T17:26:03",
+    "personalRating": null,
+    "id": 7,
+    "players": "1-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Josh Wood"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Alderac Entertainment Group (AEG)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/lets-go-to-japan",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:50:03"
+  },
+  {
+    "name": "Остров духов: Инкарнация природы",
+    "url": "https://tesera.ru/game/spirit-island-nature-incarnate",
+    "imageUrl": "assets/images/games/game_8.jpg",
+    "addedDate": "2025-05-21T19:17:40",
+    "personalRating": null,
+    "id": 8,
+    "players": "1-6",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "R. Eric Reuss"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Greater Than Games (Dice Hate Me Games)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/spirit-island-nature-incarnate",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:50:10"
+  },
+  {
+    "name": "Остров духов: Перо и пламя",
+    "url": "https://tesera.ru/game/spirit-island-feather-flame",
+    "imageUrl": "assets/images/games/game_9.jpg",
+    "addedDate": "2025-05-21T19:17:03",
+    "personalRating": null,
+    "id": 9,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "R. Eric Reuss"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Greater Than Games (Dice Hate Me Games)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/spirit-island-feather-flame",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:50:19"
+  },
+  {
+    "name": "Проект Возрождение. Зов бездны",
+    "url": "https://tesera.ru/game/revive-call-of-the-abyss",
+    "imageUrl": "assets/images/games/game_10.jpg",
+    "addedDate": "2025-05-21T19:12:46",
+    "personalRating": null,
+    "id": 10,
+    "players": "1-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эйлиф Свенссон",
+      "Helge Meissner",
+      "Anna Wermlund",
+      "Kristian Amundsen Østby"
+    ],
+    "publishers": [
+      "Стиль жизни",
+      "Aporta Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/revive-call-of-the-abyss",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:50:31"
+  },
+  {
+    "name": "Кемет: Кровь и песок",
+    "url": "https://tesera.ru/game/kemet-blood-and-sand",
+    "imageUrl": "assets/images/games/game_11.jpg",
+    "addedDate": "2025-03-26T18:36:39",
+    "personalRating": null,
+    "id": 11,
+    "players": "2-5",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Гийом Монтьяж",
+      "Жак Барьо"
+    ],
+    "publishers": [
+      "Kolossal Games",
+      "Crowd Games",
+      "Geekach Games",
+      "Matagot"
+    ],
+    "teseraUrl": "https://tesera.ru/game/kemet-blood-and-sand",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:50:39"
+  },
+  {
+    "name": "SETI: Search for Extraterrestrial Intelligence",
+    "url": "https://tesera.ru/game/seti-search-extraterrestrial-intelligence",
+    "imageUrl": "assets/images/games/game_12.jpg",
+    "addedDate": "2025-03-26T18:36:05",
+    "personalRating": null,
+    "id": 12,
+    "players": "1-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Томаш Холек"
+    ],
+    "publishers": [
+      "IELLO",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/seti-search-extraterrestrial-intelligence",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:50:54"
+  },
+  {
+    "name": "Экос. Первый континент",
+    "url": "https://tesera.ru/game/Ecos-First-Continent",
+    "imageUrl": "assets/images/games/game_13.jpg",
+    "addedDate": "2025-03-17T11:44:21",
+    "personalRating": null,
+    "id": 13,
+    "players": "2-6",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джон Д. Клер"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Alderac Entertainment Group (AEG)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Ecos-First-Continent",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:02"
+  },
+  {
+    "name": "Экос. Новые горизонты",
+    "url": "https://tesera.ru/game/Ecos-New-Horizon-Expansion",
+    "imageUrl": "assets/images/games/game_14.jpg",
+    "addedDate": "2025-03-17T11:44:07",
+    "personalRating": null,
+    "id": 14,
+    "players": "2-6",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [],
+    "teseraUrl": "https://tesera.ru/game/Ecos-New-Horizon-Expansion",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:10"
+  },
+  {
+    "name": "Трамвай смерти",
+    "url": "https://tesera.ru/game/trial-by-trolley",
+    "imageUrl": "assets/images/games/game_15.jpg",
+    "addedDate": "2025-03-09T10:39:29",
+    "personalRating": null,
+    "id": 15,
+    "players": "3-13",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Scott Houser"
+    ],
+    "publishers": [
+      "Магеллан",
+      "Rebel Sp. z o.o.",
+      "Explosm Games",
+      "Asmodee Italia",
+      "Skybound Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/trial-by-trolley",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:17"
+  },
+  {
+    "name": "Momiji",
+    "url": "https://tesera.ru/game/momiji",
+    "imageUrl": "assets/images/games/game_16.jpg",
+    "addedDate": "2025-03-09T10:37:37",
+    "personalRating": null,
+    "id": 16,
+    "players": "1-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Dario Massarenti",
+      "Francesco Testini"
+    ],
+    "publishers": [
+      "Deer Games",
+      "3 Emme Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/momiji",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:25"
+  },
+  {
+    "name": "Бонсай",
+    "url": "https://tesera.ru/game/bonsai-2022",
+    "imageUrl": "assets/images/games/game_17.jpg",
+    "addedDate": "2025-03-09T10:37:14",
+    "personalRating": null,
+    "id": 17,
+    "players": "1-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Massimo Borzì",
+      "Rosaria Battiato",
+      "Мартино Кьякьера"
+    ],
+    "publishers": [
+      "Hobby World",
+      "dV Giochi"
+    ],
+    "teseraUrl": "https://tesera.ru/game/bonsai-2022",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:34"
+  },
+  {
+    "name": "Киклады. Легендарное издание",
+    "url": "https://tesera.ru/game/cyclades-legendary-edition",
+    "imageUrl": "assets/images/games/game_18.jpg",
+    "addedDate": "2025-02-19T14:27:22",
+    "personalRating": "8.25",
+    "id": 18,
+    "players": "2-6",
+    "duration": "",
+    "year": "2024",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Катала",
+      "Людовик Моблан"
+    ],
+    "publishers": [
+      "Эврикус",
+      "Open Sesame Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/cyclades-legendary-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:42"
+  },
+  {
+    "name": "Белый Замок",
+    "url": "https://tesera.ru/game/the-white-castle",
+    "imageUrl": "assets/images/games/game_19.jpg",
+    "addedDate": "2025-02-19T14:25:11",
+    "personalRating": null,
+    "id": 19,
+    "players": "1-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Шейла Сантос",
+      "Исраэль Сендреро",
+      "Жоан Гордье"
+    ],
+    "publishers": [
+      "Devir Games",
+      "Devir",
+      "GaGa Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/the-white-castle",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:52"
+  },
+  {
+    "name": "Белый Замок: Матча",
+    "url": "https://tesera.ru/game/the-white-castle-matcha",
+    "imageUrl": "assets/images/games/game_20.jpg",
+    "addedDate": "2025-02-19T14:24:27",
+    "personalRating": null,
+    "id": 20,
+    "players": "1-4",
+    "duration": "",
+    "year": "2024",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Шейла Сантос",
+      "Исраэль Сендреро"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "KOSMOS",
+      "IELLO",
+      "Devir"
+    ],
+    "teseraUrl": "https://tesera.ru/game/the-white-castle-matcha",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:51:59"
+  },
+  {
+    "name": "Rush M.D.",
+    "url": "https://tesera.ru/game/rush-md",
+    "imageUrl": "assets/images/games/game_21.jpg",
+    "addedDate": "2025-02-19T14:23:21",
+    "personalRating": null,
+    "id": 21,
+    "players": "1-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Давид Турци",
+      "Konstantinos Kokkinis",
+      "Anthony Howgego"
+    ],
+    "publishers": [
+      "Artipia Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/rush-md",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:52:08"
+  },
+  {
+    "name": "Rush M.D.: ICU",
+    "url": "https://tesera.ru/game/rush-md-icu",
+    "imageUrl": "assets/images/games/game_22.jpg",
+    "addedDate": "2025-02-19T14:23:03",
+    "personalRating": null,
+    "id": 22,
+    "players": "1-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Konstantinos Kokkinis",
+      "Давид Турци"
+    ],
+    "publishers": [
+      "Artipia Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/rush-md-icu",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:52:15"
+  },
+  {
+    "name": "Гильдии Лаара",
+    "url": "https://tesera.ru/game/gildii-laara",
+    "imageUrl": "assets/images/games/game_23.jpg",
+    "addedDate": "2025-02-19T14:22:03",
+    "personalRating": null,
+    "id": 23,
+    "players": "2-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Юрий Журавлёв"
+    ],
+    "publishers": [
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/gildii-laara",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:52:23"
+  },
+  {
+    "name": "Озвучка",
+    "url": "https://tesera.ru/game/sound-box",
+    "imageUrl": "assets/images/games/game_24.jpg",
+    "addedDate": "2025-02-09T08:13:07",
+    "personalRating": null,
+    "id": 24,
+    "players": "4-7",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Лоренцо Сильва",
+      "Ялмар  Хаш"
+    ],
+    "publishers": [
+      "Schmidt Spiele",
+      "Devir",
+      "Фабрика игр",
+      "Horrible Guild"
+    ],
+    "teseraUrl": "https://tesera.ru/game/sound-box",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:52:30"
+  },
+  {
+    "name": "Война Кольца: Карточная игра",
+    "url": "https://tesera.ru/game/war-of-the-ring-the-card-game",
+    "imageUrl": "assets/images/games/game_25.jpg",
+    "addedDate": "2025-01-31T08:14:04",
+    "personalRating": null,
+    "id": 25,
+    "players": "2-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ian Brody"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Ares Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/war-of-the-ring-the-card-game",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:52:37"
+  },
+  {
+    "name": "Война Кольца: Карточная игра. Против Тьмы",
+    "url": "https://tesera.ru/game/war-of-the-ring-the-card-game-against-the-shadow",
+    "imageUrl": "assets/images/games/game_26.jpg",
+    "addedDate": "2025-01-31T08:13:44",
+    "personalRating": null,
+    "id": 26,
+    "players": "1-2",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ian Brody"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Ares Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/war-of-the-ring-the-card-game-against-the-shadow",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:52:47"
+  },
+  {
+    "name": "Ра (обновлённое издание)",
+    "url": "https://tesera.ru/game/ra-25th",
+    "imageUrl": "assets/images/games/game_27.jpg",
+    "addedDate": "2025-01-22T19:24:15",
+    "personalRating": null,
+    "id": 27,
+    "players": "2-5",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Райнер Книция"
+    ],
+    "publishers": [
+      "Hobby World",
+      "25th Century Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/ra-25th",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:52:54"
+  },
+  {
+    "name": "Игра Престолов. Второе издание",
+    "url": "https://tesera.ru/game/a-game-of-thrones-the-board-game-second-edition",
+    "imageUrl": "assets/images/games/game_28.jpg",
+    "addedDate": "2025-01-12T08:39:34",
+    "personalRating": null,
+    "id": 28,
+    "players": "3-6",
+    "duration": "",
+    "year": "2011",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кевин Уилсон",
+      "Кристиан Петерсен"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/a-game-of-thrones-the-board-game-second-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:53:03"
+  },
+  {
+    "name": "Игра Престолов: Мать драконов",
+    "url": "https://tesera.ru/game/mother-of-dragons",
+    "imageUrl": "assets/images/games/game_29.jpg",
+    "addedDate": "2025-01-12T08:38:48",
+    "personalRating": null,
+    "id": 29,
+    "players": "3-8",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/mother-of-dragons",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:53:11"
+  },
+  {
+    "name": "Игра престолов. Второе издание. Танец с драконами",
+    "url": "https://tesera.ru/game/AGoTSE-ADwDE",
+    "imageUrl": "assets/images/games/game_30.jpg",
+    "addedDate": "2025-01-12T08:38:28",
+    "personalRating": null,
+    "id": 30,
+    "players": "6",
+    "duration": "",
+    "year": "2012",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/AGoTSE-ADwDE",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:53:20"
+  },
+  {
+    "name": "Игра престолов. Второе издание. Пир воронов",
+    "url": "https://tesera.ru/game/a-game-of-thrones-the-board-game-second-edition-a-feast-for",
+    "imageUrl": "assets/images/games/game_31.jpg",
+    "addedDate": "2025-01-12T08:38:05",
+    "personalRating": null,
+    "id": 31,
+    "players": "4",
+    "duration": "",
+    "year": "2013",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/a-game-of-thrones-the-board-game-second-edition-a-feast-for",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:53:29"
+  },
+  {
+    "name": "Крутое пике",
+    "url": "https://tesera.ru/game/sky-team",
+    "imageUrl": "assets/images/games/game_32.jpg",
+    "addedDate": "2025-01-06T14:16:20",
+    "personalRating": null,
+    "id": 32,
+    "players": "2-",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Люк Ремон"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Hachette Boardgames USA",
+      "Le Scorpion Masqué"
+    ],
+    "teseraUrl": "https://tesera.ru/game/sky-team",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:53:37"
+  },
+  {
+    "name": "Ксиа. Тайны дрейфующей системы",
+    "url": "https://tesera.ru/game/xia",
+    "imageUrl": "assets/images/games/game_33.jpg",
+    "addedDate": "2024-12-26T19:18:05",
+    "personalRating": null,
+    "id": 33,
+    "players": "3-5",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Коди Миллер"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Far Off Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/xia",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:53:45"
+  },
+  {
+    "name": "Мемы 2: СССР и 90-е",
+    "url": "https://tesera.ru/game/memy-2-sssr-i-90-e",
+    "imageUrl": "assets/images/games/game_34.jpg",
+    "addedDate": "2024-12-26T19:04:40",
+    "personalRating": null,
+    "id": 34,
+    "players": "3-8",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Экономикус"
+    ],
+    "teseraUrl": "https://tesera.ru/game/memy-2-sssr-i-90-e",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:53:52"
+  },
+  {
+    "name": "Мемы: Весело и в точку!",
+    "url": "https://tesera.ru/game/memy-veselo-i-v-tochku",
+    "imageUrl": "assets/images/games/game_35.jpg",
+    "addedDate": "2024-12-26T19:04:27",
+    "personalRating": null,
+    "id": 35,
+    "players": "3-",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Экономикус"
+    ],
+    "teseraUrl": "https://tesera.ru/game/memy-veselo-i-v-tochku",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:00"
+  },
+  {
+    "name": "Серп. Восхождение Фенриса",
+    "url": "https://tesera.ru/game/scythe-the-rise-of-fenris",
+    "imageUrl": "assets/images/games/game_36.jpg",
+    "addedDate": "2024-12-23T20:27:35",
+    "personalRating": null,
+    "id": 36,
+    "players": "1-7",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джейми Стегмайер"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Stonemaier Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/scythe-the-rise-of-fenris",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:09"
+  },
+  {
+    "name": "Серп. Небесный гамбит",
+    "url": "https://tesera.ru/game/scythe-the-wind-gambit",
+    "imageUrl": "assets/images/games/game_37.jpg",
+    "addedDate": "2024-12-23T20:27:18",
+    "personalRating": null,
+    "id": 37,
+    "players": "1-7",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джейми Стегмайер",
+      "Kai Starck"
+    ],
+    "publishers": [
+      "Geekach Games",
+      "Crowd Games",
+      "Stonemaier Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/scythe-the-wind-gambit",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:17"
+  },
+  {
+    "name": "Серп. Приключения",
+    "url": "https://tesera.ru/game/scythe-encounters",
+    "imageUrl": "assets/images/games/game_38.jpg",
+    "addedDate": "2024-12-23T20:26:46",
+    "personalRating": null,
+    "id": 38,
+    "players": "1-7",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джейми Стегмайер"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Stonemaier Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/scythe-encounters",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:24"
+  },
+  {
+    "name": "500 злобных карт 3.0",
+    "url": "https://tesera.ru/game/500-zlobnyh-kart-3-0",
+    "imageUrl": "assets/images/games/game_39.jpg",
+    "addedDate": "2024-12-23T20:19:40",
+    "personalRating": null,
+    "id": 39,
+    "players": "3-8",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Cosmodrome Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/500-zlobnyh-kart-3-0",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:31"
+  },
+  {
+    "name": "Скоростные каракули",
+    "url": "https://tesera.ru/game/doodle-dash",
+    "imageUrl": "assets/images/games/game_40.jpg",
+    "addedDate": "2024-12-23T20:16:31",
+    "personalRating": null,
+    "id": 40,
+    "players": "3-7",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Asmund Svensson",
+      "Eilif Svensson",
+      "Pauline Buvarp",
+      "Maija Buvarp",
+      "Fridtjof Buvarp"
+    ],
+    "publishers": [
+      "Chilifox Games",
+      "Звезда"
+    ],
+    "teseraUrl": "https://tesera.ru/game/doodle-dash",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:39"
+  },
+  {
+    "name": "Scout!",
+    "url": "https://tesera.ru/game/Scout",
+    "imageUrl": "assets/images/games/game_41.jpg",
+    "addedDate": "2024-11-20T17:53:55",
+    "personalRating": null,
+    "id": 41,
+    "players": "3-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Kei Kajino"
+    ],
+    "publishers": [
+      "Oink Games",
+      "Onemoregame"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Scout",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:47"
+  },
+  {
+    "name": "Предельное погружение",
+    "url": "https://tesera.ru/game/deep-sea-adventure",
+    "imageUrl": "assets/images/games/game_42.jpg",
+    "addedDate": "2024-11-20T17:52:11",
+    "personalRating": null,
+    "id": 42,
+    "players": "2-6",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Дзюн Сасаки"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Oink Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/deep-sea-adventure",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:54:57"
+  },
+  {
+    "name": "Опустошение",
+    "url": "https://tesera.ru/game/voidfall",
+    "imageUrl": "assets/images/games/game_43.jpg",
+    "addedDate": "2024-10-27T16:04:27",
+    "personalRating": null,
+    "id": 43,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Давид Турци",
+      "Nigel Buckle"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Mindclash Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/voidfall",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:55:06"
+  },
+  {
+    "name": "Кризис: Святилище. Сезон 1",
+    "url": "https://tesera.ru/game/critical-sanctuary-season-1",
+    "imageUrl": "assets/images/games/game_44.jpg",
+    "addedDate": "2024-10-27T15:15:45",
+    "personalRating": null,
+    "id": 44,
+    "players": "2-5",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Йохан Лемоннье",
+      "Кристофф Валла"
+    ],
+    "publishers": [
+      "Gigamic",
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/critical-sanctuary-season-1",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:55:14"
+  },
+  {
+    "name": "Radlands. Земля руин. Супер делюкс",
+    "url": "https://tesera.ru/game/radlands-super-deluxe-edition",
+    "imageUrl": "assets/images/games/game_45.jpg",
+    "addedDate": "2024-10-27T15:15:01",
+    "personalRating": null,
+    "id": 45,
+    "players": "2",
+    "duration": "Номинант на лучшую иллюстрацию и презентацию настольной игры Golden Geek 2021 года",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Daniel Piechnick"
+    ],
+    "publishers": [
+      "Roxley Games",
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/radlands-super-deluxe-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:55:22"
+  },
+  {
+    "name": "Путешественники с южного Тигра",
+    "url": "https://tesera.ru/game/wayfarers-of-the-south-tigris",
+    "imageUrl": "assets/images/games/game_46.jpg",
+    "addedDate": "2024-10-27T15:11:30",
+    "personalRating": null,
+    "id": 46,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эс Джей Макдональд",
+      "Шем Филлипс"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Garphill Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/wayfarers-of-the-south-tigris",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:55:30"
+  },
+  {
+    "name": "Машина Тьюринга",
+    "url": "https://tesera.ru/game/turing-machine",
+    "imageUrl": "assets/images/games/game_47.jpg",
+    "addedDate": "2024-10-27T15:11:01",
+    "personalRating": null,
+    "id": 47,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Фабьен Гридель",
+      "Йоанн Леве"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Le Scorpion Masqué"
+    ],
+    "teseraUrl": "https://tesera.ru/game/turing-machine",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:55:38"
+  },
+  {
+    "name": "Городской убийца",
+    "url": "https://tesera.ru/game/gorodskoy-ubytsa",
+    "imageUrl": "assets/images/games/game_48.jpg",
+    "addedDate": "2024-10-27T15:09:48",
+    "personalRating": null,
+    "id": 48,
+    "players": "2-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Павел Ильин",
+      "Артур Ходжиков"
+    ],
+    "publishers": [
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/gorodskoy-ubytsa",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:55:47"
+  },
+  {
+    "name": "Авалон. Расширенное издание",
+    "url": "https://tesera.ru/game/avalon-big-box",
+    "imageUrl": "assets/images/games/game_49.jpg",
+    "addedDate": "2024-10-27T15:07:06",
+    "personalRating": null,
+    "id": 49,
+    "players": "4-10",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Дон Эскридж"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Indie Boards & Cards"
+    ],
+    "teseraUrl": "https://tesera.ru/game/avalon-big-box",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:55:55"
+  },
+  {
+    "name": "Шёпот за стеной",
+    "url": "https://tesera.ru/game/terrorscape",
+    "imageUrl": "assets/images/games/game_50.jpg",
+    "addedDate": "2024-10-27T15:06:32",
+    "personalRating": null,
+    "id": 50,
+    "players": "2-4",
+    "duration": "миниатюры",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джеффри CCH"
+    ],
+    "publishers": [
+      "Низа Гамс",
+      "ICE Makes"
+    ],
+    "teseraUrl": "https://tesera.ru/game/terrorscape",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:04"
+  },
+  {
+    "name": "Шёпот за стеной: Безжизненные бессмертные",
+    "url": "https://tesera.ru/game/terrorscape-lethal-immortals",
+    "imageUrl": "assets/images/games/game_51.jpg",
+    "addedDate": "2024-10-27T15:06:20",
+    "personalRating": null,
+    "id": 51,
+    "players": "2-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Низа Гамс",
+      "ICE Makes"
+    ],
+    "teseraUrl": "https://tesera.ru/game/terrorscape-lethal-immortals",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:07"
+  },
+  {
+    "name": "Шёпот за стеной: Угроза извне",
+    "url": "https://tesera.ru/game/terrorscape-amorphous-peril",
+    "imageUrl": "assets/images/games/game_52.jpg",
+    "addedDate": "2024-10-27T15:06:02",
+    "personalRating": null,
+    "id": 52,
+    "players": "2-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Низа Гамс",
+      "ICE Makes"
+    ],
+    "teseraUrl": "https://tesera.ru/game/terrorscape-amorphous-peril",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:15"
+  },
+  {
+    "name": "Шёпот за стеной: Животный инстинкт",
+    "url": "https://tesera.ru/game/terrorscape-feral-instincts",
+    "imageUrl": "assets/images/games/game_53.jpg",
+    "addedDate": "2024-10-27T15:05:47",
+    "personalRating": null,
+    "id": 53,
+    "players": "2-4",
+    "duration": "миниатюры",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Низа Гамс",
+      "ICE Makes"
+    ],
+    "teseraUrl": "https://tesera.ru/game/terrorscape-feral-instincts",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:23"
+  },
+  {
+    "name": "Дракула против Ван Хельсинга",
+    "url": "https://tesera.ru/game/dracula-vs-van-helsing",
+    "imageUrl": "assets/images/games/game_54.jpg",
+    "addedDate": "2024-10-27T15:02:07",
+    "personalRating": null,
+    "id": 54,
+    "players": "2",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Максим Рамбур",
+      "Тео Ривьер"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Mandoo Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dracula-vs-van-helsing",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:32"
+  },
+  {
+    "name": "Кланк! В! Космосе!",
+    "url": "https://tesera.ru/game/clank-in-space",
+    "imageUrl": "assets/images/games/game_55.jpg",
+    "addedDate": "2024-10-27T15:00:16",
+    "personalRating": null,
+    "id": 55,
+    "players": "2-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Пол Деннен"
+    ],
+    "publishers": [
+      "Dire Wolf"
+    ],
+    "teseraUrl": "https://tesera.ru/game/clank-in-space",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:34"
+  },
+  {
+    "name": "Age of Innovation",
+    "url": "https://tesera.ru/game/age-of-innovation",
+    "imageUrl": "assets/images/games/game_56.jpg",
+    "addedDate": "2024-05-26T06:18:09",
+    "personalRating": null,
+    "id": 56,
+    "players": "1-5",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Хельге Остертаг"
+    ],
+    "publishers": [
+      "Feuerland Spiele",
+      "Capstone Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/age-of-innovation",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:42"
+  },
+  {
+    "name": "Карнеги",
+    "url": "https://tesera.ru/game/carnegie",
+    "imageUrl": "assets/images/games/game_57.jpg",
+    "addedDate": "2024-05-26T06:17:44",
+    "personalRating": null,
+    "id": 57,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ксавье Жорж"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Quined Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/carnegie",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:49"
+  },
+  {
+    "name": "Войны черной розы: Перерождение - Апокалипсис",
+    "url": "https://tesera.ru/game/BRWR-Apocalypse",
+    "imageUrl": "assets/images/games/game_58.jpg",
+    "addedDate": "2024-03-07T19:55:55",
+    "personalRating": null,
+    "id": 58,
+    "players": "1-6",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Марко  Монтанаро"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Ludus Magnus Studio"
+    ],
+    "teseraUrl": "https://tesera.ru/game/BRWR-Apocalypse",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:56:57"
+  },
+  {
+    "name": "Проект Возрождение",
+    "url": "https://tesera.ru/game/revive",
+    "imageUrl": "assets/images/games/game_59.jpg",
+    "addedDate": "2024-03-07T19:51:59",
+    "personalRating": null,
+    "id": 59,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эйлиф Свенссон",
+      "Kristian Amundsen Østby",
+      "Anna Wermlund",
+      "Helge Meissner"
+    ],
+    "publishers": [
+      "Стиль жизни",
+      "Aporta Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/revive",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:05"
+  },
+  {
+    "name": "Nanty Narking: Битва за Лондон",
+    "url": "https://tesera.ru/game/nanty-narking",
+    "imageUrl": "assets/images/games/game_60.jpg",
+    "addedDate": "2024-02-28T19:28:58",
+    "personalRating": null,
+    "id": 60,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Choo Choo Games",
+      "PHALANX"
+    ],
+    "teseraUrl": "https://tesera.ru/game/nanty-narking",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:12"
+  },
+  {
+    "name": "Unmatched. Приключения: Удивительные Истории",
+    "url": "https://tesera.ru/game/unmatched-adventures-tales-to-amaze",
+    "imageUrl": "assets/images/games/game_61.jpg",
+    "addedDate": "2024-02-28T19:27:16",
+    "personalRating": null,
+    "id": 61,
+    "players": "1-4",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Darren Reckner",
+      "Jason Hager"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Restoration Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/unmatched-adventures-tales-to-amaze",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:20"
+  },
+  {
+    "name": "Camel Up (Русское издание)",
+    "url": "https://tesera.ru/game/camel-up-20",
+    "imageUrl": "assets/images/games/game_62.jpg",
+    "addedDate": "2024-01-29T10:29:23",
+    "personalRating": null,
+    "id": 62,
+    "players": "3-8",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "СтоИгр Екатеринбург",
+      "Choo Choo Games",
+      "Eggertspiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/camel-up-20",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:28"
+  },
+  {
+    "name": "Опасные слова",
+    "url": "https://tesera.ru/game/Trapwords",
+    "imageUrl": "assets/images/games/game_63.jpg",
+    "addedDate": "2024-01-29T10:28:54",
+    "personalRating": null,
+    "id": 63,
+    "players": "4-12",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "GaGa Games",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Trapwords",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:36"
+  },
+  {
+    "name": "Гранд-отель «Австрия»",
+    "url": "https://tesera.ru/game/grand-austria-hotel",
+    "imageUrl": "assets/images/games/game_64.jpg",
+    "addedDate": "2024-01-29T10:23:25",
+    "personalRating": null,
+    "id": 64,
+    "players": "2-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Симоне Лучани",
+      "Вирджинио Джильи"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Mayfair Games",
+      "Lookout Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/grand-austria-hotel",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:44"
+  },
+  {
+    "name": "Гранд-отель «Австрия». Станцуем вальс!",
+    "url": "https://tesera.ru/game/grand-austria-hotel-lets-waltz",
+    "imageUrl": "assets/images/games/game_65.jpg",
+    "addedDate": "2024-01-29T10:23:01",
+    "personalRating": null,
+    "id": 65,
+    "players": "2-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Симоне Лучани",
+      "Вирджинио Джильи"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Lookout Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/grand-austria-hotel-lets-waltz",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:51"
+  },
+  {
+    "name": "Тако, кот, коза, сыр, пицца",
+    "url": "https://tesera.ru/game/taco-cat-goat-cheese-pizza",
+    "imageUrl": "assets/images/games/game_66.jpg",
+    "addedDate": "2024-01-29T10:22:29",
+    "personalRating": null,
+    "id": 66,
+    "players": "2-8",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Dave Campbell (II)"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Dolphin Hat Games",
+      "Blue Orange Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/taco-cat-goat-cheese-pizza",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:57:59"
+  },
+  {
+    "name": "Трон Кубов. Второй сезон. Проклятый пират vs Изобретатель",
+    "url": "https://tesera.ru/game/dice-throne-season-two-cursed-pirate-v-artificer",
+    "imageUrl": "assets/images/games/game_67.jpg",
+    "addedDate": "2024-01-29T10:22:03",
+    "personalRating": null,
+    "id": 67,
+    "players": "2-",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dice-throne-season-two-cursed-pirate-v-artificer",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:06"
+  },
+  {
+    "name": "Трон Кубов. Второй сезон. Тактик vs. Охотница",
+    "url": "https://tesera.ru/game/dice-throne-season-two-tactician-v-huntress",
+    "imageUrl": "assets/images/games/game_68.jpg",
+    "addedDate": "2024-01-29T10:21:36",
+    "personalRating": null,
+    "id": 68,
+    "players": "2-",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dice-throne-season-two-tactician-v-huntress",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:13"
+  },
+  {
+    "name": "Трон Кубов. Второй сезон. Серафим vs Королева вампиров",
+    "url": "https://tesera.ru/game/dice-throne-season-two-seraph-v-vampire-lord",
+    "imageUrl": "assets/images/games/game_69.jpg",
+    "addedDate": "2024-01-29T10:21:09",
+    "personalRating": null,
+    "id": 69,
+    "players": "2-",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dice-throne-season-two-seraph-v-vampire-lord",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:22"
+  },
+  {
+    "name": "Трон Кубов. Второй сезон. Стрелок vs Самурай",
+    "url": "https://tesera.ru/game/dice-throne-season-two-gunslinger-v-samurai",
+    "imageUrl": "assets/images/games/game_70.jpg",
+    "addedDate": "2024-01-29T10:20:38",
+    "personalRating": null,
+    "id": 70,
+    "players": "2",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dice-throne-season-two-gunslinger-v-samurai",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:30"
+  },
+  {
+    "name": "Дюна: Империя - Бессмертие",
+    "url": "https://tesera.ru/game/dune-imperium-immortality",
+    "imageUrl": "assets/images/games/game_71.jpg",
+    "addedDate": "2023-12-19T15:32:41",
+    "personalRating": null,
+    "id": 71,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Пол Деннен"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Dire Wolf"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dune-imperium-immortality",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:37"
+  },
+  {
+    "name": "Дюна. Империя: Deluxe Upgrade Pack",
+    "url": "https://tesera.ru/game/dune-imperium-deluxe-upgrade-pack",
+    "imageUrl": "assets/images/games/game_72.jpg",
+    "addedDate": "2023-12-19T15:32:22",
+    "personalRating": null,
+    "id": 72,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Dire Wolf"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dune-imperium-deluxe-upgrade-pack",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:44"
+  },
+  {
+    "name": "Покорение Марса: Кризис",
+    "url": "https://tesera.ru/game/terraforming-mars-turmoil",
+    "imageUrl": "assets/images/games/game_73.jpg",
+    "addedDate": "2023-11-29T18:49:20",
+    "personalRating": null,
+    "id": 73,
+    "players": "1-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Якуб Фрюкселиус"
+    ],
+    "publishers": [],
+    "teseraUrl": "https://tesera.ru/game/terraforming-mars-turmoil",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:51"
+  },
+  {
+    "name": "Bullet: Orange",
+    "url": "https://tesera.ru/game/bullet-orange",
+    "imageUrl": "assets/images/games/game_74.jpg",
+    "addedDate": "2023-11-29T18:45:53",
+    "personalRating": null,
+    "id": 74,
+    "players": "1-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Joshua Van Laningham"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Delight",
+      "Banana Games",
+      "Level 99 Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/bullet-orange",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:58:59"
+  },
+  {
+    "name": "Bullet: Ураганный экшен",
+    "url": "https://tesera.ru/game/bullet",
+    "imageUrl": "assets/images/games/game_75.jpg",
+    "addedDate": "2023-11-29T18:45:07",
+    "personalRating": null,
+    "id": 75,
+    "players": "1-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Joshua Van Laningham"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Level 99 Games",
+      "Melmac Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/bullet",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:59:09"
+  },
+  {
+    "name": "Similo: Мифы",
+    "url": "https://tesera.ru/game/similo-myths",
+    "imageUrl": "assets/images/games/game_76.jpg",
+    "addedDate": "2023-11-24T20:48:30",
+    "personalRating": null,
+    "id": 76,
+    "players": "2-",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Пьерлука Зицци",
+      "Ялмар  Хаш",
+      "Мартино Кьякьера"
+    ],
+    "publishers": [
+      "Horrible Guild",
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/similo-myths",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:59:16"
+  },
+  {
+    "name": "3000 негодяев",
+    "url": "https://tesera.ru/game/3000-scoundrels",
+    "imageUrl": "assets/images/games/game_77.jpg",
+    "addedDate": "2023-11-24T20:48:04",
+    "personalRating": null,
+    "id": 77,
+    "players": "2-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кори Коничка"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Unexpected Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/3000-scoundrels",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:59:23"
+  },
+  {
+    "name": "Чёрный ангел",
+    "url": "https://tesera.ru/game/black-angel",
+    "imageUrl": "assets/images/games/game_78.jpg",
+    "addedDate": "2023-11-08T20:23:10",
+    "personalRating": null,
+    "id": 78,
+    "players": "1-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ксавье Жорж",
+      "Alain Orban",
+      "Себастьен Дюжарден"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "sternenschimmermeer",
+      "Hobby Japan",
+      "YOKA Games",
+      "Pearl Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/black-angel",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:59:30"
+  },
+  {
+    "name": "Башня",
+    "url": "https://tesera.ru/game/tower",
+    "imageUrl": "",
+    "addedDate": "2023-11-04T21:42:53",
+    "personalRating": null,
+    "id": 79,
+    "players": "2-",
+    "duration": "",
+    "year": "2013",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Tactic"
+    ],
+    "teseraUrl": "https://tesera.ru/game/tower",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:59:37"
+  },
+  {
+    "name": "Кодовые имена",
+    "url": "https://tesera.ru/game/codenames",
+    "imageUrl": "assets/images/games/game_80.jpg",
+    "addedDate": "2023-11-04T21:41:46",
+    "personalRating": null,
+    "id": 80,
+    "players": "2-12",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Владя Хватил"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/codenames",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:59:45"
+  },
+  {
+    "name": "Гегемония: Классовая борьба",
+    "url": "https://tesera.ru/game/hegemony-lead-your-class-to-victory",
+    "imageUrl": "assets/images/games/game_81.jpg",
+    "addedDate": "2023-10-18T18:43:20",
+    "personalRating": null,
+    "id": 81,
+    "players": "2-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Анастасиос Григориадис",
+      "Вангелис Багиартакис",
+      "Варнавас Тимофеу"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Hegemonic Project Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/hegemony-lead-your-class-to-victory",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 20:59:53"
+  },
+  {
+    "name": "Ведьмак: Старый мир",
+    "url": "https://tesera.ru/game/the-witcher-old-world",
+    "imageUrl": "assets/images/games/game_82.jpg",
+    "addedDate": "2023-10-18T18:42:48",
+    "personalRating": null,
+    "id": 82,
+    "players": "1-5",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Лукаш Возняк"
+    ],
+    "publishers": [
+      "Geekach Shop (Украина)",
+      "GaGa Games",
+      "Go On Board"
+    ],
+    "teseraUrl": "https://tesera.ru/game/the-witcher-old-world",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:00:00"
+  },
+  {
+    "name": "Этот безумный мир: Праздность и упадок",
+    "url": "https://tesera.ru/game/its-a-wonderful-world-leisure-decadence",
+    "imageUrl": "assets/images/games/game_83.jpg",
+    "addedDate": "2023-09-24T18:15:10",
+    "personalRating": null,
+    "id": 83,
+    "players": "1-5",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Фредерик Герар"
+    ],
+    "publishers": [
+      "Эврикус",
+      "Origames",
+      "La Boîte de Jeu"
+    ],
+    "teseraUrl": "https://tesera.ru/game/its-a-wonderful-world-leisure-decadence",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:00:08"
+  },
+  {
+    "name": "Этот безумный мир: Война или мир",
+    "url": "https://tesera.ru/game/its-a-wonderful-world-war-or-peace",
+    "imageUrl": "assets/images/games/game_84.jpg",
+    "addedDate": "2023-09-24T18:14:40",
+    "personalRating": null,
+    "id": 84,
+    "players": "1-5",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Фредерик Герар"
+    ],
+    "publishers": [
+      "Эврикус",
+      "Origames",
+      "La Boîte de Jeu"
+    ],
+    "teseraUrl": "https://tesera.ru/game/its-a-wonderful-world-war-or-peace",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:00:17"
+  },
+  {
+    "name": "Этот безумный мир: кризис и процветание",
+    "url": "https://tesera.ru/game/its-a-wonderful-world-ascension",
+    "imageUrl": "assets/images/games/game_85.jpg",
+    "addedDate": "2023-09-24T18:13:59",
+    "personalRating": null,
+    "id": 85,
+    "players": "1-7",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Фредерик Герар"
+    ],
+    "publishers": [
+      "La Boîte de Jeu",
+      "Origames",
+      "Эврикус"
+    ],
+    "teseraUrl": "https://tesera.ru/game/its-a-wonderful-world-ascension",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:00:26"
+  },
+  {
+    "name": "Море, соль, бумага",
+    "url": "https://tesera.ru/game/sea-salt-paper",
+    "imageUrl": "assets/images/games/game_86.jpg",
+    "addedDate": "2023-09-24T13:30:11",
+    "personalRating": null,
+    "id": 86,
+    "players": "2-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Катала",
+      "Тео Ривьер"
+    ],
+    "publishers": [
+      "Фабрика игр",
+      "Bombyx"
+    ],
+    "teseraUrl": "https://tesera.ru/game/sea-salt-paper",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:00:35"
+  },
+  {
+    "name": "Галерист",
+    "url": "https://tesera.ru/game/gallerist",
+    "imageUrl": "assets/images/games/game_87.jpg",
+    "addedDate": "2023-09-24T13:29:19",
+    "personalRating": null,
+    "id": 87,
+    "players": "1-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Витал Ласерда"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Eagle-Gryphon Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/gallerist",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:00:43"
+  },
+  {
+    "name": "Маленькие империи. Самураи. Расцвет дома Токугава",
+    "url": "https://tesera.ru/game/small-samurai-empires-rise-of-tokugawa",
+    "imageUrl": "assets/images/games/game_88.jpg",
+    "addedDate": "2023-08-25T19:30:12",
+    "personalRating": null,
+    "id": 88,
+    "players": "1-5",
+    "duration": "",
+    "year": "2023",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Милан Тасевский"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Archona Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/small-samurai-empires-rise-of-tokugawa",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:00:51"
+  },
+  {
+    "name": "Маленькие империи. Самураи",
+    "url": "https://tesera.ru/game/small-samurai-empires",
+    "imageUrl": "assets/images/games/game_89.jpg",
+    "addedDate": "2023-08-25T19:29:30",
+    "personalRating": null,
+    "id": 89,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Милан Тасевский"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Archona Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/small-samurai-empires",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:01"
+  },
+  {
+    "name": "Роскошь. Дуэль",
+    "url": "https://tesera.ru/game/splendor-duel",
+    "imageUrl": "assets/images/games/game_90.jpg",
+    "addedDate": "2023-08-25T19:28:28",
+    "personalRating": null,
+    "id": 90,
+    "players": "2",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Марк Андре",
+      "Бруно Катала"
+    ],
+    "publishers": [
+      "Стиль жизни",
+      "Space Cowboys"
+    ],
+    "teseraUrl": "https://tesera.ru/game/splendor-duel",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:09"
+  },
+  {
+    "name": "Герои подземелий (второе издание)",
+    "url": "https://tesera.ru/game/1dungeon-fighter-second-edition",
+    "imageUrl": "assets/images/games/game_91.jpg",
+    "addedDate": "2023-08-25T19:27:54",
+    "personalRating": null,
+    "id": 91,
+    "players": "1-6",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Renato Silva Sasdelli",
+      "Андреа Лульи",
+      "Аурелиано Буонфино",
+      "Лоренцо Туччи Соррентино",
+      "Лоренцо Сильва"
+    ],
+    "publishers": [
+      "Horrible Guild",
+      "Лавка игр",
+      "Cranio Creations"
+    ],
+    "teseraUrl": "https://tesera.ru/game/1dungeon-fighter-second-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:17"
+  },
+  {
+    "name": "Troyes",
+    "url": "https://tesera.ru/game/troyes",
+    "imageUrl": "assets/images/games/game_92.jpg",
+    "addedDate": "2023-07-11T21:24:58",
+    "personalRating": null,
+    "id": 92,
+    "players": "2-4",
+    "duration": "",
+    "year": "2010",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ксавье Жорж",
+      "Себастьен Дюжарден",
+      "Alain Orban"
+    ],
+    "publishers": [
+      "Pearl Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/troyes",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:26"
+  },
+  {
+    "name": "Столкновение цивилизаций. Монументальное издание",
+    "url": "https://tesera.ru/game/clash-of-cultures-monumental-edition",
+    "imageUrl": "assets/images/games/game_93.jpg",
+    "addedDate": "2023-07-11T21:21:34",
+    "personalRating": null,
+    "id": 93,
+    "players": "2-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Christian Marcussen"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "WizKids"
+    ],
+    "teseraUrl": "https://tesera.ru/game/clash-of-cultures-monumental-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:36"
+  },
+  {
+    "name": "Конкордия. Сальса",
+    "url": "https://tesera.ru/game/concordia-salsa",
+    "imageUrl": "assets/images/games/game_94.jpg",
+    "addedDate": "2023-07-11T21:21:12",
+    "personalRating": null,
+    "id": 94,
+    "players": "2-5",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Мак Гердтс"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "PD-Verlag"
+    ],
+    "teseraUrl": "https://tesera.ru/game/concordia-salsa",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:43"
+  },
+  {
+    "name": "Трикерион. Искусство иллюзии. Полное издание",
+    "url": "https://tesera.ru/game/trickerion-legends-of-illusion-bundle-edition",
+    "imageUrl": "assets/images/games/game_95.jpg",
+    "addedDate": "2023-05-28T15:01:45",
+    "personalRating": null,
+    "id": 95,
+    "players": "1-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Виктор Петер",
+      "Ричард Аманн",
+      "Victor Peter -"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Mindclash Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/trickerion-legends-of-illusion-bundle-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:51"
+  },
+  {
+    "name": "Forbidden Stars: Forgotten Worlds",
+    "url": "https://tesera.ru/game/forbidden-stars-forgotten-worlds",
+    "imageUrl": "assets/images/games/game_96.jpg",
+    "addedDate": "2023-05-26T19:13:35",
+    "personalRating": null,
+    "id": 96,
+    "players": "2-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [],
+    "teseraUrl": "https://tesera.ru/game/forbidden-stars-forgotten-worlds",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:01:59"
+  },
+  {
+    "name": "Сэкигахара",
+    "url": "https://tesera.ru/game/sekigahara-the-unification-of-japan",
+    "imageUrl": "assets/images/games/game_97.jpg",
+    "addedDate": "2023-04-22T14:24:06",
+    "personalRating": null,
+    "id": 97,
+    "players": "1-2",
+    "duration": "",
+    "year": "2011",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Matt Calkins"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "GMT Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/sekigahara-the-unification-of-japan",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:02:08"
+  },
+  {
+    "name": "Pax Pamir. Большая игра",
+    "url": "https://tesera.ru/game/pax-pamir-second-edition",
+    "imageUrl": "assets/images/games/game_98.jpg",
+    "addedDate": "2023-02-24T18:46:41",
+    "personalRating": null,
+    "id": 98,
+    "players": "1-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Мэтт Эклунд",
+      "Фил Эклунд"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Wehrlegig Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/pax-pamir-second-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:02:17"
+  },
+  {
+    "name": "Паладины западного королевства: Город корон",
+    "url": "https://tesera.ru/game/paladins-of-the-west-kingdom-city-of-crowns",
+    "imageUrl": "assets/images/games/game_99.jpg",
+    "addedDate": "2023-02-24T18:45:20",
+    "personalRating": null,
+    "id": 99,
+    "players": "1-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Шем Филлипс"
+    ],
+    "publishers": [
+      "Garphill Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/paladins-of-the-west-kingdom-city-of-crowns",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:02:26"
+  },
+  {
+    "name": "Декодер",
+    "url": "https://tesera.ru/game/decrypto",
+    "imageUrl": "assets/images/games/game_100.jpg",
+    "addedDate": "2023-02-24T18:44:18",
+    "personalRating": null,
+    "id": 100,
+    "players": "3-8",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Тома Даженэ-Лесперанс"
+    ],
+    "publishers": [
+      "Hachette Boardgames USA",
+      "Games7Days",
+      "Лавка игр",
+      "Le Scorpion Masqué"
+    ],
+    "teseraUrl": "https://tesera.ru/game/decrypto",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:02:33"
+  },
+  {
+    "name": "Покорение Марса: Колонии",
+    "url": "https://tesera.ru/game/terraforming-mars-colonies",
+    "imageUrl": "assets/images/games/game_101.jpg",
+    "addedDate": "2023-02-24T18:38:44",
+    "personalRating": null,
+    "id": 101,
+    "players": "",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Якуб Фрюкселиус"
+    ],
+    "publishers": [
+      "Stronghold Games",
+      "Лавка игр",
+      "FryxGames"
+    ],
+    "teseraUrl": "https://tesera.ru/game/terraforming-mars-colonies",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:02:41"
+  },
+  {
+    "name": "Покорение Марса: Проект «Венера»",
+    "url": "https://tesera.ru/game/terraforming-mars-venus-next",
+    "imageUrl": "assets/images/games/game_102.jpg",
+    "addedDate": "2023-02-24T18:37:30",
+    "personalRating": null,
+    "id": 102,
+    "players": "1-5",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Якуб Фрюкселиус"
+    ],
+    "publishers": [
+      "Kilogames",
+      "FryxGames",
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/terraforming-mars-venus-next",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:02:49"
+  },
+  {
+    "name": "Супер бургер",
+    "url": "https://tesera.ru/game/superburger",
+    "imageUrl": "assets/images/games/game_103.jpg",
+    "addedDate": "2023-01-22T18:19:10",
+    "personalRating": null,
+    "id": 103,
+    "players": "2-10",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Константин Хлобыстов"
+    ],
+    "publishers": [
+      "Well Done!"
+    ],
+    "teseraUrl": "https://tesera.ru/game/superburger",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:00"
+  },
+  {
+    "name": "Гномы-вредители Делюкс",
+    "url": "https://tesera.ru/game/gnomyvrediteli-delyuks",
+    "imageUrl": "assets/images/games/game_104.jpg",
+    "addedDate": "2023-01-22T18:18:41",
+    "personalRating": null,
+    "id": 104,
+    "players": "2-12",
+    "duration": "",
+    "year": "2011",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Фредерик Мойерсон"
+    ],
+    "publishers": [
+      "AMIGO"
+    ],
+    "teseraUrl": "https://tesera.ru/game/gnomyvrediteli-delyuks",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:10"
+  },
+  {
+    "name": "Четыре зелья",
+    "url": "https://tesera.ru/game/four-humours",
+    "imageUrl": "assets/images/games/game_105.jpg",
+    "addedDate": "2023-01-22T18:17:52",
+    "personalRating": null,
+    "id": 105,
+    "players": "1-6",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Чарли Мак-Кэррон"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Adam's Apple Games, LLC"
+    ],
+    "teseraUrl": "https://tesera.ru/game/four-humours",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:18"
+  },
+  {
+    "name": "Pax Renaissance. Русское издание",
+    "url": "https://tesera.ru/game/pax-renaissance-second-edition",
+    "imageUrl": "assets/images/games/game_106.jpg",
+    "addedDate": "2022-12-27T19:35:45",
+    "personalRating": null,
+    "id": 106,
+    "players": "1-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Josefin Strand",
+      "Мэтт Эклунд",
+      "Фил Эклунд"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Ion Game Design",
+      "Sierra Madre Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/pax-renaissance-second-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:25"
+  },
+  {
+    "name": "Keyflower: The Merchants",
+    "url": "https://tesera.ru/game/keyflower-the-merchants",
+    "imageUrl": "assets/images/games/game_107.jpg",
+    "addedDate": "2022-12-27T19:34:39",
+    "personalRating": null,
+    "id": 107,
+    "players": "2-6",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Себастьян Блисдейл",
+      "Ричард Бриз"
+    ],
+    "publishers": [
+      "Quined Games",
+      "R&D Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/keyflower-the-merchants",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:33"
+  },
+  {
+    "name": "Keyflower: The Farmers",
+    "url": "https://tesera.ru/game/Keyflower-The-Farmers",
+    "imageUrl": "assets/images/games/game_108.jpg",
+    "addedDate": "2022-12-27T19:27:36",
+    "personalRating": null,
+    "id": 108,
+    "players": "2-6",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Себастьян Блисдейл",
+      "Ричард Бриз"
+    ],
+    "publishers": [
+      "Quined Games",
+      "R&D Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Keyflower-The-Farmers",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:41"
+  },
+  {
+    "name": "Keyflower",
+    "url": "https://tesera.ru/game/Keyflower",
+    "imageUrl": "assets/images/games/game_109.jpg",
+    "addedDate": "2022-12-27T19:27:10",
+    "personalRating": null,
+    "id": 109,
+    "players": "2-6",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ричард Бриз",
+      "Себастьян Блисдейл"
+    ],
+    "publishers": [
+      "Фабрика игр",
+      "R&D Games",
+      "HUCH!"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Keyflower",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:49"
+  },
+  {
+    "name": "Максимум Апокалипсис",
+    "url": "https://tesera.ru/game/maximum-apocalypse",
+    "imageUrl": "assets/images/games/game_110.jpg",
+    "addedDate": "2022-12-27T19:26:12",
+    "personalRating": null,
+    "id": 110,
+    "players": "1-6",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Mike Gnade"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Rock Manor Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/maximum-apocalypse",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:03:56"
+  },
+  {
+    "name": "Тираны Подземья",
+    "url": "https://tesera.ru/game/Tyrants-of-the-Underdark",
+    "imageUrl": "assets/images/games/game_111.jpg",
+    "addedDate": "2022-12-03T04:40:10",
+    "personalRating": null,
+    "id": 111,
+    "players": "2-4",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Andrew Veen",
+      "Rodney Thompson",
+      "Peter Lee"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Wizards of the Coast",
+      "Gale Force Nine"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Tyrants-of-the-Underdark",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:04:04"
+  },
+  {
+    "name": "Траян",
+    "url": "https://tesera.ru/game/Trajan",
+    "imageUrl": "assets/images/games/game_112.jpg",
+    "addedDate": "2022-11-30T21:25:36",
+    "personalRating": null,
+    "id": 112,
+    "players": "2-4",
+    "duration": "",
+    "year": "2011",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Штефан Фельд"
+    ],
+    "publishers": [
+      "Эврикус",
+      "Quined Games",
+      "Ammonit Spiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Trajan",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:04:12"
+  },
+  {
+    "name": "Роскошь",
+    "url": "https://tesera.ru/game/Splendor",
+    "imageUrl": "assets/images/games/game_113.jpg",
+    "addedDate": "2022-11-30T21:22:51",
+    "personalRating": null,
+    "id": 113,
+    "players": "2-4",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Марк Андре"
+    ],
+    "publishers": [
+      "Стиль жизни",
+      "Space Cowboys"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Splendor",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:04:21"
+  },
+  {
+    "name": "Машина погоды",
+    "url": "https://tesera.ru/game/weather-machine",
+    "imageUrl": "assets/images/games/game_114.jpg",
+    "addedDate": "2022-11-24T16:38:27",
+    "personalRating": null,
+    "id": 114,
+    "players": "1-4",
+    "duration": "",
+    "year": "2022",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Витал Ласерда"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Eagle-Gryphon Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/weather-machine",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:04:29"
+  },
+  {
+    "name": "Кровь и ярость",
+    "url": "https://tesera.ru/game/blood-rage",
+    "imageUrl": "assets/images/games/game_115.jpg",
+    "addedDate": "2022-10-12T19:10:50",
+    "personalRating": null,
+    "id": 115,
+    "players": "2-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эрик Лэнг"
+    ],
+    "publishers": [
+      "CMON Limited",
+      "Crowd Games",
+      "Guillotine Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/blood-rage",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:04:39"
+  },
+  {
+    "name": "Кровь и ярость. Пятый игрок",
+    "url": "https://tesera.ru/game/blood-rage-5th-player-expansion",
+    "imageUrl": "assets/images/games/game_116.jpg",
+    "addedDate": "2022-10-12T19:10:17",
+    "personalRating": null,
+    "id": 116,
+    "players": "5",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эрик Лэнг"
+    ],
+    "publishers": [
+      "CMON Limited",
+      "Crowd Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/blood-rage-5th-player-expansion",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:04:46"
+  },
+  {
+    "name": "Кровь и ярость. Колдуны Мидгарда",
+    "url": "https://tesera.ru/game/blood-rage-mystics-of-midgard",
+    "imageUrl": "assets/images/games/game_117.jpg",
+    "addedDate": "2022-10-12T19:09:56",
+    "personalRating": null,
+    "id": 117,
+    "players": "1-5",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эрик Лэнг"
+    ],
+    "publishers": [
+      "CMON Limited",
+      "Crowd Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/blood-rage-mystics-of-midgard",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:04:54"
+  },
+  {
+    "name": "Кровь и ярость. Боги Асгарда",
+    "url": "https://tesera.ru/game/blood-rage-gods-of-asgard",
+    "imageUrl": "assets/images/games/game_118.jpg",
+    "addedDate": "2022-10-12T19:09:29",
+    "personalRating": null,
+    "id": 118,
+    "players": "2-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эрик Лэнг"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "CMON Limited",
+      "Guillotine Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/blood-rage-gods-of-asgard",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:02"
+  },
+  {
+    "name": "Сумерки империи. Четвёртая редакция: Пророчество королей",
+    "url": "https://tesera.ru/game/twilight-imperium-fourth-edition-prophecy-of-kings",
+    "imageUrl": "assets/images/games/game_119.jpg",
+    "addedDate": "2022-10-12T19:08:56",
+    "personalRating": null,
+    "id": 119,
+    "players": "3-8",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Dane Beltrami"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/twilight-imperium-fourth-edition-prophecy-of-kings",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:10"
+  },
+  {
+    "name": "Сумерки империи. Четвёртая редакция",
+    "url": "https://tesera.ru/game/twilight-imperium-fourth-edition",
+    "imageUrl": "assets/images/games/game_120.jpg",
+    "addedDate": "2022-10-12T18:56:02",
+    "personalRating": null,
+    "id": 120,
+    "players": "3-6",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кристиан Петерсен"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/twilight-imperium-fourth-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:18"
+  },
+  {
+    "name": "Канбан. Электро",
+    "url": "https://tesera.ru/game/kanbanev",
+    "imageUrl": "assets/images/games/game_121.jpg",
+    "addedDate": "2022-09-02T07:41:07",
+    "personalRating": null,
+    "id": 121,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Витал Ласерда"
+    ],
+    "publishers": [
+      "Skellig Games",
+      "Лавка игр",
+      "Eagle-Gryphon Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/kanbanev",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:25"
+  },
+  {
+    "name": "Аббатство",
+    "url": "https://tesera.ru/game/Biblios",
+    "imageUrl": "assets/images/games/game_122.jpg",
+    "addedDate": "2022-09-02T07:40:15",
+    "personalRating": null,
+    "id": 122,
+    "players": "2-4",
+    "duration": "",
+    "year": "2007",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Steve Finn"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Doctor Finn's Card Company",
+      "IELLO"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Biblios",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:34"
+  },
+  {
+    "name": "Кофе",
+    "url": "https://tesera.ru/game/cafe",
+    "imageUrl": "assets/images/games/game_123.jpg",
+    "addedDate": "2022-09-02T07:39:56",
+    "personalRating": null,
+    "id": 123,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Rôla",
+      "Costa"
+    ],
+    "publishers": [
+      "PYTHAGORAS",
+      "GaGa Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/cafe",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:42"
+  },
+  {
+    "name": "Лиссабон",
+    "url": "https://tesera.ru/game/lisboa",
+    "imageUrl": "assets/images/games/game_124.jpg",
+    "addedDate": "2022-07-27T19:25:27",
+    "personalRating": null,
+    "id": 124,
+    "players": "1-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Витал Ласерда"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Eagle-Gryphon Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/lisboa",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:50"
+  },
+  {
+    "name": "Дюна: Империя - Расцвет Иксианцев",
+    "url": "https://tesera.ru/game/dune-imperium-rise-ix",
+    "imageUrl": "assets/images/games/game_125.jpg",
+    "addedDate": "2022-07-24T16:48:55",
+    "personalRating": null,
+    "id": 125,
+    "players": "1-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Пол Деннен"
+    ],
+    "publishers": [
+      "Geekach Games",
+      "Лавка игр",
+      "Dire Wolf"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dune-imperium-rise-ix",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:05:58"
+  },
+  {
+    "name": "Age of Wonders: Planetfall",
+    "url": "https://tesera.ru/game/age-of-wonders-planetfall",
+    "imageUrl": "assets/images/games/game_126.jpg",
+    "addedDate": "2022-07-06T21:00:38",
+    "personalRating": null,
+    "id": 126,
+    "players": "",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Степан Опалев"
+    ],
+    "publishers": [
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/age-of-wonders-planetfall",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:06:06"
+  },
+  {
+    "name": "Космические дальнобойщики (новое издание)",
+    "url": "https://tesera.ru/game/1galaxy-trucker",
+    "imageUrl": "assets/images/games/game_127.jpg",
+    "addedDate": "2022-06-28T15:17:50",
+    "personalRating": null,
+    "id": 127,
+    "players": "2-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Владя Хватил"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/1galaxy-trucker",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:06:13"
+  },
+  {
+    "name": "Пригород",
+    "url": "https://tesera.ru/game/suburbia-2nd",
+    "imageUrl": "assets/images/games/game_128.jpg",
+    "addedDate": "2022-06-28T15:16:23",
+    "personalRating": null,
+    "id": 128,
+    "players": "1-4",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Тед Олспач"
+    ],
+    "publishers": [
+      "Bezier Games",
+      "Crowd Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/suburbia-2nd",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:06:22"
+  },
+  {
+    "name": "Dungeon Petz",
+    "url": "https://tesera.ru/game/Dungeon-Petz",
+    "imageUrl": "assets/images/games/game_129.jpg",
+    "addedDate": "2022-06-12T14:15:42",
+    "personalRating": null,
+    "id": 129,
+    "players": "2-4",
+    "duration": "",
+    "year": "2011",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Владя Хватил"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Z-Man Games",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Dungeon-Petz",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:06:29"
+  },
+  {
+    "name": "Dungeon Petz: Dark Alleys",
+    "url": "https://tesera.ru/game/Dungeon-Petz-Dark-Alleys",
+    "imageUrl": "assets/images/games/game_130.jpg",
+    "addedDate": "2022-06-12T14:15:06",
+    "personalRating": null,
+    "id": 130,
+    "players": "2-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Владя Хватил"
+    ],
+    "publishers": [
+      "Z-Man Games",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Dungeon-Petz-Dark-Alleys",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:06:36"
+  },
+  {
+    "name": "Паладины Западного Королевства",
+    "url": "https://tesera.ru/game/paladins-of-the-west-kingdom",
+    "imageUrl": "assets/images/games/game_131.jpg",
+    "addedDate": "2022-06-01T14:00:03",
+    "personalRating": null,
+    "id": 131,
+    "players": "1-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Шем Филлипс",
+      "Эс Джей Макдональд"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Garphill Games",
+      "Renegade Game Studios"
+    ],
+    "teseraUrl": "https://tesera.ru/game/paladins-of-the-west-kingdom",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:06:43"
+  },
+  {
+    "name": "Чужая планета",
+    "url": "https://tesera.ru/game/not-alone",
+    "imageUrl": "assets/images/games/game_132.jpg",
+    "addedDate": "2022-06-01T13:59:14",
+    "personalRating": null,
+    "id": 132,
+    "players": "2-7",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Гислен Массон"
+    ],
+    "publishers": [
+      "Geek Attitude Games",
+      "GaGa Games",
+      "Corax Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/not-alone",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:06:52"
+  },
+  {
+    "name": "Unmatched: Красная Шапочка vs. Беовульф",
+    "url": "https://tesera.ru/game/unmatched-little-red-riding-hood-vs-beowulf",
+    "imageUrl": "assets/images/games/game_133.jpg",
+    "addedDate": "2022-06-01T13:58:46",
+    "personalRating": null,
+    "id": 133,
+    "players": "2-",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Роб Давио",
+      "Brian Neff",
+      "Джастин Д. Джейкобсон",
+      "Noah Cohen"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Restoration Games",
+      "Mondo Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/unmatched-little-red-riding-hood-vs-beowulf",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:00"
+  },
+  {
+    "name": "Loonacy",
+    "url": "https://tesera.ru/game/Loonacy",
+    "imageUrl": "assets/images/games/game_134.jpg",
+    "addedDate": "2022-05-22T10:31:19",
+    "personalRating": null,
+    "id": 134,
+    "players": "2-5",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Эндрю Луни"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Looney Labs"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Loonacy",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:07"
+  },
+  {
+    "name": "Кланы Каледонии",
+    "url": "https://tesera.ru/game/clans-caledonia",
+    "imageUrl": "assets/images/games/game_135.jpg",
+    "addedDate": "2022-03-20T17:44:49",
+    "personalRating": null,
+    "id": 135,
+    "players": "1-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Juma Al-JouJou"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Karma Games",
+      "(Self-Published)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/clans-caledonia",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:16"
+  },
+  {
+    "name": "Утиные истории: Улётное приключение",
+    "url": "https://tesera.ru/game/utinye-istorii-ulyotnoe-priklyuchenie",
+    "imageUrl": "assets/images/games/game_136.jpg",
+    "addedDate": "2022-03-20T17:43:03",
+    "personalRating": null,
+    "id": 136,
+    "players": "3-7",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/utinye-istorii-ulyotnoe-priklyuchenie",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:23"
+  },
+  {
+    "name": "Взломщики",
+    "url": "https://tesera.ru/game/Burgle-Bros",
+    "imageUrl": "assets/images/games/game_137.jpg",
+    "addedDate": "2022-03-09T13:15:51",
+    "personalRating": null,
+    "id": 137,
+    "players": "1-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Тим Фауэрс"
+    ],
+    "publishers": [
+      "Низа Гамс",
+      "Choo Choo Games",
+      "Fowers Games",
+      "Kickstarter"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Burgle-Bros",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:31"
+  },
+  {
+    "name": "Riftforce. Битва Стихий",
+    "url": "https://tesera.ru/game/riftforce",
+    "imageUrl": "assets/images/games/game_138.jpg",
+    "addedDate": "2022-02-10T18:40:48",
+    "personalRating": null,
+    "id": 138,
+    "players": "2",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Карло Бортолини"
+    ],
+    "publishers": [
+      "Низа Гамс",
+      "Asmodée",
+      "1 More Time Games",
+      "Capstone Games",
+      "La Boîte de Jeu",
+      "Maldito Games",
+      "White Goblin Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/riftforce",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:38"
+  },
+  {
+    "name": "Нидавеллир: Тингвеллир",
+    "url": "https://tesera.ru/game/nidavellir-thingvellir",
+    "imageUrl": "assets/images/games/game_139.jpg",
+    "addedDate": "2022-02-01T11:44:02",
+    "personalRating": null,
+    "id": 139,
+    "players": "2-5",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Серж Лаже"
+    ],
+    "publishers": [
+      "Эврикус",
+      "GRRRE Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/nidavellir-thingvellir",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:45"
+  },
+  {
+    "name": "Пять племён",
+    "url": "https://tesera.ru/game/5tribes",
+    "imageUrl": "assets/images/games/game_140.jpg",
+    "addedDate": "2022-01-17T19:12:19",
+    "personalRating": null,
+    "id": 140,
+    "players": "2-4",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Катала"
+    ],
+    "publishers": [
+      "Lord of Boards",
+      "Crowd Games",
+      "Days of Wonder"
+    ],
+    "teseraUrl": "https://tesera.ru/game/5tribes",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:07:53"
+  },
+  {
+    "name": "Пять племён. Ремесленники Накалы",
+    "url": "https://tesera.ru/game/Five-Tribes-The-Artisans-of-Naqala",
+    "imageUrl": "assets/images/games/game_141.jpg",
+    "addedDate": "2022-01-17T19:12:02",
+    "personalRating": null,
+    "id": 141,
+    "players": "2-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Катала"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Days of Wonder"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Five-Tribes-The-Artisans-of-Naqala",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:08:00"
+  },
+  {
+    "name": "Пять племён. Прихоти султана",
+    "url": "https://tesera.ru/game/five-tribes-whims-of-the-sultan",
+    "imageUrl": "assets/images/games/game_142.jpg",
+    "addedDate": "2022-01-17T19:11:50",
+    "personalRating": null,
+    "id": 142,
+    "players": "2-5",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Катала"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Days of Wonder"
+    ],
+    "teseraUrl": "https://tesera.ru/game/five-tribes-whims-of-the-sultan",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:08:08"
+  },
+  {
+    "name": "Немезида",
+    "url": "https://tesera.ru/game/nemesis",
+    "imageUrl": "assets/images/games/game_143.jpg",
+    "addedDate": "2022-01-12T15:35:00",
+    "personalRating": null,
+    "id": 143,
+    "players": "1-5",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Geekach Games",
+      "Hobby World",
+      "Rebel",
+      "Awaken Realms"
+    ],
+    "teseraUrl": "https://tesera.ru/game/nemesis",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:08:17"
+  },
+  {
+    "name": "Натиск!",
+    "url": "https://tesera.ru/game/Blitzkrieg",
+    "imageUrl": "assets/images/games/game_144.jpg",
+    "addedDate": "2022-01-12T15:34:46",
+    "personalRating": null,
+    "id": 144,
+    "players": "1-2",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Паоло Мори"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "PSC Games",
+      "Giochix.it",
+      "Banana Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Blitzkrieg",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:08:24"
+  },
+  {
+    "name": "Этот безумный мир",
+    "url": "https://tesera.ru/game/its-a-wonderful-world",
+    "imageUrl": "assets/images/games/game_145.jpg",
+    "addedDate": "2022-01-07T09:27:20",
+    "personalRating": null,
+    "id": 145,
+    "players": "1-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Фредерик Герар"
+    ],
+    "publishers": [
+      "Эврикус",
+      "Origames",
+      "La Boîte de Jeu"
+    ],
+    "teseraUrl": "https://tesera.ru/game/its-a-wonderful-world",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:08:32"
+  },
+  {
+    "name": "Повелитель Токио",
+    "url": "https://tesera.ru/game/king-of-tokyo",
+    "imageUrl": "assets/images/games/game_146.jpg",
+    "addedDate": "2022-01-07T09:26:47",
+    "personalRating": null,
+    "id": 146,
+    "players": "2-6",
+    "duration": "",
+    "year": "2010",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ричард Гарфилд"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Hobby World",
+      "IELLO"
+    ],
+    "teseraUrl": "https://tesera.ru/game/king-of-tokyo",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:08:44"
+  },
+  {
+    "name": "Мрачная гавань: Челюсти льва",
+    "url": "https://tesera.ru/game/gloomhaven-jaws-of-the-Lion",
+    "imageUrl": "assets/images/games/game_147.jpg",
+    "addedDate": "2021-12-21T20:28:18",
+    "personalRating": null,
+    "id": 147,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Айзек Чилдрес"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Cephalofair Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/gloomhaven-jaws-of-the-Lion",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:08:52"
+  },
+  {
+    "name": "Энигма. Код Хаоса",
+    "url": "https://tesera.ru/game/enigma-beyond-code",
+    "imageUrl": "",
+    "addedDate": "2021-12-21T20:27:57",
+    "personalRating": null,
+    "id": 148,
+    "players": "1-5",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Сергей Притула"
+    ],
+    "publishers": [
+      "Crowd Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/enigma-beyond-code",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:00"
+  },
+  {
+    "name": "Поиски планеты X",
+    "url": "https://tesera.ru/game/the-search-for-planet-x",
+    "imageUrl": "assets/images/games/game_149.jpg",
+    "addedDate": "2021-12-18T14:56:22",
+    "personalRating": null,
+    "id": 149,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ben Rosset",
+      "Matthew O'Malley"
+    ],
+    "publishers": [
+      "Renegade Game Studios",
+      "Foxtrot Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/the-search-for-planet-x",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:08"
+  },
+  {
+    "name": "Покорение Марса",
+    "url": "https://tesera.ru/game/terraforming-mars",
+    "imageUrl": "assets/images/games/game_150.jpg",
+    "addedDate": "2021-12-04T11:31:07",
+    "personalRating": null,
+    "id": 150,
+    "players": "1-5",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Якуб Фрюкселиус"
+    ],
+    "publishers": [
+      "Kilogames",
+      "Лавка игр",
+      "Stronghold Games",
+      "FryxGames"
+    ],
+    "teseraUrl": "https://tesera.ru/game/terraforming-mars",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:17"
+  },
+  {
+    "name": "Res Arcana: Жемчужная Империя",
+    "url": "https://tesera.ru/game/res-arcana-perlae-imperii",
+    "imageUrl": "assets/images/games/game_151.jpg",
+    "addedDate": "2021-11-14T11:51:53",
+    "personalRating": null,
+    "id": 151,
+    "players": "2-5",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Том Леманн"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Sand Castle Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/res-arcana-perlae-imperii",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:25"
+  },
+  {
+    "name": "Res Arcana: Свет и Тьма",
+    "url": "https://tesera.ru/game/res-arcana-lux-et-tenebrae",
+    "imageUrl": "assets/images/games/game_152.jpg",
+    "addedDate": "2021-11-14T11:51:30",
+    "personalRating": null,
+    "id": 152,
+    "players": "2-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Том Леманн"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Sand Castle Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/res-arcana-lux-et-tenebrae",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:32"
+  },
+  {
+    "name": "Мачи Коро Шарп",
+    "url": "https://tesera.ru/game/Machi-Koro-Sharp",
+    "imageUrl": "assets/images/games/game_153.jpg",
+    "addedDate": "2021-11-14T11:51:00",
+    "personalRating": null,
+    "id": 153,
+    "players": "2-4",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Masao Suganuma"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Grounding"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Machi-Koro-Sharp",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:40"
+  },
+  {
+    "name": "Unmatched: Битва легенд. Том I",
+    "url": "https://tesera.ru/game/Unmatched-Battle-of-Legends-Volume-1",
+    "imageUrl": "assets/images/games/game_154.jpg",
+    "addedDate": "2021-10-18T19:32:44",
+    "personalRating": null,
+    "id": 154,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джастин Д. Джейкобсон",
+      "J.R. Honeycutt",
+      "Роб Давио"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Restoration Games",
+      "Mondo Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Unmatched-Battle-of-Legends-Volume-1",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:47"
+  },
+  {
+    "name": "Unmatched: Робин Гуд vs. Бигфут",
+    "url": "https://tesera.ru/game/Unmatched-Robin-Hood-vs-Bigfoot",
+    "imageUrl": "assets/images/games/game_155.jpg",
+    "addedDate": "2021-10-18T19:32:24",
+    "personalRating": null,
+    "id": 155,
+    "players": "2",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джастин Д. Джейкобсон",
+      "J.R. Honeycutt",
+      "Роб Давио"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Restoration Games",
+      "Mondo Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Unmatched-Robin-Hood-vs-Bigfoot",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:09:55"
+  },
+  {
+    "name": "Unmatched: Туман над мостовой",
+    "url": "https://tesera.ru/game/UnmatchedCF",
+    "imageUrl": "assets/images/games/game_156.jpg",
+    "addedDate": "2021-10-18T19:32:09",
+    "personalRating": null,
+    "id": 156,
+    "players": "2-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Крис Лидер",
+      "Джастин Д. Джейкобсон",
+      "Роб Давио"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Mondo Games",
+      "Restoration Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/UnmatchedCF",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:01"
+  },
+  {
+    "name": "Диамант",
+    "url": "https://tesera.ru/game/diamant-2016-iello-edition",
+    "imageUrl": "assets/images/games/game_157.jpg",
+    "addedDate": "2021-10-01T22:17:17",
+    "personalRating": null,
+    "id": 157,
+    "players": "3-8",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Файдутти",
+      "Алан Мун"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "IELLO"
+    ],
+    "teseraUrl": "https://tesera.ru/game/diamant-2016-iello-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:09"
+  },
+  {
+    "name": "Forbidden Stars",
+    "url": "https://tesera.ru/game/Forbidden-Stars",
+    "imageUrl": "assets/images/games/game_158.jpg",
+    "addedDate": "2021-09-21T17:03:48",
+    "personalRating": null,
+    "id": 158,
+    "players": "2-4",
+    "duration": "",
+    "year": "",
+    "age": "Во время презентации компании Fantasy Flight Games в рамках профессиональной выставки GAMA Trade Show 2015 прозвучало, что игра разрабатывалась несколько лет.",
+    "rating": "-",
+    "authors": [
+      "James Kniffen",
+      "Samuel Bailey",
+      "Кори Коничка"
+    ],
+    "publishers": [
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Forbidden-Stars",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:18"
+  },
+  {
+    "name": "Eclipse. Второй рассвет галактики",
+    "url": "https://tesera.ru/game/eclipse-second-dawn-for-the-galaxy",
+    "imageUrl": "assets/images/games/game_159.jpg",
+    "addedDate": "2021-09-21T17:03:16",
+    "personalRating": null,
+    "id": 159,
+    "players": "2-6",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Тоуко Тахкокаллио"
+    ],
+    "publishers": [
+      "Lautapelit.fi",
+      "Crowd Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/eclipse-second-dawn-for-the-galaxy",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:27"
+  },
+  {
+    "name": "Плотина: Проект «Легватер»",
+    "url": "https://tesera.ru/game/barrage-leeghwater-project",
+    "imageUrl": "assets/images/games/game_160.jpg",
+    "addedDate": "2021-09-15T13:41:15",
+    "personalRating": null,
+    "id": 160,
+    "players": "1-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Томмазо Баттиста",
+      "Симоне Лучани"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Cranio Creations",
+      "sternenschimmermeer"
+    ],
+    "teseraUrl": "https://tesera.ru/game/barrage-leeghwater-project",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:35"
+  },
+  {
+    "name": "Плотина",
+    "url": "https://tesera.ru/game/barrage",
+    "imageUrl": "assets/images/games/game_161.jpg",
+    "addedDate": "2021-09-15T13:40:54",
+    "personalRating": null,
+    "id": 161,
+    "players": "1-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Томмазо Баттиста",
+      "Симоне Лучани"
+    ],
+    "publishers": [
+      "WoodCat",
+      "Crowd Games",
+      "Cranio Creations"
+    ],
+    "teseraUrl": "https://tesera.ru/game/barrage",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:44"
+  },
+  {
+    "name": "Azul. Летний дворец",
+    "url": "https://tesera.ru/game/azul-summer-pavilion",
+    "imageUrl": "assets/images/games/game_162.jpg",
+    "addedDate": "2021-09-08T17:57:58",
+    "personalRating": null,
+    "id": 162,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Михаэль Кислинг"
+    ],
+    "publishers": [
+      "Звезда",
+      "Next Move Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/azul-summer-pavilion",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:51"
+  },
+  {
+    "name": "Монополия Россия",
+    "url": "https://tesera.ru/game/monopoly-russia",
+    "imageUrl": "assets/images/games/game_163.jpg",
+    "addedDate": "2021-09-04T12:42:06",
+    "personalRating": null,
+    "id": 163,
+    "players": "2-6",
+    "duration": "",
+    "year": "2010",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Hasbro"
+    ],
+    "teseraUrl": "https://tesera.ru/game/monopoly-russia",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:10:59"
+  },
+  {
+    "name": "Red7",
+    "url": "https://tesera.ru/game/Red7",
+    "imageUrl": "assets/images/games/game_164.jpg",
+    "addedDate": "2021-09-04T12:40:15",
+    "personalRating": null,
+    "id": 164,
+    "players": "2-4",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Крис Сеслик",
+      "Карл Чудык"
+    ],
+    "publishers": [
+      "Asmadi Games",
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Red7",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:11:06"
+  },
+  {
+    "name": "Runebound Третья редакция - Нерушимые узы",
+    "url": "https://tesera.ru/game/Runebound-Third-Edition-Unbreakable-Bonds",
+    "imageUrl": "assets/images/games/game_165.jpg",
+    "addedDate": "2021-09-04T12:36:04",
+    "personalRating": null,
+    "id": 165,
+    "players": "1-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Runebound-Third-Edition-Unbreakable-Bonds",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:11:14"
+  },
+  {
+    "name": "Погоня за «Авророй»: Проект «Афина»",
+    "url": "https://tesera.ru/game/last-aurora-project-athena",
+    "imageUrl": "assets/images/games/game_166.jpg",
+    "addedDate": "2021-09-04T12:32:45",
+    "personalRating": null,
+    "id": 166,
+    "players": "2-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Mauro Chiabotto"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Pendragon Game Studio"
+    ],
+    "teseraUrl": "https://tesera.ru/game/last-aurora-project-athena",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:11:22"
+  },
+  {
+    "name": "7 чудес: Дуэль - Агора",
+    "url": "https://tesera.ru/game/7-wonders-duel-agora",
+    "imageUrl": "assets/images/games/game_167.jpg",
+    "addedDate": "2021-09-04T12:28:45",
+    "personalRating": null,
+    "id": 167,
+    "players": "2",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Антуан Боза",
+      "Бруно Катала"
+    ],
+    "publishers": [
+      "Repos Production"
+    ],
+    "teseraUrl": "https://tesera.ru/game/7-wonders-duel-agora",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:11:29"
+  },
+  {
+    "name": "Magic: The Gathering",
+    "url": "https://tesera.ru/game/magic-the-gathering",
+    "imageUrl": "assets/images/games/game_168.jpg",
+    "addedDate": "2021-09-04T12:27:37",
+    "personalRating": null,
+    "id": 168,
+    "players": "2-8",
+    "duration": "",
+    "year": "1993",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Марк Роузвотер",
+      "Ричард Гарфилд"
+    ],
+    "publishers": [
+      "Wizards of the Coast"
+    ],
+    "teseraUrl": "https://tesera.ru/game/magic-the-gathering",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:11:38"
+  },
+  {
+    "name": "Шарлатаны из Кведлинбурга: Ведьмы-травницы",
+    "url": "https://tesera.ru/game/the-quacks-of-quedlinburg-the-herb-witches",
+    "imageUrl": "assets/images/games/game_169.jpg",
+    "addedDate": "2021-09-04T12:23:59",
+    "personalRating": null,
+    "id": 169,
+    "players": "2-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Вольфганг Варш"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "999 Games",
+      "Schmidt Spiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/the-quacks-of-quedlinburg-the-herb-witches",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:11:46"
+  },
+  {
+    "name": "Великий западный путь. Дорога на Север",
+    "url": "https://tesera.ru/game/great-western-trail-rails-to-the-north",
+    "imageUrl": "assets/images/games/game_170.jpg",
+    "addedDate": "2021-09-04T12:22:39",
+    "personalRating": null,
+    "id": 170,
+    "players": "2-4",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Александр Пфистер"
+    ],
+    "publishers": [
+      "Звезда",
+      "Eggertspiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/great-western-trail-rails-to-the-north",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:11:53"
+  },
+  {
+    "name": "Сквозь века: Новая история цивилизации - Новые лидеры и чудеса",
+    "url": "https://tesera.ru/game/through-ages-new-leaders-and-wonders",
+    "imageUrl": "assets/images/games/game_171.jpg",
+    "addedDate": "2021-09-04T12:19:44",
+    "personalRating": null,
+    "id": 171,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Владя Хватил"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/through-ages-new-leaders-and-wonders",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:03"
+  },
+  {
+    "name": "Сундук войны. Дворянство",
+    "url": "https://tesera.ru/game/warchest-nobility",
+    "imageUrl": "assets/images/games/game_172.jpg",
+    "addedDate": "2021-09-04T12:19:00",
+    "personalRating": null,
+    "id": 172,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Дэвид Томпсон (I)",
+      "Тревор Бенджамин"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Alderac Entertainment Group (AEG)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/warchest-nobility",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:11"
+  },
+  {
+    "name": "Иниш. Сезоны",
+    "url": "https://tesera.ru/game/inis-seasons-of-inis",
+    "imageUrl": "assets/images/games/game_173.jpg",
+    "addedDate": "2021-09-04T12:18:29",
+    "personalRating": null,
+    "id": 173,
+    "players": "2-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Лавка игр",
+      "Ход Конём (Украина)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/inis-seasons-of-inis",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:19"
+  },
+  {
+    "name": "Звёздные Войны: Восстание. Рассвет Империи",
+    "url": "https://tesera.ru/game/star-wars-rebellion-rise-of-the-empire",
+    "imageUrl": "assets/images/games/game_174.jpg",
+    "addedDate": "2021-09-04T12:18:13",
+    "personalRating": null,
+    "id": 174,
+    "players": "2-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/star-wars-rebellion-rise-of-the-empire",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:28"
+  },
+  {
+    "name": "Остров духов. Ветви и когти",
+    "url": "https://tesera.ru/game/Spirit-Island-Branch-and-Claw",
+    "imageUrl": "assets/images/games/game_175.jpg",
+    "addedDate": "2021-09-04T12:17:14",
+    "personalRating": null,
+    "id": 175,
+    "players": "1-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Hobby World",
+      "Greater Than Games (Dice Hate Me Games)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Spirit-Island-Branch-and-Claw",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:36"
+  },
+  {
+    "name": "Борьба за галактику: Перед бурей",
+    "url": "https://tesera.ru/game/race-for-the-galaxy-the-gathering-storm",
+    "imageUrl": "assets/images/games/game_176.jpg",
+    "addedDate": "2021-09-04T12:16:37",
+    "personalRating": null,
+    "id": 176,
+    "players": "1-5",
+    "duration": "",
+    "year": "2008",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Том Леманн"
+    ],
+    "publishers": [
+      "Дом Игр (Украина)",
+      "Ystari Games",
+      "Wargames Club Publishing",
+      "Rio Grande Games",
+      "Hobby Japan",
+      "Giochix.it",
+      "Ghenos Games",
+      "Gamesinitaly",
+      "Abacusspiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/race-for-the-galaxy-the-gathering-storm",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:43"
+  },
+  {
+    "name": "Орифламма. Пламя войны",
+    "url": "https://tesera.ru/game/oriflamme-embrasement",
+    "imageUrl": "assets/images/games/game_177.jpg",
+    "addedDate": "2021-09-04T12:15:37",
+    "personalRating": null,
+    "id": 177,
+    "players": "3-5",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Axel Hesling",
+      "Adrien Hesling"
+    ],
+    "publishers": [
+      "Эврикус",
+      "Mandoo Games",
+      "Studio H"
+    ],
+    "teseraUrl": "https://tesera.ru/game/oriflamme-embrasement",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:51"
+  },
+  {
+    "name": "Королевские хроники",
+    "url": "https://tesera.ru/game/Paper-Tales",
+    "imageUrl": "assets/images/games/game_178.jpg",
+    "addedDate": "2021-09-04T12:15:06",
+    "personalRating": null,
+    "id": 178,
+    "players": "2-5",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Masato Uesugi"
+    ],
+    "publishers": [
+      "Stronghold Games",
+      "Pegasus Spiele",
+      "MS Edizioni",
+      "Mercurio",
+      "Game Harbor",
+      "Frosted Games",
+      "Engames",
+      "Эврикус",
+      "Catch Up Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Paper-Tales",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:12:59"
+  },
+  {
+    "name": "Бумажные подземелья",
+    "url": "https://tesera.ru/game/paper-dungeons",
+    "imageUrl": "assets/images/games/game_179.jpg",
+    "addedDate": "2021-09-04T12:14:30",
+    "personalRating": null,
+    "id": 179,
+    "players": "1-8",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Leandro Pires"
+    ],
+    "publishers": [
+      "MeepleBR",
+      "Alley Cat Games",
+      "Лавка игр"
+    ],
+    "teseraUrl": "https://tesera.ru/game/paper-dungeons",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:13:07"
+  },
+  {
+    "name": "Кубарем по Галактике. Амбиции",
+    "url": "https://tesera.ru/game/roll-for-the-galaxy-ambition",
+    "imageUrl": "assets/images/games/game_180.jpg",
+    "addedDate": "2021-09-04T12:12:30",
+    "personalRating": null,
+    "id": 180,
+    "players": "",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Том Леманн",
+      "Вэй-Хва Хуан"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Rio Grande Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/roll-for-the-galaxy-ambition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:13:15"
+  },
+  {
+    "name": "Конкордия",
+    "url": "https://tesera.ru/game/concordia",
+    "imageUrl": "assets/images/games/game_181.jpg",
+    "addedDate": "2021-09-04T12:11:45",
+    "personalRating": null,
+    "id": 181,
+    "players": "2-5",
+    "duration": "",
+    "year": "2013",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Мак Гердтс"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "PD-Verlag"
+    ],
+    "teseraUrl": "https://tesera.ru/game/concordia",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:13:23"
+  },
+  {
+    "name": "Дюна: Империя",
+    "url": "https://tesera.ru/game/dune-imperium",
+    "imageUrl": "assets/images/games/game_182.jpg",
+    "addedDate": "2021-09-04T12:10:16",
+    "personalRating": null,
+    "id": 182,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Пол Деннен"
+    ],
+    "publishers": [
+      "Geekach Games",
+      "Lucky Duck Games",
+      "Лавка игр",
+      "Dire Wolf"
+    ],
+    "teseraUrl": "https://tesera.ru/game/dune-imperium",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:13:32"
+  },
+  {
+    "name": "Коза Ностра",
+    "url": "https://tesera.ru/game/la-cosa-nostra",
+    "imageUrl": "assets/images/games/game_183.jpg",
+    "addedDate": "2021-09-04T12:09:50",
+    "personalRating": null,
+    "id": 183,
+    "players": "3-5",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Johannes Sich"
+    ],
+    "publishers": [
+      "Choo Choo Games",
+      "Низа Гамс",
+      "Baldar",
+      "Hard Boiled games",
+      "Quined Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/la-cosa-nostra",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:13:41"
+  },
+  {
+    "name": "Баталия",
+    "url": "https://tesera.ru/game/battle-line",
+    "imageUrl": "assets/images/games/game_184.jpg",
+    "addedDate": "2021-09-04T12:08:48",
+    "personalRating": null,
+    "id": 184,
+    "players": "2",
+    "duration": "",
+    "year": "2000",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Райнер Книция"
+    ],
+    "publishers": [
+      "Wargames Club Publishing",
+      "GMT Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/battle-line",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:13:50"
+  },
+  {
+    "name": "Селестия",
+    "url": "https://tesera.ru/game/celestia",
+    "imageUrl": "assets/images/games/game_185.jpg",
+    "addedDate": "2021-07-13T17:57:14",
+    "personalRating": null,
+    "id": 185,
+    "players": "2-6",
+    "duration": "",
+    "year": "2015",
+    "age": "В то же время, если капитан не может выполнить задание, все терпят крах - остаются с пустыми руками и начинается новый полет со всеми пассажирами на борту.",
+    "rating": "-",
+    "authors": [
+      "Aaron Weissblum"
+    ],
+    "publishers": [
+      "Эврикус",
+      "ABBA Games",
+      "Jolly Thinkers",
+      "HOBBITY.eu",
+      "HeidelBÄR Games",
+      "BLAM!"
+    ],
+    "teseraUrl": "https://tesera.ru/game/celestia",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:13:58"
+  },
+  {
+    "name": "Осквернённый Грааль. Падение Авалона",
+    "url": "https://tesera.ru/game/tainted-grail-the-fall-of-avalon",
+    "imageUrl": "assets/images/games/game_186.jpg",
+    "addedDate": "2021-07-13T17:56:18",
+    "personalRating": null,
+    "id": 186,
+    "players": "1-4",
+    "duration": "миниатюры",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кшиштоф Пискорский",
+      "Марцин Сверкот"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Awaken Realms"
+    ],
+    "teseraUrl": "https://tesera.ru/game/tainted-grail-the-fall-of-avalon",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:14:07"
+  },
+  {
+    "name": "На Марсе",
+    "url": "https://tesera.ru/game/mars",
+    "imageUrl": "assets/images/games/game_187.jpg",
+    "addedDate": "2021-07-13T17:54:57",
+    "personalRating": "9",
+    "id": 187,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Витал Ласерда"
+    ],
+    "publishers": [
+      "Skellig Games",
+      "Лавка игр",
+      "Angry Lion Games",
+      "Eagle-Gryphon Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/mars",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:14:15"
+  },
+  {
+    "name": "Сундук войны",
+    "url": "https://tesera.ru/game/warchest",
+    "imageUrl": "assets/images/games/game_188.jpg",
+    "addedDate": "2021-07-13T17:54:46",
+    "personalRating": null,
+    "id": 188,
+    "players": "2-4",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Дэвид Томпсон (I)",
+      "Тревор Бенджамин"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Alderac Entertainment Group (AEG)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/warchest",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:14:23"
+  },
+  {
+    "name": "Нидавеллир",
+    "url": "https://tesera.ru/game/nidavellir",
+    "imageUrl": "assets/images/games/game_189.jpg",
+    "addedDate": "2021-07-13T17:54:37",
+    "personalRating": null,
+    "id": 189,
+    "players": "2-5",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Серж Лаже"
+    ],
+    "publishers": [
+      "Hachette Boardgames USA",
+      "Pegasus Spiele",
+      "Эврикус"
+    ],
+    "teseraUrl": "https://tesera.ru/game/nidavellir",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:14:32"
+  },
+  {
+    "name": "Menara",
+    "url": "https://tesera.ru/game/menara",
+    "imageUrl": "assets/images/games/game_190.jpg",
+    "addedDate": "2021-07-13T17:54:22",
+    "personalRating": null,
+    "id": 190,
+    "players": "1-4",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Оливер Рихтберг"
+    ],
+    "publishers": [
+      "Zoch Verlag"
+    ],
+    "teseraUrl": "https://tesera.ru/game/menara",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:14:41"
+  },
+  {
+    "name": "Сумеречная борьба: Делюкс издание",
+    "url": "https://tesera.ru/game/twilight-struggle",
+    "imageUrl": "assets/images/games/game_191.jpg",
+    "addedDate": "2021-07-13T17:53:52",
+    "personalRating": null,
+    "id": 191,
+    "players": "2",
+    "duration": "",
+    "year": "2005",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Ananda Gupta",
+      "Jason Matthews"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Wargames Club Publishing",
+      "GMT Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/twilight-struggle",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:14:49"
+  },
+  {
+    "name": "Драфтозавры",
+    "url": "https://tesera.ru/game/Draftosaurus",
+    "imageUrl": "assets/images/games/game_192.jpg",
+    "addedDate": "2021-07-13T17:53:29",
+    "personalRating": null,
+    "id": 192,
+    "players": "2-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Тео Ривьер",
+      "Людовик Моблан",
+      "Корентан Лебра",
+      "Антуан Боза"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Board Game Box",
+      "Ankama"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Draftosaurus",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:14:56"
+  },
+  {
+    "name": "Пэчворк",
+    "url": "https://tesera.ru/game/patchwork",
+    "imageUrl": "assets/images/games/game_193.jpg",
+    "addedDate": "2021-07-13T17:53:15",
+    "personalRating": null,
+    "id": 193,
+    "players": "2",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Уве Розенберг"
+    ],
+    "publishers": [
+      "Нескучные игры",
+      "Crowd Games",
+      "Lookout Games",
+      "Mayfair Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/patchwork",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:15:05"
+  },
+  {
+    "name": "Синдикат",
+    "url": "https://tesera.ru/game/sentient",
+    "imageUrl": "assets/images/games/game_194.jpg",
+    "addedDate": "2021-07-13T17:53:01",
+    "personalRating": null,
+    "id": 194,
+    "players": "2-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "J. Alex Kevern"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Renegade Game Studios"
+    ],
+    "teseraUrl": "https://tesera.ru/game/sentient",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:15:14"
+  },
+  {
+    "name": "Кассиопея",
+    "url": "https://tesera.ru/game/Kassiopeja",
+    "imageUrl": "assets/images/games/game_195.jpg",
+    "addedDate": "2021-07-13T17:52:35",
+    "personalRating": null,
+    "id": 195,
+    "players": "2-5",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Николай Пегасов"
+    ],
+    "publishers": [
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Kassiopeja",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:15:21"
+  },
+  {
+    "name": "Форт",
+    "url": "https://tesera.ru/game/fast-forward-fortress",
+    "imageUrl": "assets/images/games/game_196.jpg",
+    "addedDate": "2021-07-13T17:52:10",
+    "personalRating": null,
+    "id": 196,
+    "players": "2-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Фридеман Фризе"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Stronghold Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/fast-forward-fortress",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:15:28"
+  },
+  {
+    "name": "Корова 006",
+    "url": "https://tesera.ru/game/6-nimmt",
+    "imageUrl": "assets/images/games/game_197.jpg",
+    "addedDate": "2021-07-13T17:52:02",
+    "personalRating": null,
+    "id": 197,
+    "players": "2-10",
+    "duration": "",
+    "year": "1994",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Вольфганг Крамер"
+    ],
+    "publishers": [
+      "Shafir Games",
+      "AMIGO",
+      "Korea Boardgames",
+      "Mercurio",
+      "Brain Games",
+      "999 Games",
+      "Стиль жизни"
+    ],
+    "teseraUrl": "https://tesera.ru/game/6-nimmt",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:15:36"
+  },
+  {
+    "name": "Шакал",
+    "url": "https://tesera.ru/game/jackal",
+    "imageUrl": "assets/images/games/game_198.jpg",
+    "addedDate": "2021-07-13T17:51:54",
+    "personalRating": null,
+    "id": 198,
+    "players": "2-4",
+    "duration": "",
+    "year": "2009",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Дмитрий Кибкало"
+    ],
+    "publishers": [
+      "Tabulagames.ru",
+      "Магеллан",
+      "Мосигра"
+    ],
+    "teseraUrl": "https://tesera.ru/game/jackal",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:15:43"
+  },
+  {
+    "name": "Путь лепестка",
+    "url": "https://tesera.ru/game/Hanamikoji",
+    "imageUrl": "assets/images/games/game_199.jpg",
+    "addedDate": "2021-07-13T17:51:40",
+    "personalRating": null,
+    "id": 199,
+    "players": "2",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Звезда",
+      "Reflexshop",
+      "White Goblin Games",
+      "Nasza Księgarnia",
+      "Ludicus",
+      "Deep Water Games",
+      "COLON ARC",
+      "KOSMOS",
+      "Quick Simple Fun Games",
+      "Takamagahara",
+      "EmperorS4 Games",
+      "Maisherly"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Hanamikoji",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:15:50"
+  },
+  {
+    "name": "Каркассон. Королевский Подарок",
+    "url": "https://tesera.ru/game/karkasson-korolevskii-podarok",
+    "imageUrl": "assets/images/games/game_200.jpg",
+    "addedDate": "2021-07-13T17:51:28",
+    "personalRating": null,
+    "id": 200,
+    "players": "2-6",
+    "duration": "",
+    "year": "2013",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/karkasson-korolevskii-podarok",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:16:01"
+  },
+  {
+    "name": "Экипаж. Экспедиция к девятой планете",
+    "url": "https://tesera.ru/game/die-crew-reist-gemeinsam-zum-9-planeten",
+    "imageUrl": "assets/images/games/game_201.jpg",
+    "addedDate": "2021-07-13T17:50:27",
+    "personalRating": null,
+    "id": 201,
+    "players": "3-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Thomas Sing"
+    ],
+    "publishers": [
+      "Звезда",
+      "KOSMOS"
+    ],
+    "teseraUrl": "https://tesera.ru/game/die-crew-reist-gemeinsam-zum-9-planeten",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:16:08"
+  },
+  {
+    "name": "Орифламма",
+    "url": "https://tesera.ru/game/oriflamme",
+    "imageUrl": "assets/images/games/game_202.jpg",
+    "addedDate": "2021-07-13T17:50:15",
+    "personalRating": null,
+    "id": 202,
+    "players": "3-5",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Axel Hesling",
+      "Adrien Hesling"
+    ],
+    "publishers": [
+      "Geekach Games",
+      "Эврикус",
+      "Gen-X Games",
+      "Studio H",
+      "MS Edizioni",
+      "Pegasus Spiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/oriflamme",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:16:18"
+  },
+  {
+    "name": "Продано!",
+    "url": "https://tesera.ru/game/for-sale",
+    "imageUrl": "assets/images/games/game_203.jpg",
+    "addedDate": "2021-07-13T17:50:06",
+    "personalRating": null,
+    "id": 203,
+    "players": "3-6",
+    "duration": "",
+    "year": "1997",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Штефан Дорра"
+    ],
+    "publishers": [
+      "Geekach Games",
+      "Нескучные игры",
+      "FX Schmid",
+      "Gabinete Ludico",
+      "Eagle-Gryphon Games",
+      "Überplay",
+      "Ravensburger Spieleverlag GmbH",
+      "Wargames Club Publishing",
+      "Взрослые дети"
+    ],
+    "teseraUrl": "https://tesera.ru/game/for-sale",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:16:26"
+  },
+  {
+    "name": "Салат удачи",
+    "url": "https://tesera.ru/game/point-salad",
+    "imageUrl": "assets/images/games/game_204.jpg",
+    "addedDate": "2021-07-13T17:49:52",
+    "personalRating": null,
+    "id": 204,
+    "players": "2-6",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Shawn Stankewich",
+      "Robert Melvin",
+      "Molly Johnson"
+    ],
+    "publishers": [
+      "Hobby World",
+      "White Goblin Games",
+      "Mandoo Games",
+      "Alderac Entertainment Group (AEG)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/point-salad",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:16:36"
+  },
+  {
+    "name": "Бумажные кварталы",
+    "url": "https://tesera.ru/game/Welcome-To",
+    "imageUrl": "assets/images/games/game_205.jpg",
+    "addedDate": "2021-07-13T17:49:29",
+    "personalRating": null,
+    "id": 205,
+    "players": "1-12",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "Blue Cocker Games",
+      "SD Games",
+      "Dude Games",
+      "Deep Water Games",
+      "Стиль жизни"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Welcome-To",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:16:43"
+  },
+  {
+    "name": "Картографы",
+    "url": "https://tesera.ru/game/Cartographers-A-Roll-Player-Tale",
+    "imageUrl": "assets/images/games/game_206.jpg",
+    "addedDate": "2021-07-13T17:49:04",
+    "personalRating": null,
+    "id": 206,
+    "players": "1-99",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Jordy Adan"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Thunderworks Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Cartographers-A-Roll-Player-Tale",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:16:52"
+  },
+  {
+    "name": "Artline: Эрмитаж",
+    "url": "https://tesera.ru/game/artline-ermitazh",
+    "imageUrl": "assets/images/games/game_207.jpg",
+    "addedDate": "2021-07-13T17:48:27",
+    "personalRating": null,
+    "id": 207,
+    "players": "2-5",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Тилль Ф. Тенк"
+    ],
+    "publishers": [
+      "Hobby World"
+    ],
+    "teseraUrl": "https://tesera.ru/game/artline-ermitazh",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:00"
+  },
+  {
+    "name": "Мистер Джек в Лондоне",
+    "url": "https://tesera.ru/game/mr-jack",
+    "imageUrl": "assets/images/games/game_208.jpg",
+    "addedDate": "2021-07-13T17:47:54",
+    "personalRating": null,
+    "id": 208,
+    "players": "2",
+    "duration": "",
+    "year": "2006",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Людовик Моблан",
+      "Бруно Катала"
+    ],
+    "publishers": [
+      "Neuroludic",
+      "Hurrican"
+    ],
+    "teseraUrl": "https://tesera.ru/game/mr-jack",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:08"
+  },
+  {
+    "name": "Скотланд-Ярд",
+    "url": "https://tesera.ru/game/scotland-yard",
+    "imageUrl": "assets/images/games/game_209.jpg",
+    "addedDate": "2021-07-13T17:46:56",
+    "personalRating": null,
+    "id": 209,
+    "players": "2-6",
+    "duration": "",
+    "year": "1983",
+    "age": "",
+    "rating": "-",
+    "authors": [],
+    "publishers": [
+      "От и До",
+      "Ravensburger Spieleverlag GmbH"
+    ],
+    "teseraUrl": "https://tesera.ru/game/scotland-yard",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:16"
+  },
+  {
+    "name": "Манчкин Ктулху",
+    "url": "https://tesera.ru/game/munchkin-cthulhu",
+    "imageUrl": "assets/images/games/game_210.jpg",
+    "addedDate": "2021-07-13T17:46:44",
+    "personalRating": null,
+    "id": 210,
+    "players": "2-6",
+    "duration": "",
+    "year": "2007",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Стив Джексон"
+    ],
+    "publishers": [
+      "Активити Сити",
+      "Hobby World",
+      "Ubik",
+      "PS-Games",
+      "Pegasus Spiele",
+      "Edge Entertainment",
+      "Arclight",
+      "Steve Jackson Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/munchkin-cthulhu",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:24"
+  },
+  {
+    "name": "Мачи Коро",
+    "url": "https://tesera.ru/game/machi-koro",
+    "imageUrl": "assets/images/games/game_211.jpg",
+    "addedDate": "2021-07-13T17:46:20",
+    "personalRating": null,
+    "id": 211,
+    "players": "2-5",
+    "duration": "",
+    "year": "2012",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Masao Suganuma"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Foxgames (Poland)",
+      "Grounding",
+      "KOSMOS",
+      "Moonster Games",
+      "uplay.it edizioni",
+      "Pandasaurus Games",
+      "IDW Games",
+      "Japon Brand"
+    ],
+    "teseraUrl": "https://tesera.ru/game/machi-koro",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:32"
+  },
+  {
+    "name": "Кольт Экспресс",
+    "url": "https://tesera.ru/game/Colt-Express",
+    "imageUrl": "assets/images/games/game_212.jpg",
+    "addedDate": "2021-07-13T17:46:02",
+    "personalRating": null,
+    "id": 212,
+    "players": "2-6",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кристоф Рэмбо"
+    ],
+    "publishers": [
+      "Стиль жизни",
+      "Ludonaute"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Colt-Express",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:41"
+  },
+  {
+    "name": "Битвы героев",
+    "url": "https://tesera.ru/game/bitvy-geroyev",
+    "imageUrl": "assets/images/games/game_213.jpg",
+    "addedDate": "2021-07-13T17:45:37",
+    "personalRating": null,
+    "id": 213,
+    "players": "2-4",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Дарвин Касл",
+      "Роберт Догерти"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Wise Wizard Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/bitvy-geroyev",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:50"
+  },
+  {
+    "name": "Звёздные империи",
+    "url": "https://tesera.ru/game/star-realms",
+    "imageUrl": "assets/images/games/game_214.jpg",
+    "addedDate": "2021-07-13T17:44:58",
+    "personalRating": null,
+    "id": 214,
+    "players": "2",
+    "duration": "",
+    "year": "2013",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Дарвин Касл",
+      "Роберт Догерти"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Wise Wizard Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/star-realms",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:17:59"
+  },
+  {
+    "name": "Cluedo (2017)",
+    "url": "https://tesera.ru/game/cluedo2017",
+    "imageUrl": "assets/images/games/game_215.jpg",
+    "addedDate": "2021-07-13T17:44:31",
+    "personalRating": null,
+    "id": 215,
+    "players": "2-6",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Anthony E. Pratt"
+    ],
+    "publishers": [
+      "Hasbro"
+    ],
+    "teseraUrl": "https://tesera.ru/game/cluedo2017",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:18:07"
+  },
+  {
+    "name": "Шарлатаны из Кведлинбурга",
+    "url": "https://tesera.ru/game/die-quacksalber-von-quedlinburg",
+    "imageUrl": "assets/images/games/game_216.jpg",
+    "addedDate": "2021-07-13T17:42:29",
+    "personalRating": null,
+    "id": 216,
+    "players": "2-4",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Вольфганг Варш"
+    ],
+    "publishers": [
+      "Лавка игр",
+      "Schmidt Spiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/die-quacksalber-von-quedlinburg",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:18:15"
+  },
+  {
+    "name": "Погоня за «Авророй»",
+    "url": "https://tesera.ru/game/last-aurora",
+    "imageUrl": "assets/images/games/game_217.jpg",
+    "addedDate": "2021-07-13T17:42:19",
+    "personalRating": null,
+    "id": 217,
+    "players": "1-4",
+    "duration": "",
+    "year": "2020",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Mauro Chiabotto"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Pendragon Game Studio"
+    ],
+    "teseraUrl": "https://tesera.ru/game/last-aurora",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:18:22"
+  },
+  {
+    "name": "Res Arcana",
+    "url": "https://tesera.ru/game/Res-Arcana",
+    "imageUrl": "assets/images/games/game_218.jpg",
+    "addedDate": "2021-07-13T17:39:11",
+    "personalRating": null,
+    "id": 218,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Том Леманн"
+    ],
+    "publishers": [
+      "Geekach Games",
+      "GaGa Games",
+      "Rebel",
+      "Sand Castle Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Res-Arcana",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:18:30"
+  },
+  {
+    "name": "Santorini",
+    "url": "https://tesera.ru/game/santorini",
+    "imageUrl": "assets/images/games/game_219.jpg",
+    "addedDate": "2021-07-09T20:39:01",
+    "personalRating": null,
+    "id": 219,
+    "players": "2-4",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Гордон 'Gord!' Гамильтон",
+      "Dr. Gordon Hamilton"
+    ],
+    "publishers": [
+      "Roxley Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/santorini",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:18:37"
+  },
+  {
+    "name": "Борьба за галактику",
+    "url": "https://tesera.ru/game/race-for-the-galaxy",
+    "imageUrl": "assets/images/games/game_220.jpg",
+    "addedDate": "2021-07-03T21:38:45",
+    "personalRating": null,
+    "id": 220,
+    "players": "1-4",
+    "duration": "",
+    "year": "2007",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Том Леманн"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Смарт",
+      "Ystari Games",
+      "Wargames Club Publishing",
+      "Rio Grande Games",
+      "Korea Boardgames",
+      "Giochix.it",
+      "Ghenos Games",
+      "Gamesinitaly",
+      "Gabinete Ludico",
+      "Albi",
+      "Abacusspiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/race-for-the-galaxy",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:18:45"
+  },
+  {
+    "name": "Последний день Атлантиды",
+    "url": "https://tesera.ru/game/survive-30th-anniversary-edition",
+    "imageUrl": "assets/images/games/game_221.jpg",
+    "addedDate": "2021-07-03T21:38:14",
+    "personalRating": null,
+    "id": 221,
+    "players": "2-4",
+    "duration": "",
+    "year": "2012",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джулиан Кортланд-Смит"
+    ],
+    "publishers": [
+      "Стиль жизни",
+      "Stronghold Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/survive-30th-anniversary-edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:18:53"
+  },
+  {
+    "name": "Поселенцы",
+    "url": "https://tesera.ru/game/imperial-settlers",
+    "imageUrl": "assets/images/games/game_222.jpg",
+    "addedDate": "2021-07-03T21:37:50",
+    "personalRating": null,
+    "id": 222,
+    "players": "1-4",
+    "duration": "",
+    "year": "2014",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Игнаций Тшевичек"
+    ],
+    "publishers": [
+      "REXhry",
+      "Звезда",
+      "Portal Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/imperial-settlers",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:19:00"
+  },
+  {
+    "name": "Цитадели Делюкс",
+    "url": "https://tesera.ru/game/Citadels-2016",
+    "imageUrl": "assets/images/games/game_223.jpg",
+    "addedDate": "2021-07-03T21:37:23",
+    "personalRating": null,
+    "id": 223,
+    "players": "2-8",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Файдутти"
+    ],
+    "publishers": [
+      "Играриум | Igrarium.com.ua",
+      "Hobby World",
+      "DesktopGames - Игромаг (Украина)",
+      "Windrider Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Citadels-2016",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:19:08"
+  },
+  {
+    "name": "Остров духов",
+    "url": "https://tesera.ru/game/spirit-island",
+    "imageUrl": "assets/images/games/game_224.jpg",
+    "addedDate": "2021-07-03T21:36:39",
+    "personalRating": null,
+    "id": 224,
+    "players": "1-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "R. Eric Reuss"
+    ],
+    "publishers": [
+      "CrowdRepublic",
+      "Greater Than Games (Dice Hate Me Games)"
+    ],
+    "teseraUrl": "https://tesera.ru/game/spirit-island",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:19:17"
+  },
+  {
+    "name": "Уотергейт",
+    "url": "https://tesera.ru/game/wtrgate",
+    "imageUrl": "assets/images/games/game_225.jpg",
+    "addedDate": "2021-07-03T21:36:08",
+    "personalRating": null,
+    "id": 225,
+    "players": "2",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Маттиас Крамер"
+    ],
+    "publishers": [
+      "Salt & Pepper Games",
+      "GaGa Games",
+      "Pegasus Spiele",
+      "Capstone Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/wtrgate",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:19:29"
+  },
+  {
+    "name": "Runebound: Третья редакция",
+    "url": "https://tesera.ru/game/Runebound-Third-Edition",
+    "imageUrl": "assets/images/games/game_226.jpg",
+    "addedDate": "2021-07-03T21:34:49",
+    "personalRating": null,
+    "id": 226,
+    "players": "2-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Лукас Лицсингер"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Runebound-Third-Edition",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:19:39"
+  },
+  {
+    "name": "The Castles of Burgundy (20th Anniversary)",
+    "url": "https://tesera.ru/game/the-castles-of-burgundy-2019",
+    "imageUrl": "assets/images/games/game_227.jpg",
+    "addedDate": "2021-07-03T21:32:44",
+    "personalRating": null,
+    "id": 227,
+    "players": "1-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Штефан Фельд"
+    ],
+    "publishers": [
+      "Ravensburger Spieleverlag GmbH",
+      "Alea"
+    ],
+    "teseraUrl": "https://tesera.ru/game/the-castles-of-burgundy-2019",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:19:47"
+  },
+  {
+    "name": "Ганзейский союз: Полное издание",
+    "url": "https://tesera.ru/game/hansa-teutonica-big-box",
+    "imageUrl": "assets/images/games/game_228.jpg",
+    "addedDate": "2021-07-03T21:31:10",
+    "personalRating": null,
+    "id": 228,
+    "players": "3-5",
+    "duration": "",
+    "year": "2021",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Andreas Steding"
+    ],
+    "publishers": [
+      "Звезда",
+      "Pegasus Spiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/hansa-teutonica-big-box",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:19:55"
+  },
+  {
+    "name": "Космический контакт",
+    "url": "https://tesera.ru/game/CosmicEncounter42nd",
+    "imageUrl": "assets/images/games/game_229.jpg",
+    "addedDate": "2021-07-03T21:30:16",
+    "personalRating": null,
+    "id": 229,
+    "players": "3-5",
+    "duration": "",
+    "year": "",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кевин Уилсон",
+      "Питер Олотка",
+      "Билл Нортон",
+      "Джек Киттридж",
+      "Билл Эберле"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/CosmicEncounter42nd",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:20:06"
+  },
+  {
+    "name": "Великий западный путь (первое издание)",
+    "url": "https://tesera.ru/game/great-western-trail",
+    "imageUrl": "assets/images/games/game_230.jpg",
+    "addedDate": "2021-07-03T21:29:27",
+    "personalRating": null,
+    "id": 230,
+    "players": "2-4",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Александр Пфистер"
+    ],
+    "publishers": [
+      "Звезда",
+      "Eggertspiele"
+    ],
+    "teseraUrl": "https://tesera.ru/game/great-western-trail",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:20:13"
+  },
+  {
+    "name": "Древний ужас",
+    "url": "https://tesera.ru/game/Eldritch-Horror",
+    "imageUrl": "assets/images/games/game_231.jpg",
+    "addedDate": "2021-07-03T21:28:59",
+    "personalRating": null,
+    "id": 231,
+    "players": "1-8",
+    "duration": "",
+    "year": "2013",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кори Коничка",
+      "Никки Валенс"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Eldritch-Horror",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:20:23"
+  },
+  {
+    "name": "Марко Поло 2: На службе хана",
+    "url": "https://tesera.ru/game/marco-polo-ii-im-auftrag-des-khan",
+    "imageUrl": "assets/images/games/game_232.jpg",
+    "addedDate": "2021-07-03T21:28:42",
+    "personalRating": null,
+    "id": 232,
+    "players": "2-4",
+    "duration": "",
+    "year": "2019",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Симоне Лучани",
+      "Даниеле Ташини"
+    ],
+    "publishers": [
+      "Hobby World",
+      "Hans im Glück"
+    ],
+    "teseraUrl": "https://tesera.ru/game/marco-polo-ii-im-auftrag-des-khan",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:20:31"
+  },
+  {
+    "name": "Анахронность",
+    "url": "https://tesera.ru/game/anachrony",
+    "imageUrl": "assets/images/games/game_233.jpg",
+    "addedDate": "2021-07-03T21:28:24",
+    "personalRating": null,
+    "id": 233,
+    "players": "1-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Виктор Петер",
+      "Ричард Аманн",
+      "Victor Peter -",
+      "Давид Турци"
+    ],
+    "publishers": [
+      "Crowd Games",
+      "Mindclash Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/anachrony",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:20:39"
+  },
+  {
+    "name": "Иниш",
+    "url": "https://tesera.ru/game/Inis",
+    "imageUrl": "assets/images/games/game_234.jpg",
+    "addedDate": "2021-07-03T21:28:03",
+    "personalRating": null,
+    "id": 234,
+    "players": "2-4",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кристиан Мартинес"
+    ],
+    "publishers": [
+      "Ход Конём (Украина)",
+      "Pegasus Spiele",
+      "Matagot"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Inis",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:20:42"
+  },
+  {
+    "name": "7 чудес: Дуэль",
+    "url": "https://tesera.ru/game/7-wonders-duel",
+    "imageUrl": "assets/images/games/game_235.jpg",
+    "addedDate": "2021-07-03T21:27:40",
+    "personalRating": null,
+    "id": 235,
+    "players": "2",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Бруно Катала",
+      "Антуан Боза"
+    ],
+    "publishers": [
+      "Стиль жизни",
+      "Repos Production"
+    ],
+    "teseraUrl": "https://tesera.ru/game/7-wonders-duel",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:20:52"
+  },
+  {
+    "name": "Brass: Бирмингем",
+    "url": "https://tesera.ru/game/brass-birmingham",
+    "imageUrl": "assets/images/games/game_236.jpg",
+    "addedDate": "2021-07-03T21:27:02",
+    "personalRating": null,
+    "id": 236,
+    "players": "2-4",
+    "duration": "",
+    "year": "2018",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Мартин Уоллес",
+      "Мэтт Толман",
+      "Гэван  Браун"
+    ],
+    "publishers": [
+      "Lord of Boards",
+      "Crowd Games",
+      "Roxley Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/brass-birmingham",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:21:01"
+  },
+  {
+    "name": "Сквозь века: Новая история цивилизации",
+    "url": "https://tesera.ru/game/through-ages-new-story-civilization",
+    "imageUrl": "assets/images/games/game_237.jpg",
+    "addedDate": "2021-07-03T21:26:12",
+    "personalRating": null,
+    "id": 237,
+    "players": "2-4",
+    "duration": "",
+    "year": "2015",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Владя Хватил"
+    ],
+    "publishers": [
+      "GaGa Games",
+      "Czech Games Edition"
+    ],
+    "teseraUrl": "https://tesera.ru/game/through-ages-new-story-civilization",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:21:09"
+  },
+  {
+    "name": "Звёздные Войны: Восстание",
+    "url": "https://tesera.ru/game/Star-Wars-Rebellion",
+    "imageUrl": "assets/images/games/game_238.jpg",
+    "addedDate": "2021-07-03T21:25:20",
+    "personalRating": null,
+    "id": 238,
+    "players": "2-4",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Кори Коничка"
+    ],
+    "publishers": [
+      "Территория игр",
+      "Hobby World",
+      "Fantasy Flight Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/Star-Wars-Rebellion",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:21:19"
+  },
+  {
+    "name": "Проект «Гайя»",
+    "url": "https://tesera.ru/game/gaia-project",
+    "imageUrl": "assets/images/games/game_239.jpg",
+    "addedDate": "2021-07-03T21:24:48",
+    "personalRating": null,
+    "id": 239,
+    "players": "1-4",
+    "duration": "",
+    "year": "2017",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Хельге Остертаг",
+      "Jens Drögemüller"
+    ],
+    "publishers": [
+      "Asmodée"
+    ],
+    "teseraUrl": "https://tesera.ru/game/gaia-project",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:21:27"
+  },
+  {
+    "name": "Серп",
+    "url": "https://tesera.ru/game/scythe",
+    "imageUrl": "assets/images/games/game_240.jpg",
+    "addedDate": "2021-07-03T21:24:27",
+    "personalRating": null,
+    "id": 240,
+    "players": "1-5",
+    "duration": "",
+    "year": "2016",
+    "age": "",
+    "rating": "-",
+    "authors": [
+      "Джейми Стегмайер"
+    ],
+    "publishers": [
+      "Geekach Games",
+      "Crowd Games",
+      "Stonemaier Games"
+    ],
+    "teseraUrl": "https://tesera.ru/game/scythe",
+    "teseraId": "game",
+    "parsedAt": "2025-11-02 21:21:30"
+  }
+]

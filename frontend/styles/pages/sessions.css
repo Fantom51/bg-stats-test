@@ -1,0 +1,1595 @@
+/* ============================================= */
+/* 🎯 SESSIONS PAGE - ОСНОВНЫЕ СТИЛИ СТРАНИЦЫ   */
+/* ============================================= */
+
+.sessions-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.sessions-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sessions-header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.page-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 1: ФОРМА ДОБАВЛЕНИЯ СЕССИИ           */
+/* ============================================= */
+
+/* Стили для дополнений */
+.expansions-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.expansion-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background: #f7fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.expansion-checkbox:hover {
+    border-color: #667eea;
+    background: #f0f4ff;
+}
+
+.expansion-checkbox input[type="checkbox"] {
+    margin: 0;
+}
+
+.expansion-checkbox.checked {
+    background: #e6fffa;
+    border-color: #38b2ac;
+    color: #234e52;
+}
+
+.expansion-name {
+    font-weight: 500;
+}
+
+.no-expansions-message {
+    color: #718096;
+    font-style: italic;
+    padding: 10px;
+    background: #f7fafc;
+    border-radius: 8px;
+    border: 1px dashed #e2e8f0;
+}
+
+/* 🎮 СТИЛИ ДЛЯ ПОИСКА ИГР */
+.game-search-container {
+    position: relative;
+    width: 100%;
+}
+
+.game-search-input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.game-search-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+.game-search-input.loading {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" stroke="%23667eea" stroke-width="8" fill="none" stroke-dasharray="200" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="0;200;0" dur="2s" repeatCount="indefinite"/></circle></svg>');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 24px;
+}
+
+.game-search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    display: none;
+}
+
+.game-search-result-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s ease;
+}
+
+.game-search-result-item:hover {
+    background: #f7fafc;
+}
+
+.game-search-result-item:last-child {
+    border-bottom: none;
+}
+
+.game-result-name {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 1rem;
+}
+
+.game-result-meta {
+    font-size: 0.85rem;
+    color: #718096;
+    display: flex;
+    gap: 10px;
+}
+
+.game-result-players {
+    color: #4a5568;
+}
+
+.game-result-rating {
+    color: #ed8936;
+    font-weight: 600;
+}
+
+.game-search-selected {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f0f9ff;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected-game-name {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.selected-game-clear {
+    background: none;
+    border: none;
+    color: #718096;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.selected-game-clear:hover {
+    color: #e53e3e;
+}
+
+
+.session-form-container {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.session-form-container h2 {
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 0.75rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-group select,
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-group select:focus,
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    background: white;
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 2: СИСТЕМА ТИПОВ ИГР                 */
+/* ============================================= */
+
+.game-type-toggle {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.game-type-toggle .toggle-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+    flex: 1;
+}
+
+.game-type-toggle .toggle-option:hover {
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.game-type-toggle .toggle-option input[type="radio"] {
+    margin: 0;
+    accent-color: #667eea;
+}
+
+.game-type-toggle .toggle-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.game-type-toggle .toggle-option input[type="radio"]:checked + .toggle-label {
+    font-weight: bold;
+    color: #667eea;
+}
+
+.session-form .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.75rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: white;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+}
+
+.session-form .checkbox-label:hover {
+    border-color: #667eea;
+}
+
+.session-form .checkbox-label input[type="checkbox"] {
+    margin: 0;
+    accent-color: #667eea;
+}
+
+.session-form .game-type-fields {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background: #f8fafc;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.session-form #non-scoring-winner {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+}
+
+.session-form #non-scoring-winner:focus {
+    outline: none;
+    border-color: #667eea;
+    background: white;
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 3: СИСТЕМА КОМАНД                   */
+/* ============================================= */
+
+.team-card {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fafafa;
+}
+
+.team-header {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.team-name {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn-remove-team {
+    background: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.btn-remove-team:hover {
+    background: #ff3742;
+    transform: translateY(-1px);
+}
+
+.team-members {
+    margin-top: 10px;
+}
+
+.team-players-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.team-player-label {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    transition: all 0.2s ease;
+}
+
+.team-player-label:hover {
+    background: #f8f9fa;
+}
+
+.session-form #add-team-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    margin-top: 0.5rem;
+}
+
+.session-form #add-team-btn:hover {
+    background: #218838;
+    transform: translateY(-1px);
+}
+
+
+.teams-drag-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.team-box {
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    border-radius: 12px;
+    padding: 15px;
+    min-height: 200px;
+    transition: all 0.3s ease;
+}
+
+.team-box.drag-over {
+    border-color: #4dabf7;
+    background-color: #e7f5ff;
+}
+
+.unassigned-box {
+    border-color: #adb5bd;
+    background: #f1f3f5;
+}
+
+.team-header {
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.team-name-input {
+    border: none;
+    background: transparent;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 70%;
+    color: #495057;
+}
+
+.team-name-input:focus {
+    outline: none;
+    border-bottom: 2px solid #4dabf7;
+}
+
+.player-count {
+    background: #4dabf7;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+.team-players-list {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.draggable-player {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: grab;
+    border: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.draggable-player:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-color: #4dabf7;
+}
+
+.draggable-player.dragging {
+    opacity: 0.5;
+    transform: scale(0.95);
+}
+
+.draggable-player .player-handle {
+    color: #adb5bd;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.teams-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 4: ВЫБОР ИГРОКОВ                    */
+/* ============================================= */
+
+.players-selection {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.players-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.player-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.player-checkbox-label:hover {
+    background: #e2e8f0;
+}
+
+.player-checkbox-label input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #667eea;
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 5: ТАБЛИЦЫ (ОСНОВНЫЕ СТИЛИ)         */
+/* ============================================= */
+
+.scores-table-container,
+.horizontal-scores-container,
+.session-scores-table-container {
+    overflow-x: auto;
+    margin: 15px 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ОСНОВНАЯ ТАБЛИЦА */
+.horizontal-scores-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.horizontal-scores-table th,
+.horizontal-scores-table td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.horizontal-scores-table th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 0.9rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+/* СТИЛИ ДЛЯ КОМАНДНЫХ ИГР */
+.horizontal-scores-table .team-header {
+    background: #e3f2fd;
+    font-weight: bold;
+    color: #1976d2;
+    min-width: 120px;
+}
+
+.horizontal-scores-table .team-score-cell {
+    background: white;
+}
+
+.team-score-input {
+    width: 80px;
+    padding: 8px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    background: #f8fafc;
+    transition: all 0.2s;
+}
+
+.team-score-input:focus {
+    outline: none;
+    border-color: #667eea;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.horizontal-scores-table .team-total-cell {
+    background: #f0f8ff;
+    font-weight: bold;
+    color: #1976d2;
+}
+
+.horizontal-scores-table .team-winner-cell {
+    background: #fff3cd;
+}
+
+.team-winner-indicator {
+    font-size: 1.5em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.team-winner-indicator:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.team-winner-indicator.selected {
+    opacity: 1;
+    transform: scale(1.3);
+    color: #e53e3e;
+}
+
+/* NON-SCORING ТАБЛИЦА */
+.winner-selection-row td {
+    text-align: center;
+    padding: 20px 10px;
+    vertical-align: middle;
+}
+
+.winner-label-cell {
+    font-weight: bold;
+    background: #f8f9fa;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.crown-btn {
+    background: none;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 1.8em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+}
+
+.crown-btn:hover {
+    border-color: #ffd700;
+    background: #fff9e6;
+    opacity: 0.8;
+}
+
+.crown-btn.selected {
+    border-color: #ff6b00;
+    background: #fff0e6;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.team-mode .players-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+.team-mode .player-checkbox-label {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+    margin: 0;
+}
+
+.team-mode .players-selection {
+    margin-bottom: 20px;
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 6: УПРАВЛЕНИЕ РАУНДАМИ              */
+/* ============================================= */
+
+.round-controls {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-top: 1px solid #e2e8f0;
+}
+
+.round-controls button {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #667eea;
+    background: white;
+    color: #667eea;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.round-controls button:hover {
+    background: #667eea;
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 7: КНОПКИ                          */
+/* ============================================= */
+
+.btn-large {
+    width: 100%;
+    padding: 1.25rem 2rem;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-large:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.delete-session-btn {
+    background: #ff6b6b;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-weight: bold;
+}
+
+.delete-session-btn:hover {
+    background: #ff5252;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+.delete-session-btn.confirm-mode {
+    background: #ff9800 !important;
+    animation: pulse-confirm 1s infinite;
+    transform: scale(1.1);
+    box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.3);
+}
+
+.delete-session-btn.confirm-mode:hover {
+    background: #f57c00 !important;
+    transform: scale(1.15);
+}
+
+@keyframes pulse-confirm {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 152, 0, 0.7);
+        transform: scale(1.1);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 152, 0, 0);
+        transform: scale(1.15);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 152, 0, 0);
+        transform: scale(1.1);
+    }
+}
+
+/*============================================= */
+/* 🎯 БЛОК 8: СТАТИСТИКА                      */
+/* ============================================= */
+
+.sessions-stats {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden; /* Добавлено для корректной работы анимаций */
+}
+
+.sessions-stats h2 {
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 2px solid #48bb78;
+    padding-bottom: 0.5rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 
+        0 4px 15px rgba(102, 126, 234, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.1) inset; /* 🔥 внутренняя рамка */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 120px; /* Задаем минимальную высоту для одинаковых карточек */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Улучшенная рамка */
+}
+
+/* 🔥 Полупрозрачный оверлей для улучшения контраста */
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.08) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+    );
+    border-radius: 12px;
+    z-index: 1;
+    pointer-events: none; /* Чтобы не мешал кликам */
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 
+        0 8px 25px rgba(102, 126, 234, 0.4),
+        0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+}
+
+/* 🔥 Контейнер для контента с z-index выше оверлея */
+.stat-card > * {
+    position: relative;
+    z-index: 2;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 800; /* Увеличена жирность */
+    margin-bottom: 0.5rem;
+    color: #ffffff; /* Явно задаем белый цвет */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 
+                 0 0 8px rgba(255, 255, 255, 0.2); /* 🔥 Двойная тень для лучшей читаемости */
+    letter-spacing: 0.5px; /* Улучшает читаемость цифр */
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    font-weight: 600; /* Увеличена жирность */
+    opacity: 0.95; /* Небольшая прозрачность, но читаемо */
+    color: #f8f9fa; /* Слегка серый вместо чисто белого */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase; /* Делаем текст заглавными буквами */
+    letter-spacing: 0.8px; /* Улучшает читаемость */
+}
+
+.player-stats {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.player-stats h4 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.player-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.player-stat:last-child {
+    border-bottom: none;
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 9: КАРТОЧКИ СЕССИЙ                 */
+/* ============================================= */
+
+
+.winner-team-header {
+    background: #ffe26f !important; /* 1. Ячейка с названием команды */
+    font-weight: 700;
+}
+
+.winner-team-total {
+    background: #ffe26f !important; /* 2. Ячейка с итоговыми очками */
+    font-weight: 700;
+}
+
+
+.sessions-list {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ed8936;
+}
+
+.section-header h2 {
+    color: #2d3748;
+    margin: 0;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.badge {
+    background: #ed8936;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.sessions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.session-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.session-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.session-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f1f5f9;
+}
+
+.session-card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.session-game-icon {
+    font-size: 1.5rem;
+}
+
+.session-game-name {
+    margin: 0;
+    color: #2d3748;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.session-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.session-date,
+.session-duration {
+    background: #f7fafc;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #4a5568;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #e2e8f0;
+}
+
+/* ТАБЛИЦА В КАРТОЧКАХ СЕССИЙ */
+.session-scores-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.session-scores-table th,
+.session-scores-table td {
+    padding: 12px 8px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.session-scores-table th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 0.9rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.session-scores-table .round-col {
+    background: #f0f9ff;
+    color: #0369a1;
+    min-width: 80px;
+    font-weight: 700;
+}
+
+.session-scores-table .player-col {
+    background: #f8fafc;
+    min-width: 120px;
+    font-weight: 600;
+}
+
+.session-scores-table .winner-player {
+    background: #ffe26f ;
+}
+
+.session-scores-table .round-number {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.session-scores-table .score-cell {
+    background: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.session-scores-table .total-row {
+    background: #f8fafc;
+    border-top: 2px solid #e2e8f0;
+}
+
+.session-scores-table .total-label {
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.session-scores-table .total-cell {
+    background: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 14px 8px;
+}
+
+.winner-total {
+    background: #ffe26f !important;
+    font-weight: 700;
+}
+
+.current-player {
+    background: #d1fae5;
+    color: #065f46;
+    border: 2px solid #10b981;
+}
+
+.session-description {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    background: #f8fafc;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+}
+
+.description-label {
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.description-text {
+    color: #5a6268;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 10: УВЕДОМЛЕНИЯ И СООБЩЕНИЯ        */
+/* ============================================= */
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    z-index: 10000;
+    animation: slideInRight 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    max-width: 320px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.notification.success {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+}
+
+.notification.error {
+    background: linear-gradient(135deg, #f44336, #d32f2f);
+}
+
+.notification.info {
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.no-sessions,
+.no-players-table,
+.no-players-message,
+.no-scores {
+    text-align: center;
+    padding: 2rem;
+    color: #718096;
+    font-style: italic;
+    background: white;
+    border-radius: 12px;
+    border: 2px dashed #e2e8f0;
+    margin-top: 1rem;
+}
+
+.no-sessions {
+    padding: 4rem 2rem;
+}
+
+.no-sessions:hover {
+    border-color: #667eea;
+    background: #fafbff;
+}
+
+.no-sessions p:first-child {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+.no-players-table .btn-link {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.no-players-table .btn-link:hover {
+    background: #5a67d8;
+    transform: translateY(-1px);
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 11: АНИМАЦИИ И ПЕРЕХОДЫ           */
+/* ============================================= */
+
+/* 🔥 Эффект "блеска" при наведении */
+.stat-card::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(30deg);
+    transition: transform 0.5s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.stat-card:hover::after {
+    transform: rotate(30deg) translate(20%, 20%);
+}
+
+/* 🔥 Анимация появления карточек */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.stat-card {
+    animation: fadeInUp 0.5s ease forwards;
+    opacity: 0; /* Начальное состояние */
+}
+
+/* Задержка для каждой карточки */
+.stat-card:nth-child(1) { animation-delay: 0.1s; }
+.stat-card:nth-child(2) { animation-delay: 0.2s; }
+.stat-card:nth-child(3) { animation-delay: 0.3s; }
+.stat-card:nth-child(4) { animation-delay: 0.4s; }
+.stat-card:nth-child(5) { animation-delay: 0.5s; }
+.stat-card:nth-child(6) { animation-delay: 0.6s; }
+
+.session-card,
+.delete-session-btn,
+.stat-card,
+.btn-large,
+.form-group select,
+.form-group input,
+.form-group textarea,
+.horizontal-scores-table input[type="number"],
+.game-type-toggle .toggle-option,
+.session-form .checkbox-label,
+.team-player-label,
+.btn-remove-team,
+.session-form #add-team-btn,
+.crown-btn,
+.team-winner-indicator {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.session-card.deleting {
+    animation: slide-out-right 0.5s ease forwards;
+}
+
+@keyframes slide-out-right {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+        max-height: 200px;
+    }
+    50% {
+        opacity: 0.7;
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+        max-height: 0;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+}
+
+/* ============================================= */
+/* 🎯 БЛОК 12: АДАПТИВНОСТЬ                  */
+/* ============================================= */
+
+@media (max-width: 768px) {
+    .sessions-stats {
+        padding: 1.5rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr); /* На мобильных 2 колонки */
+        gap: 0.75rem;
+    }
+    
+    .stat-card {
+        padding: 1.25rem;
+        min-height: 110px;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+    }
+    
+    .stat-label {
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sessions-stats {
+        padding: 1rem;
+        border-radius: 12px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr; /* На маленьких экранах 1 колонка */
+    }
+    
+    .stat-card {
+        padding: 1rem;
+        min-height: 100px;
+    }
+    
+    .stat-number {
+        font-size: 1.7rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .sessions-page {
+        padding: 0 0.5rem;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .session-form-container,
+    .sessions-stats,
+    .sessions-list {
+        padding: 1.5rem;
+    }
+    
+    .session-card-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .session-card-meta {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .game-type-toggle {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .horizontal-scores-table,
+    .session-scores-table {
+        font-size: 0.85rem;
+    }
+    
+    .horizontal-scores-table th,
+    .horizontal-scores-table td,
+    .session-scores-table th,
+    .session-scores-table td {
+        padding: 10px 6px;
+    }
+    
+    .session-game-name {
+        font-size: 1.1rem;
+    }
+    
+    .section-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .delete-session-btn {
+        width: 34px;
+        height: 34px;
+        font-size: 1rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .notification {
+        right: 10px;
+        left: 10px;
+        max-width: none;
+        font-size: 0.9rem;
+    }
+    
+    .round-controls {
+        flex-direction: column;
+    }
+    
+    .round-controls button {
+        width: 100%;
+    }
+    
+    .session-form .game-type-fields {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sessions-header h1 {
+        font-size: 2rem;
+    }
+    
+    .session-form-container,
+    .sessions-stats,
+    .sessions-list {
+        padding: 1.25rem;
+    }
+    
+    .session-card {
+        padding: 1rem;
+    }
+    
+    .session-card-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .horizontal-scores-table,
+    .session-scores-table {
+        font-size: 0.8rem;
+    }
+    
+    .horizontal-scores-table th,
+    .horizontal-scores-table td,
+    .session-scores-table th,
+    .session-scores-table td {
+        padding: 8px 4px;
+    }
+    
+    .delete-session-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 0.9rem;
+    }
+    
+    .no-sessions {
+        padding: 3rem 1.5rem;
+    }
+    
+    .no-sessions p:first-child {
+        font-size: 1.1rem;
+    }
+    
+    .horizontal-scores-table input[type="number"] {
+        width: 50px;
+        padding: 6px;
+        font-size: 12px;
+    }
+    
+    .game-type-toggle .toggle-option {
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .session-form .checkbox-label {
+        padding: 0.5rem;
+    }
+    
+    .session-form #add-team-btn {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+/* Фокус для доступности */
+.delete-session-btn:focus,
+.game-type-toggle .toggle-option:focus-within,
+.session-form .checkbox-label:focus-within,
+.form-group select:focus,
+.form-group input:focus,
+.form-group textarea:focus,
+.horizontal-scores-table input[type="number"]:focus,
+.session-form #non-scoring-winner:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+.delete-session-btn.confirm-mode:focus {
+    box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.5);
+}
+
+

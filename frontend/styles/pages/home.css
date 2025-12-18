@@ -1,0 +1,300 @@
+/* ===== HOME PAGE (PLAYERS) ===== */
+.players-management {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Заголовок страницы */
+.players-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.players-header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.players-header p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+}
+
+/* Форма добавления игрока */
+.add-player-section {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.add-player-section h2 {
+    margin-bottom: 1.5rem;
+    color: #2d3748;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.add-player-form {
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #667eea;
+    background: white;
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+}
+
+.btn-add-player {
+    background: linear-gradient(135deg, #48bb78, #38a169);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.btn-add-player:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(72, 187, 120, 0.3);
+}
+
+/* Список игроков */
+.players-list-section {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.players-list-header {
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.players-list-header h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.players-count {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Таблица игроков */
+.players-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.players-table thead {
+    background: #f7fafc;
+}
+
+.players-table th {
+    padding: 1.25rem 1.5rem;
+    text-align: left;
+    font-weight: 600;
+    color: #4a5568;
+    border-bottom: 2px solid #e2e8f0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.players-table td {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #f1f5f9;
+    color: #2d3748;
+}
+
+.players-table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.players-table tbody tr:hover {
+    background: #fafbff;
+    transform: translateX(4px);
+}
+
+.player-name {
+    font-weight: 600;
+    color: #2d3748;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.player-avatar {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.player-date {
+    color: #718096;
+    font-size: 0.9rem;
+}
+
+/* Кнопка удаления */
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.delete-btn:hover {
+    background: #fed7d7;
+    transform: scale(1.1);
+}
+
+.delete-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.delete-btn:hover .delete-icon {
+    opacity: 1;
+}
+
+/* Сообщение когда нет игроков */
+.no-players {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #718096;
+}
+
+.no-players-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.no-players h3 {
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.no-players p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .players-management {
+        padding: 0 1rem;
+    }
+    
+    .add-player-form {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .btn-add-player {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .players-table {
+        font-size: 0.9rem;
+    }
+    
+    .players-table th,
+    .players-table td {
+        padding: 1rem 0.75rem;
+    }
+    
+    .players-list-header {
+        padding: 1.25rem 1.5rem;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .add-player-section {
+        padding: 2rem 1.5rem;
+    }
+    
+    .players-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .player-name {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}

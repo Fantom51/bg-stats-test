@@ -1,0 +1,52 @@
+<div class="players-management">
+    <div class="players-header">
+        <h1>👥 Управление игроками</h1>
+        <p>Добавляйте и управляйте участниками игровых сессий</p>
+    </div>
+
+    <!-- Форма добавления игрока -->
+    <div class="add-player-section">
+        <h2>➕ Добавить нового игрока</h2>
+        <form id="add-player-form" class="add-player-form">
+            <div class="form-group">
+                <label for="player-name-input">Имя игрока</label>
+                <input type="text" id="player-name-input" placeholder="Введите имя игрока" required>
+            </div>
+            <button type="submit" class="btn btn-add-player">
+                <span>➕ Добавить игрока</span>
+            </button>
+        </form>
+    </div>
+
+    <!-- Список игроков -->
+    <div class="players-list-section">
+        <div class="players-list-header">
+            <h2>📋 Список игроков</h2>
+            <div class="players-count">
+                Всего: <span id="players-count">0</span>
+            </div>
+        </div>
+        
+        <div class="table-container">
+            <table class="players-table">
+                <thead>
+                    <tr>
+                        <th>Игрок</th>
+                        <th>Дата добавления</th>
+                        <th width="80px">Действия</th>
+                    </tr>
+                </thead>
+                <tbody id="players-table-body">
+                    <!-- Игроки будут добавляться здесь -->
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Сообщение когда нет игроков -->
+        <div id="no-players" class="no-players hidden">
+            <div class="no-players-icon">👤</div>
+            <h3>Пока нет игроков</h3>
+            <p>Добавьте первого игрока чтобы начать</p>
+        </div>
+    </div>
+</div>

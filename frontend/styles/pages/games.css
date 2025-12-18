@@ -1,0 +1,890 @@
+/* ===== GAMES PAGE ===== */
+.games-page {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.games-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.games-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #2c3e50;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 1rem 0;
+}
+
+/* ===== ОСНОВНЫЕ КОНТРОЛЫ ===== */
+.games-controls {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.control-group {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: end;
+    margin-bottom: 1.5rem;
+}
+
+.search-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.filter-select {
+    padding: 0.75rem 1rem;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    background: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Статистика под поисковой строкой */
+.games-stats-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.games-stats {
+    font-size: 1.1rem;
+    color: #495057;
+    font-weight: 600;
+}
+
+.games-stats span {
+    color: #667eea;
+    font-weight: 700;
+}
+
+/* ===== ФИЛЬТРЫ ПО ТЕГАМ ===== */
+.tag-filters-section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.tag-filters-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f8f9fa;
+}
+
+.tag-filters-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.tag-filters-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Компактные категории тегов */
+.tag-category-compact {
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.tag-category-compact:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.category-header {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.category-header:hover {
+    background: linear-gradient(135deg, #e9ecef, #dee2e6);
+}
+
+.category-title {
+    font-weight: 600;
+    color: #495057;
+    font-size: 1rem;
+}
+
+.category-toggle {
+    color: #6c757d;
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+}
+
+.tags-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+    background: white;
+}
+
+.tag-btn-compact {
+    padding: 1.2rem 1.5rem;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.3;
+    color: #495057;
+}
+
+.tag-btn-compact:hover {
+    border-color: #667eea;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.25);
+}
+
+.tag-btn-compact.active {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.5);
+    transform: translateY(-3px);
+    font-weight: 600;
+}
+
+/* Выбранные теги */
+.selected-tags-compact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.selected-tags-label {
+    font-size: 0.95rem;
+    color: #495057;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.selected-tags-list-compact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    flex: 1;
+}
+
+.selected-tag-compact {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    animation: slideIn 0.3s ease;
+    font-weight: 500;
+}
+
+.selected-tag-remove {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.selected-tag-remove:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.clear-tags-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.clear-tags-btn:hover {
+    background: #5a6268;
+    transform: translateY(-1px);
+}
+
+/* ===== СЕТКА ИГР ===== */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.game-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.game-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* === КОНТЕЙНЕР ДЛЯ КАРТИНОК === */
+.game-image-container {
+    width: 100%;
+    height: 200px; /* 🎯 ЭТА ВЫСОТА ОБЯЗАТЕЛЬНА! */
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 🎯 КЛЮЧЕВОЕ СВОЙСТВО! */
+    object-position: center;
+    transition: transform 0.3s ease;
+    display: block; /* 🎯 ВАЖНО! */
+}
+
+.game-card:hover .game-image {
+    transform: scale(1.05);
+}
+
+.game-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 3rem;
+}
+
+/* === ИНФОРМАЦИЯ ОБ ИГРЕ === */
+.game-info {
+    padding: 1.25rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.game-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    line-height: 1.4;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-clamp: 2; 
+    box-orient: vertical;
+    max-height: 2.8em; 
+    
+    flex-grow: 1;
+}
+
+.game-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+.game-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+/* === РЕЙТИНГИ === */
+.bgg-rating {
+    color: #ff6b35;
+    font-weight: bold;
+    background: rgba(255, 107, 53, 0.1);
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
+
+.game-rating {
+    font-weight: bold;
+}
+
+/* ===== СООБЩЕНИЕ "НЕТ ИГР" ===== */
+.no-games-message {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    grid-column: 1 / -1;
+}
+
+.no-games-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.no-games-message h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.no-games-message p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* ===== МОДАЛЬНОЕ ОКНО ===== */
+.large-modal {
+    max-width: 800px;
+    max-height: 90vh;
+}
+
+.modal-body {
+    max-height: calc(90vh - 120px);
+    overflow-y: auto;
+    padding: 0;
+}
+
+/* Теги в модальном окне */
+.game-tags-modal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+    padding: 0 1.5rem;
+}
+
+.game-tag-modal {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ===== АНИМАЦИИ ===== */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================= */
+/* 🎲 СТИЛИ ДЛЯ СЛУЧАЙНОЙ ИГРЫ                  */
+/* ============================================= */
+
+.random-game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0;
+    padding: 25px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.btn-random-game {
+    background: linear-gradient(135deg, #ff6b35, #ff8e53);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.3);
+}
+
+.btn-random-game:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255, 107, 53, 0.4);
+    background: linear-gradient(135deg, #ff8e53, #ff6b35);
+}
+
+.btn-random-game:active {
+    transform: translateY(-1px);
+}
+
+.random-game-result {
+    width: 100%;
+    max-width: 450px; /* Было 350px, стало 450px - на 30% больше */
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    animation: fadeIn 0.5s ease;
+}
+
+.random-game-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f8f9fa;
+}
+
+.random-game-icon {
+    font-size: 2.5em;
+    background: linear-gradient(135deg, #ff6b35, #ff8e53);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.random-game-title {
+    font-size: 2rem; 
+    font-weight: 800;
+    color: #2c3e50;
+    margin: 0;
+    flex: 1;
+}
+
+.random-game-close {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #6c757d;
+    transition: color 0.3s ease;
+    padding: 5px;
+    line-height: 1;
+}
+
+.random-game-close:hover {
+    color: #ff6b35;
+}
+
+/* 🎯 ТАКИЕ ЖЕ КАК В КАРТОЧКАХ! */
+.random-game-image-container {
+    width: 100%;
+    height: 250px; /* Было 200px, стало 250px - на 25% больше */
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.random-game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 🎯 КЛЮЧЕВОЕ СВОЙСТВО! */
+    object-position: center;
+    transition: transform 0.5s ease;
+    display: block; /* 🎯 ВАЖНО! */
+}
+
+.random-game-image:hover {
+    transform: scale(1.05);
+}
+
+.random-game-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 4rem;
+    padding: 20px;
+}
+
+.random-game-image-placeholder span:first-child {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.random-game-image-placeholder span:last-child {
+    font-size: 16px;
+    opacity: 0.9;
+    max-width: 90%;
+    word-break: break-word;
+}
+
+.random-game-details {
+    padding: 20px;
+}
+
+.random-game-info {
+    margin-bottom: 20px;
+}
+
+.random-game-info h4 {
+    margin: 0 0 12px 0; /* Увеличили отступ */
+    color: #2c3e50;
+    font-size: 1.2rem; /* Было 16px */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.random-game-info p {
+    margin: 6px 0; /* Увеличили отступ */
+    color: #6c757d;
+    font-size: 1rem; /* Было 14px */
+}
+
+.random-game-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.random-game-tag {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    padding: 6px 12px; /* Увеличили паддинг */
+    border-radius: 12px;
+    font-size: 0.95rem; /* Было 12px */
+    font-weight: 500;
+}
+
+.random-game-highlight {
+    animation: highlight-pulse 2s ease;
+}
+
+@keyframes highlight-pulse {
+    0% { box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(102, 126, 234, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(102, 126, 234, 0); }
+}
+
+/* Кнопки управления фильтрами */
+.filter-buttons {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* ===== АДАПТИВНОСТЬ ===== */
+@media (max-width: 1200px) {
+    .games-grid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .games-page {
+        padding: 1rem;
+    }
+    
+    .games-header {
+        text-align: center;
+    }
+    
+    .games-title {
+        font-size: 2.5rem;
+    }
+    
+    .control-group {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .games-stats-controls {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+    
+    .games-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 1rem;
+    }
+    
+    .tags-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 0.8rem;
+        padding: 1rem;
+    }
+    
+    .tag-btn-compact {
+        padding: 1rem 1.2rem;
+        font-size: 1rem;
+        min-height: 60px;
+    }
+    
+    .selected-tags-compact {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    
+    .selected-tags-label {
+        text-align: center;
+    }
+    
+    .game-image-container,
+    .random-game-image-container {
+        height: 220px;
+    }
+}
+@media (max-width: 480px) {
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tags-container {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+    
+    .tag-btn-compact {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+        min-height: 50px;
+    }
+    
+    .game-image-container,
+    .random-game-image-container {
+        height: 160px;
+    }
+    
+    .game-info {
+        padding: 1rem;
+    }
+    
+    .game-title {
+        font-size: 1rem;
+    }
+    
+    .game-meta {
+        font-size: 0.85rem;
+    }
+    
+    .random-game-result {
+        max-width: 100%;
+    }
+}
+
+/* 🎯 СТИЛИ ДЛЯ СВОРАЧИВАЕМЫХ ГРУПП ТЕГОВ */
+
+.tag-category-compact {
+    background: #f8fafc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.tag-category-compact:hover {
+    border-color: #667eea;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+.category-header {
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: #f1f5f9;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background 0.2s ease;
+}
+
+.category-header:hover {
+    background: #e2e8f0;
+}
+
+.category-title {
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 0.95rem;
+}
+
+.category-toggle {
+    font-size: 0.8rem;
+    color: #718096;
+    transition: transform 0.3s ease;
+}
+
+.tag-category-compact.collapsed .category-toggle {
+    transform: rotate(-90deg);
+}
+
+.tags-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+    padding: 15px;
+    background: white;
+}
+
+/* Анимация сворачивания */
+.tags-container {
+    transition: all 0.3s ease;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.tags-container.collapsed {
+    max-height: 0;
+    padding: 0 15px;
+    opacity: 0;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .tags-container {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        padding: 12px;
+    }
+    
+    .category-header {
+        padding: 10px 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tags-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
+        padding: 10px;
+    }
+    
+    .category-title {
+        font-size: 0.9rem;
+    }
+}

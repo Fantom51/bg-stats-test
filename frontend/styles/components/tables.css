@@ -1,0 +1,62 @@
+/* ===== TABLES ===== */
+.table-container {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+tr:hover {
+    background: #f8f9fa;
+}
+
+/* Специфичные стили для разных типов таблиц */
+.players-table th:first-child,
+.players-table td:first-child {
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.players-table th:last-child,
+.players-table td:last-child {
+    width: 80px;
+    text-align: center;
+}
+
+/* Стили для таблицы в форме сессий */
+.session-players-table {
+    font-size: 0.9rem;
+}
+
+.session-players-table th {
+    background: #f7fafc;
+    color: #4a5568;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.session-players-table td {
+    padding: 0.75rem 1rem;
+}

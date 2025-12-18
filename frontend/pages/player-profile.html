@@ -1,0 +1,168 @@
+<div class="player-profile-page">
+    <!-- Хлебные крошки -->
+    <div class="breadcrumbs">
+        <a href="#/" class="breadcrumb-link">👥 Игроки</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-current" id="breadcrumb-player">Профиль</span>
+    </div>
+
+    <!-- Заголовок профиля -->
+    <div class="profile-header">
+        <div class="player-avatar-section">
+            <div class="player-avatar">👤</div>
+            <div class="player-level" id="player-level">Новичок</div>
+        </div>
+        
+        <div class="player-info">
+            <h1 id="player-name">Имя игрока</h1>
+            <div class="player-meta">
+                <span id="player-joined">Участник с ...</span>
+                <span class="meta-separator">•</span>
+                <span id="player-sessions">0 сессий</span>
+                <span class="meta-separator">•</span>
+                <span id="last-play">Никогда не играл</span>
+            </div>
+        </div>
+
+        <div class="player-actions">
+            <button class="btn-edit-name" id="edit-player-name-btn" title="Редактировать имя">
+                ✏️ Изменить имя
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Основная статистика -->
+    <div class="stats-section">
+    <h2>📊 Общая статистика</h2>
+    
+    <div class="stats-table-container">
+        <table class="stats-table">
+            <tbody>
+                <!-- Всего игр -->
+                <tr>
+                    <td class="stat-label">🎮 Всего игр</td>
+                    <td class="stat-value" id="player-total-games">0</td>
+                </tr>
+                
+                <!-- Побед -->
+                <tr>
+                    <td class="stat-label">🏆 Побед</td>
+                    <td class="stat-value" id="player-total-wins">0</td>
+                </tr>
+                
+                <!-- Процент побед -->
+                <tr>
+                    <td class="stat-label">📈 Процент побед</td>
+                    <td class="stat-value" id="player-win-rate">0%</td>
+                </tr>
+                
+                <!-- Текущая серия побед -->
+                <tr>
+                    <td class="stat-label">🔥 Текущая серия побед</td>
+                    <td class="stat-value" id="player-current-streak">0</td>
+                </tr>
+                
+                <!-- Общее время -->
+                <tr>
+                    <td class="stat-label">⏱️ Общее время</td>
+                    <td class="stat-value" id="player-total-time">0ч 0м</td>
+                </tr>
+                
+                <!-- Среднее время игры -->
+                <tr>
+                    <td class="stat-label">⏰ Среднее время игры</td>
+                    <td class="stat-value" id="player-average-time">0ч 0м</td>
+                </tr>
+                
+                <!-- Самая долгая игра -->
+                <tr>
+                    <td class="stat-label">🐌 Самая долгая игра</td>
+                    <td class="stat-value" id="player-longest-game">0ч 0м</td>
+                </tr>
+                
+                <!-- Уникальных игр -->
+                <tr>
+                    <td class="stat-label">🎲 Уникальных игр</td>
+                    <td class="stat-value" id="player-unique-games">0</td>
+                </tr>
+                
+                <!-- Лучшая игра (дополнительно) -->
+                <tr>
+                    <td class="stat-label">💎 Лучшая игра</td>
+                    <td class="stat-value" id="player-best-game">-</td>
+                </tr>
+                
+                <!-- Любимый соперник (дополнительно) -->
+                <tr>
+                    <td class="stat-label">🤝 Любимый соперник</td>
+                    <td class="stat-value" id="player-favorite-opponent">-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+    <!-- Детальная статистика по играм -->
+    <div class="section">
+        <h2>📊 Статистика по играм</h2>
+        <div id="detailed-game-stats" class="games-stats-list">
+            <div class="no-data">Нет статистики по играм</div>
+        </div>
+    </div>
+
+    <!-- Любимые игры -->
+    <div class="section">
+        <h2>🎮 Топ игр</h2>
+        <div id="favorite-games" class="games-list">
+            <div class="no-data">Нет данных об играх</div>
+        </div>
+    </div>
+
+    <!-- 🆕 ИСТОРИЯ ВСЕХ ПАРТИЙ - ПЕРЕНЕСЕНА В САМЫЙ НИЗ -->
+    <div class="section">
+        <div class="section-header">
+            <h2>📜 История всех партий</h2>
+            <span class="session-count" id="total-sessions-count">0 сессий</span>
+        </div>
+        <div id="all-sessions-container" class="sessions-history-container">
+            <div class="no-data">Загрузка истории партий...</div>
+        </div>
+    </div>
+
+    <div class="edit-name-modal" id="edit-name-modal">
+    <div class="edit-name-content">
+        <div class="edit-name-header">
+            <h3>✏️ Изменить имя игрока</h3>
+            <button class="close-modal-btn" id="close-edit-modal">&times;</button>
+        </div>
+        
+        <form class="edit-name-form" id="edit-name-form">
+            <div class="form-group">
+                <label for="new-player-name" class="form-label">Новое имя</label>
+                <input 
+                    type="text" 
+                    id="new-player-name" 
+                    class="form-input" 
+                    placeholder="Введите новое имя"
+                    maxlength="50"
+                    required
+                >
+                <div class="form-hint">Максимум 50 символов. Имя будет изменено во всех сессиях.</div>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Текущее имя</label>
+                <div class="current-name-display" id="current-name-display"></div>
+            </div>
+            
+            <div class="form-actions">
+                <button type="button" class="btn-cancel" id="cancel-edit">Отмена</button>
+                <button type="submit" class="btn-save" id="save-edit-name">Сохранить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</div>

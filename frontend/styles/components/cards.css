@@ -1,0 +1,16 @@
+/* ===== CARDS ===== */
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 1.5rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.card-content {
+    padding: 1.5rem;
+}

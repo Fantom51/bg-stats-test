@@ -1,0 +1,1304 @@
+/* ===== PLAYER PROFILE ===== */
+.player-profile-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Хлебные крошки */
+.player-profile-page .breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.player-profile-page .breadcrumb-link {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.player-profile-page .breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+.player-profile-page .breadcrumb-separator {
+    color: #adb5bd;
+}
+
+.player-profile-page .breadcrumb-current {
+    color: #495057;
+    font-weight: 500;
+}
+
+/* Заголовок профиля */
+.player-profile-page .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.player-profile-page .player-avatar-section {
+    text-align: center;
+}
+
+.player-profile-page .player-avatar {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.player-profile-page .player-level {
+    font-size: 0.8rem;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.player-profile-page .player-info h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin: 0 0 0.5rem 0;
+}
+
+.player-profile-page .player-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.player-profile-page .meta-separator {
+    color: #adb5bd;
+}
+
+/* Статистика */
+.player-profile-page .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.player-profile-page .stat-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.player-profile-page .stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.player-profile-page .stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.player-profile-page .stat-label {
+    font-size: 1rem;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+/* Секции */
+.player-profile-page .section {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.player-profile-page .section h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin: 0 0 1.5rem 0;
+}
+
+.player-profile-page .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.player-profile-page .view-all-link {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.player-profile-page .view-all-link:hover {
+    text-decoration: underline;
+}
+
+/* 🆕 Заголовок секции с счетчиком */
+.player-profile-page .session-count {
+    background: #667eea;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* 🆕 Контейнер для истории сессий */
+.player-profile-page .sessions-history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Любимые игры */
+.player-profile-page .favorite-game-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border-left: 4px solid #4CAF50;
+    transition: all 0.3s ease;
+    margin-bottom: 0.75rem;
+}
+
+.player-profile-page .favorite-game-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.player-profile-page .favorite-game-item .game-name {
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.player-profile-page .favorite-game-item .game-stats {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.player-profile-page .favorite-game-item .game-plays {
+    color: #667eea;
+    font-weight: 600;
+}
+
+.player-profile-page .favorite-game-item .game-wins {
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+.player-profile-page .favorite-game-item .game-winrate {
+    color: #ff9800;
+    font-weight: 600;
+}
+
+/* Статистика по играм */
+.player-profile-page .games-stats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.player-profile-page .game-stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+    transition: all 0.2s ease;
+}
+
+.player-profile-page .game-stat-item:hover {
+    background: #e9ecef;
+    transform: translateX(3px);
+}
+
+.player-profile-page .game-stat-item .game-name {
+    font-weight: 600;
+    color: #2c3e50;
+    flex: 1;
+}
+
+.player-profile-page .game-stat-item .game-details {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.player-profile-page .game-stat-item .game-plays {
+    color: #667eea;
+    font-weight: 600;
+    min-width: 80px;
+}
+
+.player-profile-page .game-stat-item .game-wins {
+    color: #4CAF50;
+    font-weight: 600;
+    min-width: 80px;
+}
+
+.player-profile-page .game-stat-item .game-winrate {
+    color: #ff9800;
+    font-weight: 600;
+    min-width: 80px;
+}
+
+/* ===== СТИЛИ ДЛЯ ИСТОРИИ ВСЕХ ПАРТИЙ ===== */
+
+/* Карточка сессии в табличном стиле */
+.player-profile-page .session-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.player-profile-page .session-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+.player-profile-page .session-card.session-win {
+    border-left: 4px solid #4CAF50;
+}
+
+.player-profile-page .session-card.session-loss {
+    border-left: 4px solid #f44336;
+}
+
+/* Заголовок карточки сессии */
+.player-profile-page .session-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.player-profile-page .session-card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.player-profile-page .session-game-icon {
+    font-size: 1.5rem;
+}
+
+.player-profile-page .session-game-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.player-profile-page .win-indicator {
+    background: #4CAF50;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.player-profile-page .session-card-meta {
+    display: flex;
+    gap: 1rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Таблица очков */
+.player-profile-page .session-scores-table-container {
+    margin: 1rem 0;
+    overflow-x: auto;
+}
+
+.player-profile-page .session-scores-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.player-profile-page .session-scores-table th {
+    background: #f8f9fa;
+    padding: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    color: #495057;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.player-profile-page .session-scores-table td {
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.player-profile-page .session-scores-table .round-col {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+    width: 80px;
+}
+
+.player-profile-page .session-scores-table .player-col {
+    min-width: 120px;
+}
+
+/* Выделение победителя */
+.player-profile-page .winner-player {
+    background: #fff3cd !important;
+    color: #856404;
+    font-weight: bold;
+}
+
+.player-profile-page .winner-total {
+    background: #fff3cd !important;
+    font-weight: bold;
+}
+
+/* 🆕 ВЫДЕЛЕНИЕ ТЕКУЩЕГО ИГРОКА (СИНИЙ) */
+.player-profile-page .current-player {
+    background: #d1ecf1 !important;
+    color: #0c5460;
+    font-weight: bold;
+}
+
+/* Строка итогов */
+.player-profile-page .total-row {
+    background: #f8f9fa;
+    font-weight: bold;
+    border-top: 2px solid #e9ecef;
+}
+
+.player-profile-page .total-row td {
+    border-bottom: none;
+}
+
+/* Описание сессии */
+.player-profile-page .session-description {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 3px solid #667eea;
+}
+
+.player-profile-page .description-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.player-profile-page .description-text {
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+/* Стили для последних сессий (существующие) */
+.player-profile-page .session-item {
+    padding: 1.25rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+    margin-bottom: 0.75rem;
+    transition: all 0.2s ease;
+}
+
+.player-profile-page .session-item:hover {
+    transform: translateX(3px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-profile-page .session-item.session-win {
+    border-left-color: #4CAF50;
+    background: linear-gradient(135deg, #f8fff8, #f8f9fa);
+}
+
+.player-profile-page .session-item.session-loss {
+    border-left-color: #f44336;
+    background: linear-gradient(135deg, #fff8f8, #f8f9fa);
+}
+
+.player-profile-page .session-item .session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.player-profile-page .session-item .session-game {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.player-profile-page .session-item .session-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.player-profile-page .session-item .session-result {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.player-profile-page .session-item.session-win .session-result {
+    color: #4CAF50;
+}
+
+.player-profile-page .session-item.session-loss .session-result {
+    color: #f44336;
+}
+
+.player-profile-page .session-item .session-description {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #e9ecef;
+}
+
+/* Сообщения когда нет данных */
+.player-profile-page .no-data {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: #6c757d;
+    font-style: italic;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 2px dashed #dee2e6;
+}
+
+.player-profile-page .no-sessions {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: #6c757d;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 2px dashed #dee2e6;
+}
+
+.player-profile-page .no-sessions p {
+    margin: 0.5rem 0;
+}
+
+/* ===== ТАБЛИЦА СТАТИСТИКИ В ОДИН СТОЛБЕЦ ===== */
+
+/* Контейнер таблицы */
+.player-profile-page .stats-table-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    padding: 0;
+    margin: 2rem 0;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+}
+
+/* Сама таблица */
+.player-profile-page .stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Заголовок таблицы (скрыт) */
+.player-profile-page .stats-table thead {
+    display: none;
+}
+
+/* Строки таблицы */
+.player-profile-page .stats-table tbody tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2rem;
+    border-bottom: 1px solid #f8f9fa;
+    transition: all 0.3s ease;
+    min-height: 60px;
+}
+
+.player-profile-page .stats-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.player-profile-page .stats-table tbody tr:hover {
+    background: linear-gradient(90deg, rgba(102, 126, 234, 0.05), rgba(102, 126, 234, 0.02));
+}
+
+/* Четные строки */
+.player-profile-page .stats-table tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+
+.player-profile-page .stats-table tbody tr:nth-child(even):hover {
+    background: linear-gradient(90deg, rgba(102, 126, 234, 0.08), rgba(102, 126, 234, 0.04));
+}
+
+/* Ячейки таблицы */
+.player-profile-page .stats-table td {
+    padding: 0;
+    vertical-align: middle;
+}
+
+/* Левая колонка: метки */
+.player-profile-page .stats-table td.stat-label {
+    color: #555;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* Правая колонка: значения */
+.player-profile-page .stats-table td.stat-value {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: right;
+    min-width: 120px;
+    transition: all 0.3s ease;
+}
+
+/* Цвета для значений */
+.player-profile-page .stats-table td.stat-value.positive {
+    color: #10b981;
+}
+
+.player-profile-page .stats-table td.stat-value.highlight {
+    color: #667eea;
+}
+
+.player-profile-page .stats-table td.stat-value.warning {
+    color: #f59e0b;
+}
+
+.player-profile-page .stats-table td.stat-value.record {
+    color: #ef4444;
+}
+
+/* Иконки перед метками */
+.player-profile-page .stats-table td.stat-label::before {
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+/* Анимация при обновлении значений */
+@keyframes statUpdate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.player-profile-page .stats-table td.stat-value.updated {
+    animation: statUpdate 0.3s ease;
+}
+
+/* Цветные точки для визуального разделения */
+.player-profile-page .stats-table tbody tr::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 40%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 0 10px 10px 0;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.player-profile-page .stats-table tbody tr:hover::after {
+    width: 6px;
+    opacity: 1;
+    height: 50%;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .player-profile-page .stats-table-container {
+        margin: 1.5rem 0;
+        border-radius: 12px;
+    }
+    
+    .player-profile-page .stats-table tbody tr {
+        padding: 1rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        min-height: auto;
+    }
+    
+    .player-profile-page .stats-table td.stat-label {
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+    .player-profile-page .stats-table td.stat-value {
+        font-size: 1.3rem;
+        text-align: left;
+        width: 100%;
+        min-width: auto;
+    }
+    
+    .player-profile-page .stats-table tbody tr::after {
+        width: 3px;
+        height: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .player-profile-page .stats-table-container {
+        margin: 1rem 0;
+        border-radius: 10px;
+    }
+    
+    .player-profile-page .stats-table tbody tr {
+        padding: 0.9rem 1.25rem;
+    }
+    
+    .player-profile-page .stats-table td.stat-label {
+        font-size: 0.95rem;
+        gap: 0.5rem;
+    }
+    
+    .player-profile-page .stats-table td.stat-label::before {
+        font-size: 1.1rem;
+    }
+    
+    .player-profile-page .stats-table td.stat-value {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Кнопки действий в профиле */
+.player-profile-page .player-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.player-profile-page .btn-edit-name {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.player-profile-page .btn-edit-name:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.player-profile-page .btn-edit-name:active {
+    transform: translateY(0);
+}
+
+/* Модальное окно редактирования */
+.player-profile-page .edit-name-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.player-profile-page .edit-name-modal.active {
+    display: flex;
+}
+
+.player-profile-page .edit-name-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    animation: modalSlideIn 0.3s ease;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.player-profile-page .edit-name-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.player-profile-page .edit-name-header h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.player-profile-page .close-modal-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6c757d;
+    transition: color 0.2s;
+}
+
+.player-profile-page .close-modal-btn:hover {
+    color: #333;
+}
+
+.player-profile-page .edit-name-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.player-profile-page .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.player-profile-page .form-label {
+    font-weight: 500;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.player-profile-page .form-input {
+    padding: 0.875rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.player-profile-page .form-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.player-profile-page .form-input.error {
+    border-color: #ef4444;
+}
+
+.player-profile-page .form-hint {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-top: 0.25rem;
+}
+
+.player-profile-page .form-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.player-profile-page .btn-cancel {
+    background: #f1f5f9;
+    color: #475569;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.player-profile-page .btn-cancel:hover {
+    background: #e2e8f0;
+}
+
+.player-profile-page .btn-save {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.player-profile-page .btn-save:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(16, 185, 129, 0.4);
+}
+
+.player-profile-page .btn-save:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Анимации для уведомлений */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Адаптивность для модального окна */
+@media (max-width: 600px) {
+    .player-profile-page .edit-name-content {
+        width: 95%;
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    .player-profile-page .form-actions {
+        flex-direction: column;
+    }
+    
+    .player-profile-page .btn-cancel,
+    .player-profile-page .btn-save {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .player-profile-page {
+        padding: 1rem;
+    }
+    
+    .player-profile-page .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .player-profile-page .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .player-profile-page .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .player-profile-page .favorite-game-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .player-profile-page .favorite-game-item .game-stats {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .player-profile-page .game-stat-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .player-profile-page .game-stat-item .game-details {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .player-profile-page .session-item .session-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .player-profile-page .session-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .player-profile-page .session-card-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .player-profile-page .session-scores-table {
+        font-size: 0.85rem;
+    }
+    
+    .player-profile-page .session-scores-table th,
+    .player-profile-page .session-scores-table td {
+        padding: 0.5rem 0.25rem;
+    }
+    
+    .player-profile-page .session-scores-table .player-col {
+        min-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .player-profile-page .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .player-profile-page .favorite-game-item .game-stats {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .player-profile-page .game-stat-item .game-details {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .player-profile-page .session-card {
+        padding: 1rem;
+    }
+    
+    .player-profile-page .session-scores-table-container {
+        margin: 0.5rem -1rem;
+    }
+    
+    .player-profile-page .session-scores-table {
+        font-size: 0.8rem;
+    }
+    
+    .player-profile-page .session-card-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+
+
+/* 🎯 ПАГИНАЦИЯ ДЛЯ ПРОФИЛЯ */
+.player-pagination-controls {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.player-pagination-controls .pagination-info {
+    font-size: 0.9rem;
+    color: #4a5568;
+    font-weight: 500;
+    background: #f7fafc;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.player-pagination-controls .pagination-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.player-pagination-controls .pagination-btn {
+    padding: 0.6rem 1rem;
+    background: white;
+    border: 2px solid #667eea;
+    color: #667eea;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    min-width: 90px;
+    justify-content: center;
+}
+
+.player-pagination-controls .pagination-btn:hover:not(:disabled) {
+    background: #667eea;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.player-pagination-controls .pagination-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    border-color: #cbd5e0;
+    color: #a0aec0;
+}
+
+.player-pagination-controls .page-numbers {
+    display: flex;
+    gap: 0.3rem;
+    margin: 0 0.5rem;
+}
+
+.player-pagination-controls .page-number {
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: white;
+    color: #4a5568;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.player-pagination-controls .page-number:hover {
+    border-color: #667eea;
+    background: #f0f4ff;
+    transform: translateY(-1px);
+}
+
+.player-pagination-controls .page-number.active {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.player-pagination-controls .page-dots {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    color: #a0aec0;
+    font-weight: bold;
+}
+
+.player-pagination-controls .items-per-page-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.player-pagination-controls .items-per-page-selector label {
+    font-size: 0.9rem;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.player-pagination-controls .player-items-per-page {
+    padding: 0.5rem 0.75rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: white;
+    color: #4a5568;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.player-pagination-controls .player-items-per-page:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .player-pagination-controls {
+        padding: 1rem;
+    }
+    
+    .player-pagination-controls .pagination-buttons {
+        flex-wrap: wrap;
+    }
+    
+    .player-pagination-controls .pagination-btn {
+        min-width: auto;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+    }
+    
+    .player-pagination-controls .page-number {
+        min-width: 35px;
+        height: 35px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .player-pagination-controls .pagination-btn span {
+        display: none;
+    }
+    
+    .player-pagination-controls .pagination-btn {
+        min-width: 40px;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .player-pagination-controls .page-numbers {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+    
+    .player-pagination-controls .items-per-page-selector {
+        order: 2;
+        margin-top: 0;
+    }
+}
+
+
+/* В существующие стили player-profile.css добавь: */
+.sessions-history-container {
+    margin-top: 1rem;
+}
+
+.sessions-history-container .session-card {
+    margin-bottom: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.sessions-history-container .session-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.sessions-history-container .session-win {
+    border-left: 4px solid #10b981;
+}
+
+.sessions-history-container .session-loss {
+    border-left: 4px solid #ef4444;
+}
+
+.sessions-history-container .no-sessions {
+    text-align: center;
+    padding: 3rem;
+    color: #718096;
+    font-style: italic;
+    background: white;
+    border-radius: 12px;
+    border: 2px dashed #e2e8f0;
+}
+
+.sessions-history-container .no-sessions:hover {
+    border-color: #667eea;
+    background: #fafbff;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ed8936;
+}
+
+.section-header h2 {
+    color: #2d3748;
+    margin: 0;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.session-count {
+    background: #ed8936;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
