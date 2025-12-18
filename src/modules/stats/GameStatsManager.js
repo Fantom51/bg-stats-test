@@ -573,6 +573,59 @@ export class GameStatsManager {
         this.saveGameStats();
     }
 
+    // 🔥 ДОБАВЬ В КОНЕЦ КЛАССА GameStatsManager (перед последней }):
+    // Получить всю статистику
+    getAllGameStats() {
+        return this.gameStats || {};
+    }
+
+    // Для отладки - показать все игры
+    debugShowAllGames() {
+        console.log('🎮 Все игры в статистике:');
+        Object.entries(this.gameStats || {}).forEach(([game, stats]) => {
+            console.log(`   "${game}": ${stats.totalPlays} сессий`);
+        });
+        return this.gameStats;
+    }
+
+    // Получить статистику с нормализацией имен
+    getGameStatsNormalized(gameName) {
+        if (!gameName) return null;
+        
+        // 1. Прямое совпадение
+        if (this.gameStats[gameName]) {
+            return this.gameStats[gameName];
+        }
+        
+        // 2. Нормализация для поиска
+        const normalize = (str) => {
+            return str.toLowerCase()
+                .replace(/[.:«»"',-]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim()
+                .replace(/ё/g, 'е');
+        };
+        
+        const searchName = normalize(gameName);
+        
+        // 3. Ищем по нормализованным именам
+        for (const [key, stats] of Object.entries(this.gameStats || {})) {
+            if (normalize(key) === searchName) {
+                console.log(`✅ Найдено "${gameName}" → "${key}"`);
+                return stats;
+            }
+        }
+        
+        // 4. Частичное совпадение
+        for (const [key, stats] of Object.entries(this.gameStats || {})) {
+            if (normalize(key).includes(searchName) || searchName.includes(normalize(key))) {
+                console.log(`✅ Частичное совпадение "${gameName}" → "${key}"`);
+                return stats;
+            }
+        }
+        
+        return null;
+    }
 
 }
 
