@@ -28,39 +28,35 @@ export class SessionsManager {
     }
 
     async loadSessions() {
-        // 🔥 ВСЕГДА ПЫТАЕМСЯ ИСПОЛЬЗОВАТЬ FIREBASE ПЕРВЫМ
-        if (!this.firebase || !this.firebase.isInitialized) {
-            console.warn('⚠️ Firebase недоступен, используем localStorage');
-            const result = this.storage.get('gameSessions', []);
-            this.sessions = result;
-            return result;
+        console.log('🔄 SessionsManager.loadSessions()');
+        
+        // 🔥 ВСЕГДА СНАЧАЛА LOCALSTORAGE (Firebase не работает на GitHub Pages)
+        const localSessions = this.storage.get('gameSessions', []);
+        
+        if (localSessions.length > 0) {
+            console.log(`💾 Используем ${localSessions.length} сессий из localStorage`);
+            this.sessions = localSessions;
+            return this.sessions;
         }
         
-        try {
-            const firebaseSessions = await this.firebase.getSessions();
-            
-            // 🔥 ЕСЛИ В FIREBASE ЕСТЬ ДАННЫЕ - ИСПОЛЬЗУЕМ ИХ
-            if (firebaseSessions && firebaseSessions.length > 0) {
-                console.log('🔥 Загружены сессии из Firebase:', firebaseSessions.length);
-                this.sessions = firebaseSessions;
-                this.saveSessions(); // Синхронизируем localStorage
-            } 
-            // 🔥 ЕСЛИ FIREBASE ПУСТОЙ - ТОЖЕ ИСПОЛЬЗУЕМ ЕГО (ПУСТОЙ МАССИВ)
-            else {
-                console.log('📁 Firebase пуст - используем пустой массив');
-                this.sessions = [];
-                this.saveSessions(); // Очищаем localStorage
+        // 🔥 ТОЛЬКО ЕСЛИ Firebase работает (на GitHub Pages обычно не работает)
+        if (this.firebase && this.firebase.isInitialized) {
+            try {
+                const firebaseSessions = await this.firebase.getSessions();
+                if (firebaseSessions && firebaseSessions.length > 0) {
+                    console.log(`🔥 Загружено ${firebaseSessions.length} сессий из Firebase`);
+                    this.sessions = firebaseSessions;
+                    this.saveSessions(); // Сохраняем в localStorage
+                    return this.sessions;
+                }
+            } catch (error) {
+                console.warn('⚠️ Firebase ошибка, используем localStorage:', error.message);
             }
-            
-            return this.sessions;
-            
-        } catch (error) {
-            console.error('❌ Ошибка загрузки сессий:', error);
-            // 🔄 FALLBACK: используем localStorage
-            const result = this.storage.get('gameSessions', []);
-            this.sessions = result;
-            return result;
         }
+        
+        console.log('📭 Нет сессий ни в Firebase, ни в localStorage');
+        this.sessions = [];
+        return this.sessions;
     }
 
     saveSessions() {

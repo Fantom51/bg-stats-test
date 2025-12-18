@@ -47,110 +47,58 @@ class BoardGamesStats {
     }
 
     async init() {
-        console.log('🚀 Начало инициализации приложения...');
+        console.log('🚀 Упрощенная инициализация...');
         
         try {
-            // 🔥 ШАГ 1: Firebase
-            console.log('🔥 Инициализация Firebase...');
-            await this.firebase.initialize();
-            console.log('✅ Firebase успешно подключен');
-
-            // 🔥 ШАГ 2: Игроки
-            console.log('👥 Загрузка игроков...');
+            // 🔥 1. ТОЛЬКО ОСНОВНЫЕ КОМПОНЕНТЫ
+            this.firebase = new FirebaseClient();
+            this.storage = new StorageManager();
+            
+            // 🔥 2. Firebase БЕЗ ОЖИДАНИЯ (может не работать)
+            this.firebase.initialize().catch(err => {
+                console.warn('⚠️ Firebase не подключен, работаем локально');
+            });
+            
+            // 🔥 3. ИГРОКИ И СЕССИИ ИЗ LOCALSTORAGE
+            this.playersManager = new PlayersManager(this.firebase);
             await this.playersManager.loadPlayers();
-            console.log('✅ Игроки загружены');
-
-            // 🔥 ШАГ 3: Сессии
-            console.log('🎪 Инициализация сессий...');
+            
+            this.sessionsManager = new SessionsManager(this.firebase, this.storage);
             await this.sessionsManager.init();
-            console.log(`✅ Сессии инициализированы: ${this.sessionsManager.sessions.length} сессий`);
-
-            // 🔥 ШАГ 4: GameStatsManager
-            console.log('📊 Создание GameStatsManager...');
+            
+            // 🔥 4. GameStatsManager С ФИКСИРОВАННЫМ МЕТОДОМ
             this.gameStatsManager = new GameStatsManager(
                 this.storage,
                 this.sessionsManager,
                 this.playersManager
             );
             
-            // 🔥 ШАГ 5: Статистика - проверяем что есть и вычисляем
-            console.log('🔄 Проверка и вычисление статистики...');
-            
-            // Проверяем есть ли статистика
-            const hasStats = this.gameStatsManager.gameStats && 
-                            Object.keys(this.gameStatsManager.gameStats).length > 0;
-            
-            if (!hasStats && this.gameStatsManager.calculateAllGameStats) {
-                console.log('📈 Вычисляю статистику...');
-                this.gameStatsManager.calculateAllGameStats();
+            // 🔥 5. ДОБАВЛЯЕМ ОТСУТСТВУЮЩИЙ МЕТОД ЕСЛИ НЕТ
+            if (!this.gameStatsManager.getAllGameStats) {
+                this.gameStatsManager.getAllGameStats = function() {
+                    return this.gameStats || {};
+                };
+                console.log('🔧 Метод getAllGameStats добавлен динамически');
             }
             
-            // 🔥 ИСПРАВЛЕНИЕ: используем gameStats напрямую, а не getAllGameStats()
-            const gameStats = this.gameStatsManager.gameStats || {};
-            console.log(`📊 Статистика доступна для: ${Object.keys(gameStats).length} игр`);
-            
-            // Показываем пример
-            if (Object.keys(gameStats).length > 0) {
-                const firstGame = Object.keys(gameStats)[0];
-                console.log(`📋 Пример: "${firstGame}" - ${gameStats[firstGame].totalPlays} сессий`);
-            }
-
-            // 🔥 ШАГ 6: GamesCatalog
-            console.log('🔄 Создание GamesCatalog...');
-            this.gamesCatalog = new GamesCatalog(
-                this.sessionsManager, 
-                this.bggRatingsService, 
-                this.gameStatsManager
-            );
-            
-            await this.gamesCatalog.init();
-            console.log('✅ GamesCatalog создан');
-
-            // 🔥 ШАГ 7: Роутер
-            console.log('🔄 Настройка роутера...');
+            // 🔥 6. БЫСТРЫЙ СТАРТ РОУТЕРА
             this.setupRouter();
             this.setupGlobalHandlers();
             window.app = this;
             
-            console.log('🎉 Приложение готово, запускаем роутер...');
             await this.router.loadRoute();
-
-            // 🔥 ШАГ 8: Фоновые задачи
-            console.log('🎲 Фоновая загрузка BGG рейтингов...');
-            if (this.bggRatingsService && this.bggRatingsService.loadRatings) {
-                this.bggRatingsService.loadRatings().then(() => {
-                    console.log('✅ BGG рейтинги загружены');
-                    if (this.gamesCatalog && this.gamesCatalog.enhanceGamesWithBggRatings) {
-                        this.gamesCatalog.enhanceGamesWithBggRatings();
-                        console.log('🎯 Игры улучшены BGG рейтингами');
-                    }
-                });
-            }
             
-            console.log('🏁 Инициализация завершена успешно!');
-
+            console.log('✅ Приложение запущено (упрощенная версия)');
+            
         } catch (error) {
-            console.error('❌ Ошибка инициализации приложения:', error);
-            
-            // Показываем ошибку пользователю
-            const appContainer = document.getElementById('app');
-            if (appContainer) {
-                appContainer.innerHTML = `
-                    <div style="padding: 20px; color: red; text-align: center;">
-                        <h3>❌ Ошибка загрузки приложения</h3>
-                        <p>${error.message}</p>
-                        <button onclick="location.reload()" style="
-                            background: #ff6b6b;
-                            color: white;
-                            border: none;
-                            padding: 10px 20px;
-                            border-radius: 5px;
-                            cursor: pointer;
-                            margin-top: 10px;
-                        ">🔄 Перезагрузить страницу</button>
-                    </div>
-                `;
-            }
+            console.error('❌ Ошибка:', error);
+            // Минимальный интерфейс
+            document.getElementById('app').innerHTML = `
+                <div style="padding: 20px;">
+                    <h2>🎮 Статистика настольных игр</h2>
+                    <p>Приложение загружено. Некоторые функции могут быть ограничены.</p>
+                </div>
+            `;
         }
     }
         

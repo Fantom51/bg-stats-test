@@ -12,7 +12,7 @@ import {
     query,      
     where,      
     or,         
-    writeBatch  
+    writeBatch 
 } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
 export class FirebaseClient {
