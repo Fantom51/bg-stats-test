@@ -1,16 +1,16 @@
 console.log('🚀 app.js начал загружаться');
-import { FirebaseClient } from './core/firebase-client.js';
-import { GameStatsManager } from './modules/stats/GameStatsManager.js';
-import { GamesCatalog } from './modules/games/GamesCatalog.js';
-import { BGGRatingsService } from './modules/games/BGGRatingsService.js';
-import { StorageManager } from './core/storage.js';
-import { SPARouter } from './core/router.js';
-import { PlayersManager } from './modules/players/PlayersManager.js';
-import { PlayersService } from './modules/players/players.service.js';
-import { PlayersTable } from './ui/components/PlayersTable.js';
-import { PlayerProfile } from './modules/players/PlayerProfile.js';
-import { SessionsManager } from './modules/sessions/SessionsManager.js';
-import { SessionsService } from './modules/sessions/sessions.service.js';
+import { FirebaseClient } from '/bg-stats-test/src/core/firebase-client.js';
+import { GameStatsManager } from '/bg-stats-test/src/modules/stats/GameStatsManager.js';
+import { GamesCatalog } from '/bg-stats-test/src/modules/games/GamesCatalog.js';
+import { BGGRatingsService } from '/bg-stats-test/src/modules/games/BGGRatingsService.js';
+import { StorageManager } from '/bg-stats-test/src/core/storage.js';
+import { SPARouter } from '/bg-stats-test/src/core/router.js';
+import { PlayersManager } from '/bg-stats-test/src/modules/players/PlayersManager.js';
+import { PlayersService } from '/bg-stats-test/src/modules/players/players.service.js';
+import { PlayersTable } from '/bg-stats-test/src/ui/components/PlayersTable.js';
+import { PlayerProfile } from '/bg-stats-test/src/modules/players/PlayerProfile.js';
+import { SessionsManager } from '/bg-stats-test/src/modules/sessions/SessionsManager.js';
+import { SessionsService } from '/bg-stats-test/src/modules/sessions/sessions.service.js';
 
 class BoardGamesStats {
     constructor() {
