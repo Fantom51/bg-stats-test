@@ -101,4 +101,3 @@ export class PlayersTable {
     }
 }
 
-export { PlayersTable };

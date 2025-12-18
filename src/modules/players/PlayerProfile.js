@@ -1038,4 +1038,3 @@ export class PlayerProfile {
     }
 }
 
-export { PlayerProfile };

@@ -404,4 +404,3 @@ export class SessionsManager {
         }
     }
 }
-export { SessionsManager };

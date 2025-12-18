@@ -1090,4 +1090,3 @@ export class GamesCatalog {
 
 }
 
-export { GamesCatalog };

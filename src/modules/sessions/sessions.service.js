@@ -3230,4 +3230,3 @@ export class SessionsService {
     }
 }
 
-export { SessionsService };
