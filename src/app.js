@@ -15,77 +15,80 @@ import { SessionsService } from '/bg-stats-test/src/modules/sessions/sessions.se
 class BoardGamesStats {
     constructor() {
         console.log('🚀 app.js - создание BoardGamesStats');
-        // В начале app.js, после объявления класса
-            console.log('=== GITHUB PAGES ДИАГНОСТИКА ===');
-            console.log('Hostname:', window.location.hostname);
-            console.log('Pathname:', window.location.pathname);
-            console.log('Полный URL:', window.location.href);
-            console.log('Части пути:', window.location.pathname.split('/'));
-            console.log('Имя репозитория (предполагаемое):', window.location.pathname.split('/')[1] || 'bg-stats-test');
         
-        // 🔥 ШАГ 1: БАЗОВЫЕ КОМПОНЕНТЫ
-        this.firebase = new FirebaseClient();
-        this.storage = new StorageManager();
-        
-        // 🔥 ШАГ 2: СОЗДАЕМ МЕНЕДЖЕРЫ В ПРАВИЛЬНОМ ПОРЯДКЕ!
-        this.playersManager = new PlayersManager(this.firebase);
-        this.sessionsManager = new SessionsManager(this.firebase, this.storage); // СНАЧАЛА!
-        
-        // 🔥 ШАГ 3: GameStatsManager (ТЕПЕРЬ sessionsManager СУЩЕСТВУЕТ!)
+        // ТОЛЬКО объявляем переменные, НЕ создаем экземпляры
+        this.firebase = null;
+        this.storage = null;
+        this.playersManager = null;
+        this.sessionsManager = null;
         this.gameStatsManager = null;
-        
-        // 🔥 ШАГ 4: ОСТАЛЬНЫЕ КОМПОНЕНТЫ
-        this.playersService = new PlayersService(this.playersManager);
-        this.playersTable = new PlayersTable(this.playersManager, this.playersService);
-        this.playerProfile = null;
-        this.bggRatingsService = new BGGRatingsService();
-        this.gamesCatalog = null;
+        this.gamesCatalog = null; // ← ДОБАВИЛИ!
         this.sessionsService = null;
+        this.playerProfile = null;
+        this.bggRatingsService = null;
+        this.playersService = null;
+        this.playersTable = null;
         this.router = null;
         
-        this.init();
+        this.init(); // Запускаем инициализацию
     }
 
     async init() {
         console.log('🚀 Упрощенная инициализация...');
         
         try {
-            // 🔥 1. ТОЛЬКО ОСНОВНЫЕ КОМПОНЕНТЫ
+            // 1. БАЗОВЫЕ КОМПОНЕНТЫ (создаем ОДИН РАЗ)
             this.firebase = new FirebaseClient();
             this.storage = new StorageManager();
             
-            // 🔥 2. Firebase БЕЗ ОЖИДАНИЯ (может не работать)
+            // 2. Firebase
             try {
-                // УБРАЛ .catch() - вызываем напрямую
                 this.firebase.initialize();
                 console.log('✅ Firebase инициализирован');
             } catch (err) {
                 console.warn('⚠️ Firebase не подключен, работаем локально');
             }
             
-            // 🔥 3. ИГРОКИ И СЕССИИ ИЗ LOCALSTORAGE
+            // 3. ИГРОКИ И СЕССИИ
             this.playersManager = new PlayersManager(this.firebase);
             await this.playersManager.loadPlayers();
             
             this.sessionsManager = new SessionsManager(this.firebase, this.storage);
             await this.sessionsManager.init();
             
-            // 🔥 4. GameStatsManager С ФИКСИРОВАННЫМ МЕТОДОМ
+            // 4. GameStatsManager
             this.gameStatsManager = new GameStatsManager(
                 this.storage,
                 this.sessionsManager,
                 this.playersManager
             );
             
-            // 🔥 5. ДОБАВЛЯЕМ ОТСУТСТВУЮЩИЙ МЕТОД ЕСЛИ НЕТ
-            if (!this.gameStatsManager.getAllGameStats) {
-                this.gameStatsManager.getAllGameStats = function() {
-                    return this.gameStats || {};
-                };
-                console.log('🔧 Метод getAllGameStats добавлен динамически');
-            }
+            // 5. GamesCatalog - СОЗДАЕМ СРАЗУ!
+            this.bggRatingsService = new BGGRatingsService();
+            this.gamesCatalog = new GamesCatalog(
+                this.sessionsManager,
+                this.bggRatingsService,
+                this.gameStatsManager  // ← ПЕРЕДАЕМ gameStatsManager!
+            );
             
-            // 🔥 6. БЫСТРЫЙ СТАРТ РОУТЕРА
+            // 6. SessionsService - СОЗДАЕМ СРАЗУ!
+            this.sessionsService = new SessionsService(
+                this.sessionsManager,
+                this.gamesCatalog,      // ← Теперь gamesCatalog существует!
+                this.playersManager
+            );
+            
+            // 7. ОСТАЛЬНЫЕ КОМПОНЕНТЫ
+            this.playersService = new PlayersService(this.playersManager);
+            this.playersTable = new PlayersTable(this.playersManager, this.playersService);
+            this.playerProfile = new PlayerProfile(
+                this.playersManager,
+                this.sessionsManager,
+                this.gameStatsManager,
+                this.sessionsService
+            );
+            
+            // 8. РОУТЕР И ЗАВЕРШЕНИЕ
             this.setupRouter();
             this.setupGlobalHandlers();
             window.app = this;
@@ -205,21 +208,11 @@ class BoardGamesStats {
     async initGamesPage() {
         console.log('🎮 INIT GAMES PAGE');
         
-        // 🔥 БЫСТРАЯ ПРОВЕРКА - ЕСЛИ УЖЕ ЗАГРУЖЕНО, ПРОСТО РЕНДЕРИМ
-        if (this.gamesCatalog && this.gamesCatalog.isInitialized) {
-            console.log('✅ GamesCatalog уже инициализирован - быстрый рендер');
-            this.gamesCatalog.renderGames();
-            return;
+        if (!this.gamesCatalog.isInitialized) {
+            await this.gamesCatalog.init();
         }
         
-        if (!this.gamesCatalog) {
-            console.log('🔄 Создаю GamesCatalog...');
-            this.gamesCatalog = new GamesCatalog(this.sessionsManager, this.bggRatingsService, this.gameStatsManager);
-        }
-        
-        // 🔥 НЕ ЖДЕМ BGG РЕЙТИНГОВ - СТРАНИЦА МОЖЕТ ПОКАЗАТЬСЯ РАНЬШЕ
-        await this.gamesCatalog.init();
-        console.log('✅ GamesCatalog загружен');
+        this.gamesCatalog.renderGames();
     }
 
     initAboutPage() {
@@ -233,20 +226,7 @@ class BoardGamesStats {
     initSessionsPage() {
         console.log('🎪 Initializing sessions page...');
         
-        // 🔥 ПРОВЕРЯЕМ БЫСТРО - БЕЗ setTimeout
-        if (!this.sessionsManager.isInitialized) {
-            console.error('❌ SessionsManager не инициализирован');
-            return;
-        }
-        
-        console.log('🔍 Создаю SessionsService...');
-        
-        this.sessionsService = new SessionsService(
-            this.sessionsManager, 
-            this.gamesCatalog, // 🔥 УЖЕ ДОЛЖЕН БЫТЬ СОЗДАН
-            this.playersManager
-        );
-        
+        // SessionsService уже создан в init()
         this.sessionsService.setupSessionForm('add-session-form');
         this.sessionsService.renderSessionsList('sessions-list');
         this.sessionsService.updateStats();
