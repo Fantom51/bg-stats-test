@@ -26,3 +26,4 @@ export class StorageManager {
         }
     }
 }
+export { StorageManager };

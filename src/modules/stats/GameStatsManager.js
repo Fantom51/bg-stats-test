@@ -575,3 +575,5 @@ export class GameStatsManager {
 
 
 }
+
+export { GameStatsManager };

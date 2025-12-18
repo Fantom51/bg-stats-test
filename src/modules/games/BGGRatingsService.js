@@ -71,3 +71,4 @@ export class BGGRatingsService {
         return Object.fromEntries(this.ratings);
     }
 }
+export { BGGRatingsService };

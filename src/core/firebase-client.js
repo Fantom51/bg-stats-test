@@ -263,3 +263,4 @@ export class FirebaseClient {
     }
 
 }
+export { FirebaseClient };

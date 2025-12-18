@@ -464,3 +464,5 @@ export class PlayersManager {
 
 
 }
+
+export { PlayersManager };

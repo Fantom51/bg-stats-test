@@ -403,6 +403,5 @@ export class SessionsManager {
             return false;
         }
     }
-
-
 }
+export { SessionsManager };

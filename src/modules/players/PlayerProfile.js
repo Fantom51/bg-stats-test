@@ -1037,3 +1037,5 @@ export class PlayerProfile {
         }, 3000);
     }
 }
+
+export { PlayerProfile };

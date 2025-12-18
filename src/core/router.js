@@ -141,3 +141,5 @@ export class SPARouter {
         });
     }
 }
+
+export { SPARouter };

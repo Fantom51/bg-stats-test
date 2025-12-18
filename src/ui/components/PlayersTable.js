@@ -100,3 +100,5 @@ export class PlayersTable {
         return div.innerHTML;
     }
 }
+
+export { PlayersTable };

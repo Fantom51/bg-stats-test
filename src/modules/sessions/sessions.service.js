@@ -3229,3 +3229,5 @@ export class SessionsService {
         return winner;
     }
 }
+
+export { SessionsService };

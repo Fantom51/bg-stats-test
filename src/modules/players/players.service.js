@@ -44,3 +44,5 @@ export class PlayersService {
         this.closePlayerModal();
     }
 }
+
+export { PlayersService };
