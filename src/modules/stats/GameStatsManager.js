@@ -24,6 +24,12 @@ export class GameStatsManager {
         }
         
         console.log('📊 Итог: статистика для', Object.keys(this.gameStats).length, 'игр');
+        setTimeout(() => {
+            if (Object.keys(this.gameStats).length === 0) {
+                console.log('🔄 Автоматически вычисляю статистику...');
+                this.calculateAllGameStats();
+            }
+        }, 1000);
     }
 
     loadGameStats() {
